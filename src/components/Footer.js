@@ -12,8 +12,13 @@ const FooterWrapper = styled.div`
   .footer_items {
     display: flex;
     list-style: none;
+    justify-content: center;
     li {
-      margin-left: 2rem;
+      margin-left: 1rem;
+      :hover {
+        color: white;
+        cursor: pointer;
+      }
     }
   }
 `;
