@@ -5,34 +5,35 @@
  * See: https://www.gatsbyjs.org/docs/static-query/
  */
 
-import React, { Component } from "react"
-import PropTypes from "prop-types"
+import React, { Component } from "react";
+import PropTypes from "prop-types";
 
-import "./styles/layout.css"
-import SideDrawer from "./SideDrawer/SideDrawer"
-import Toolbar from "./Toolbar"
-import Backdrop from "./Backdrop"
+import "./styles/layout.css";
+import SideDrawer from "./SideDrawer/SideDrawer";
+import Toolbar from "./Toolbar";
+import Backdrop from "./Backdrop";
+import Footer from "./Footer";
 
 class Navbar extends Component {
   state = {
-    sideDrawerOpen: false,
-  }
+    sideDrawerOpen: false
+  };
 
   drawerToggleClickHandler = () => {
     this.setState(prevState => {
-      return { sideDrawerOpen: !prevState.sideDrawerOpen }
-    })
-  }
+      return { sideDrawerOpen: !prevState.sideDrawerOpen };
+    });
+  };
 
   backdropClickHandler = () => {
-    this.setState({ sideDrawerOpen: false })
-  }
+    this.setState({ sideDrawerOpen: false });
+  };
 
   render() {
-    let backdrop
+    let backdrop;
 
     if (this.state.sideDrawerOpen) {
-      backdrop = <Backdrop click={this.backdropClickHandler} />
+      backdrop = <Backdrop click={this.backdropClickHandler} />;
     }
 
     return (
@@ -41,7 +42,7 @@ class Navbar extends Component {
         <SideDrawer show={this.state.sideDrawerOpen} />
         {backdrop}
       </div>
-    )
+    );
   }
 }
 
@@ -51,12 +52,13 @@ const Layout = ({ children }) => {
       <Navbar />
       <div style={{ height: "64px" }} />
       <main>{children}</main>
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-}
+  children: PropTypes.node.isRequired
+};
 
-export default Layout
+export default Layout;

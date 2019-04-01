@@ -1051,12 +1051,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-03-31T04:37:05.728Z",
+      "buildTime": "2019-03-31T14:52:50.459Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "4dbf1e309357a7240327ebf4f632c97c",
+        "contentDigest": "a835d556351b93045de73466eb80e5a4",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1066,7 +1066,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "8871cf92d9752c7c440cc2aa871916c6",
+        "contentDigest": "94f6a159916fec9286d0242d3a3f16be",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1078,7 +1078,7 @@
       "size": 192,
       "prettySize": "192 B",
       "modifiedTime": "2019-03-28T06:23:45.330Z",
-      "accessTime": "2019-03-31T04:37:09.881Z",
+      "accessTime": "2019-03-31T14:52:55.166Z",
       "changeTime": "2019-03-31T04:36:36.891Z",
       "birthTime": "2019-03-14T06:03:20.741Z",
       "root": "/",
@@ -1096,11 +1096,11 @@
       "blksize": 4096,
       "ino": 8608428097,
       "blocks": 0,
-      "atimeMs": 1554007029881.2473,
+      "atimeMs": 1554043975166.1323,
       "mtimeMs": 1553754225330.4336,
       "ctimeMs": 1554006996891.3503,
       "birthtimeMs": 1552543400740.9758,
-      "atime": "2019-03-31T04:37:09.881Z",
+      "atime": "2019-03-31T14:52:55.166Z",
       "mtime": "2019-03-28T06:23:45.330Z",
       "ctime": "2019-03-31T04:36:36.891Z",
       "birthtime": "2019-03-14T06:03:20.741Z"
@@ -1441,14 +1441,5 @@
       "componentPath": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/pages/skills.js"
     }
   },
-  "staticQueryComponents": {
-    "sq--src-components-image-js": {
-      "name": "usersTaivnaaDesktopGithubEricbayasgalanComSrcComponentsImageJs2011440971",
-      "componentPath": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/components/image.js",
-      "id": "sq--src-components-image-js",
-      "jsonName": "sq--src-components-image-js",
-      "query": "query usersTaivnaaDesktopGithubEricbayasgalanComSrcComponentsImageJs2011440971 {\n  placeholderImage: file(relativePath: {eq: \"gatsby-astronaut.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 300) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
-      "hash": 2011440971
-    }
-  }
+  "staticQueryComponents": {}
 }
