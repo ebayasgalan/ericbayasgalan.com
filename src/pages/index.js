@@ -17,7 +17,6 @@ const IndexPage = () => (
     {/* <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} /> */}
     <StyledIntro>
       <h1>Hi, my name is Enkhtaivan Bayasgalan</h1>
-      <p>and I make excellent websites</p>
     </StyledIntro>
   </Layout>
 );
