@@ -1,8 +1,8 @@
-import React from "react"
+import React from "react";
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import styled from "styled-components"
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import styled from "styled-components";
 
 const StyledIntro = styled.div`
   h1,
@@ -10,7 +10,7 @@ const StyledIntro = styled.div`
     text-align: center;
     font-size: 64px;
   }
-`
+`;
 
 const IndexPage = () => (
   <Layout>
@@ -20,6 +20,6 @@ const IndexPage = () => (
       <p>and I make excellent websites</p>
     </StyledIntro>
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;

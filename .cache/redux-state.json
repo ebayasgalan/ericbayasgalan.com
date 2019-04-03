@@ -1051,12 +1051,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-03-31T14:52:50.459Z",
+      "buildTime": "2019-04-03T01:04:28.767Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "a835d556351b93045de73466eb80e5a4",
+        "contentDigest": "76c562696ea20b23ce2431e5687265a4",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1066,7 +1066,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "94f6a159916fec9286d0242d3a3f16be",
+        "contentDigest": "98e0b0452ed32474b6c79a15b1406524",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1078,7 +1078,7 @@
       "size": 192,
       "prettySize": "192 B",
       "modifiedTime": "2019-03-28T06:23:45.330Z",
-      "accessTime": "2019-03-31T14:52:55.166Z",
+      "accessTime": "2019-04-03T01:04:31.571Z",
       "changeTime": "2019-03-31T04:36:36.891Z",
       "birthTime": "2019-03-14T06:03:20.741Z",
       "root": "/",
@@ -1087,7 +1087,7 @@
       "ext": "",
       "name": "images",
       "relativeDirectory": "..",
-      "dev": 16777221,
+      "dev": 16777223,
       "mode": 16877,
       "nlink": 6,
       "uid": 501,
@@ -1096,11 +1096,11 @@
       "blksize": 4096,
       "ino": 8608428097,
       "blocks": 0,
-      "atimeMs": 1554043975166.1323,
+      "atimeMs": 1554253471571.3096,
       "mtimeMs": 1553754225330.4336,
       "ctimeMs": 1554006996891.3503,
       "birthtimeMs": 1552543400740.9758,
-      "atime": "2019-03-31T14:52:55.166Z",
+      "atime": "2019-04-03T01:04:31.571Z",
       "mtime": "2019-03-28T06:23:45.330Z",
       "ctime": "2019-03-31T04:36:36.891Z",
       "birthtime": "2019-03-14T06:03:20.741Z"
@@ -1416,10 +1416,6 @@
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/.cache/dev-404-page.js"
-    },
     "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/pages/404.js": {
       "query": "",
       "componentPath": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/pages/404.js"
@@ -1439,6 +1435,10 @@
     "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/pages/skills.js": {
       "query": "",
       "componentPath": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/pages/skills.js"
+    },
+    "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/.cache/dev-404-page.js"
     }
   },
   "staticQueryComponents": {}

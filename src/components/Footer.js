@@ -5,7 +5,7 @@ const FooterWrapper = styled.div`
   position: fixed;
   bottom: 0;
   left: 0;
-  height: 150px;
+  height: 90px;
   width: 100%;
   background-color: #80d6ff;
   text-align: center;
