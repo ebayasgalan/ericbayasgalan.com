@@ -1,9 +1,9 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from "react";
+import { Link } from "gatsby";
 
-import logo from "../images/eb_logo.png"
-import "./styles/Toolbar.css"
-import DrawerToggleButton from "./SideDrawer/DrawerToggleButton"
+import logo from "../images/eb_logo.png";
+import "./styles/Toolbar.css";
+import DrawerToggleButton from "./SideDrawer/DrawerToggleButton";
 
 const Toolbar = props => (
   <header className="toolbar">
@@ -20,21 +20,18 @@ const Toolbar = props => (
       <div className="toolbar_navigation-items">
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/about">ABOUT</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/projects">PROJECTS</Link>
           </li>
           <li>
-            <Link to="/projects">Projects</Link>
-          </li>
-          <li>
-            <Link to="/">Resume</Link>
+            <Link to="/">CONTACT</Link>
           </li>
         </ul>
       </div>
     </nav>
   </header>
-)
+);
 
-export default Toolbar
+export default Toolbar;

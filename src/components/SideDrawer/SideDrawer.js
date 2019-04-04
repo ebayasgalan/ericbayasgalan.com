@@ -1,30 +1,27 @@
-import React from "react"
-import { Link } from "gatsby"
-import "../styles/SideDrawer.css"
+import React from "react";
+import { Link } from "gatsby";
+import "../styles/SideDrawer.css";
 
 const sideDrawer = props => {
-  let drawerClasses = "side-drawer"
+  let drawerClasses = "side-drawer";
   if (props.show) {
-    drawerClasses = "side-drawer open"
+    drawerClasses = "side-drawer open";
   }
   return (
     <nav className={drawerClasses}>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/about">ABOUT</Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link to="/projects">PROJECTS</Link>
         </li>
         <li>
-          <Link to="/projects">Projects</Link>
-        </li>
-        <li>
-          <Link to="/">Resume</Link>
+          <Link to="/">CONTACT</Link>
         </li>
       </ul>
     </nav>
-  )
-}
+  );
+};
 
-export default sideDrawer
+export default sideDrawer;
