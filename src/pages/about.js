@@ -1,6 +1,11 @@
-import React from "react"
-import Layout from "../components/layout"
+import React from "react";
+import Layout from "../components/layout";
+import About from "../components/About";
 
-const About = () => <Layout>This is about page</Layout>
+const AboutPage = () => (
+  <Layout>
+    <About />
+  </Layout>
+);
 
-export default About
+export default AboutPage;

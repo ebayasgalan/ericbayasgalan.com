@@ -26,7 +26,7 @@ const Toolbar = props => (
             <Link to="/projects">PROJECTS</Link>
           </li>
           <li>
-            <Link to="/">CONTACT</Link>
+            <Link to="/contact">CONTACT</Link>
           </li>
         </ul>
       </div>

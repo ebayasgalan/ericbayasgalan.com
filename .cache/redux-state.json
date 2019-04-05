@@ -1051,12 +1051,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-04-03T20:04:29.714Z",
+      "buildTime": "2019-04-04T07:00:13.506Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "7f146ad832ff7d4348f24dd08716256e",
+        "contentDigest": "965c6ea9805b54c4021c382b93564dd9",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1066,7 +1066,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "74f3ddf8c7604ecb31d5bb8b3be5f903",
+        "contentDigest": "85b98bc47927a0a9bd7686aeda43762a",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1078,7 +1078,7 @@
       "size": 192,
       "prettySize": "192 B",
       "modifiedTime": "2019-03-28T06:23:45.330Z",
-      "accessTime": "2019-04-03T20:04:33.576Z",
+      "accessTime": "2019-04-04T07:00:17.412Z",
       "changeTime": "2019-03-31T04:36:36.891Z",
       "birthTime": "2019-03-14T06:03:20.741Z",
       "root": "/",
@@ -1096,11 +1096,11 @@
       "blksize": 4096,
       "ino": 8608428097,
       "blocks": 0,
-      "atimeMs": 1554321873576.2478,
+      "atimeMs": 1554361217411.907,
       "mtimeMs": 1553754225330.4336,
       "ctimeMs": 1554006996891.3503,
       "birthtimeMs": 1552543400740.9758,
-      "atime": "2019-04-03T20:04:33.576Z",
+      "atime": "2019-04-04T07:00:17.412Z",
       "mtime": "2019-03-28T06:23:45.330Z",
       "ctime": "2019-03-31T04:36:36.891Z",
       "birthtime": "2019-03-14T06:03:20.741Z"
@@ -1356,26 +1356,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /skills/": {
-      "jsonName": "skills-bfb",
-      "internalComponentName": "ComponentSkills",
-      "path": "/skills/",
-      "component": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/pages/skills.js",
-      "componentChunkName": "component---src-pages-skills-js",
-      "context": {},
-      "pluginCreator___NODE": "26319116-a354-57d6-91dd-727b5acf7037",
-      "pluginCreatorId": "26319116-a354-57d6-91dd-727b5acf7037",
-      "componentPath": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/pages/skills.js",
-      "id": "SitePage /skills/",
-      "parent": null,
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "2a98bc707a964a4ff9e24490325dc823",
-        "description": "26319116-a354-57d6-91dd-727b5acf7037",
-        "owner": "internal-data-bridge"
-      }
-    },
     "SitePage /404.html": {
       "jsonName": "404-html-516",
       "internalComponentName": "Component404Html",
@@ -1393,6 +1373,26 @@
         "type": "SitePage",
         "contentDigest": "a961ac5bba4db8057f9986d105ea369d",
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /contact/": {
+      "jsonName": "contact-26a",
+      "internalComponentName": "ComponentContact",
+      "path": "/contact/",
+      "component": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/pages/contact.js",
+      "componentChunkName": "component---src-pages-contact-js",
+      "context": {},
+      "pluginCreator___NODE": "26319116-a354-57d6-91dd-727b5acf7037",
+      "pluginCreatorId": "26319116-a354-57d6-91dd-727b5acf7037",
+      "componentPath": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/pages/contact.js",
+      "id": "SitePage /contact/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3cdd203e031cad61baf63dd0d5a11620",
+        "description": "26319116-a354-57d6-91dd-727b5acf7037",
         "owner": "internal-data-bridge"
       }
     }
@@ -1413,7 +1413,8 @@
     "projects-9e9": "545/path---projects-9-e-9-957-NZuapzHg3X9TaN1iIixfv1W23E",
     "skills-bfb": "541/path---skills-bfb-591-NZuapzHg3X9TaN1iIixfv1W23E",
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
-    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E"
+    "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
+    "contact-26a": "686/path---contact-26-a-cd9-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/pages/404.js": {
@@ -1432,13 +1433,13 @@
       "query": "",
       "componentPath": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/pages/projects.js"
     },
-    "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/pages/skills.js": {
-      "query": "",
-      "componentPath": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/pages/skills.js"
-    },
     "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/.cache/dev-404-page.js": {
       "query": "",
       "componentPath": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/.cache/dev-404-page.js"
+    },
+    "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/pages/contact.js": {
+      "query": "",
+      "componentPath": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/pages/contact.js"
     }
   },
   "staticQueryComponents": {}

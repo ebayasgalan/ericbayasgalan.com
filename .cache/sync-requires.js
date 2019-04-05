@@ -10,6 +10,6 @@ exports.components = {
   "component---src-pages-about-js": hot(preferDefault(require("/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/pages/about.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/pages/index.js"))),
   "component---src-pages-projects-js": hot(preferDefault(require("/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/pages/projects.js"))),
-  "component---src-pages-skills-js": hot(preferDefault(require("/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/pages/skills.js")))
+  "component---src-pages-contact-js": hot(preferDefault(require("/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/pages/contact.js")))
 }
 
