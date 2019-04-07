@@ -1395,6 +1395,120 @@
         "description": "26319116-a354-57d6-91dd-727b5acf7037",
         "owner": "internal-data-bridge"
       }
+    },
+    "cbec43cf-caf0-5888-a040-716a19a8057b": {
+      "id": "cbec43cf-caf0-5888-a040-716a19a8057b",
+      "children": [
+        "55cacadc-5447-5d30-8e65-b94718b809ed"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "ade0e1f90ffc9eb8ca0d4dffc7e1a946",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/proPic.jpeg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/images/proPic.jpeg",
+      "relativePath": "proPic.jpeg",
+      "extension": "jpeg",
+      "size": 875352,
+      "prettySize": "875 kB",
+      "modifiedTime": "2019-04-06T04:32:45.013Z",
+      "accessTime": "2019-04-06T04:33:53.700Z",
+      "changeTime": "2019-04-06T04:33:56.280Z",
+      "birthTime": "2019-04-06T04:32:44.893Z",
+      "root": "/",
+      "dir": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/images",
+      "base": "proPic.jpeg",
+      "ext": ".jpeg",
+      "name": "proPic",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8608738432,
+      "blocks": 1712,
+      "atimeMs": 1554525233700.281,
+      "mtimeMs": 1554525165012.78,
+      "ctimeMs": 1554525236279.6157,
+      "birthtimeMs": 1554525164893.086,
+      "atime": "2019-04-06T04:33:53.700Z",
+      "mtime": "2019-04-06T04:32:45.013Z",
+      "ctime": "2019-04-06T04:33:56.280Z",
+      "birthtime": "2019-04-06T04:32:44.893Z"
+    },
+    "80b7fe15-2f06-5098-8801-79941e78d926": {
+      "id": "80b7fe15-2f06-5098-8801-79941e78d926",
+      "children": [
+        "36a38779-81c0-5704-8d96-47472105925f"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "7ce744bea2fb4bac6695ecf745e1482f",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/birds.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/images/birds.jpg",
+      "relativePath": "birds.jpg",
+      "extension": "jpg",
+      "size": 142414,
+      "prettySize": "142 kB",
+      "modifiedTime": "2019-04-06T04:16:56.886Z",
+      "accessTime": "2019-04-06T04:18:10.402Z",
+      "changeTime": "2019-04-06T04:22:30.831Z",
+      "birthTime": "2019-04-06T04:16:56.735Z",
+      "root": "/",
+      "dir": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/images",
+      "base": "birds.jpg",
+      "ext": ".jpg",
+      "name": "birds",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8608736750,
+      "blocks": 280,
+      "atimeMs": 1554524290401.5403,
+      "mtimeMs": 1554524216885.8137,
+      "ctimeMs": 1554524550830.8206,
+      "birthtimeMs": 1554524216735.1575,
+      "atime": "2019-04-06T04:18:10.402Z",
+      "mtime": "2019-04-06T04:16:56.886Z",
+      "ctime": "2019-04-06T04:22:30.831Z",
+      "birthtime": "2019-04-06T04:16:56.735Z"
+    },
+    "36a38779-81c0-5704-8d96-47472105925f": {
+      "id": "36a38779-81c0-5704-8d96-47472105925f",
+      "children": [],
+      "parent": "80b7fe15-2f06-5098-8801-79941e78d926",
+      "internal": {
+        "contentDigest": "7ce744bea2fb4bac6695ecf745e1482f",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "55cacadc-5447-5d30-8e65-b94718b809ed": {
+      "id": "55cacadc-5447-5d30-8e65-b94718b809ed",
+      "children": [],
+      "parent": "cbec43cf-caf0-5888-a040-716a19a8057b",
+      "internal": {
+        "contentDigest": "ade0e1f90ffc9eb8ca0d4dffc7e1a946",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
     }
   },
   "status": {

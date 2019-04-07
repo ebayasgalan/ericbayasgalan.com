@@ -52,6 +52,7 @@ const Layout = ({ children }) => {
       <Navbar />
       <div style={{ height: "64px" }} />
       <main>{children}</main>
+      <div style={{ height: "90px" }} />
       <Footer />
     </div>
   );
