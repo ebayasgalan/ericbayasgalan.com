@@ -10,6 +10,7 @@ const StyledComponent = styled.div`
   a {
     text-decoration: none;
     color: black;
+    font-size: 24px;
   }
   a:hover {
     color: white;
@@ -21,9 +22,9 @@ const ContactPage = () => (
     <StyledComponent>
       <div className="info">
         <h1>Send me an email, let's chat</h1>
-        <Link to="/contact">
-          <h3>eric.bayasgalan@protonmail.com</h3>
-        </Link>
+        <a href="mailto:eric.bayasgalan@protonmail.com">
+          eric.bayasgalan@protonmail.com
+        </a>
       </div>
     </StyledComponent>
   </Layout>
