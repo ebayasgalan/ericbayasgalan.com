@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "gatsby";
 
 const FooterLinks = [
   {
@@ -17,41 +16,46 @@ const FooterLinks = [
   }
 ];
 
-const FooterWrapper = styled.div`
+const FooterWrapper = styled.footer`
   position: fixed;
   bottom: 0;
   left: 0;
-  height: 90px;
   width: 100%;
   text-align: center;
-  .footer_items {
-    display: flex;
-    list-style: none;
-    justify-content: center;
-
-    a {
-      margin-left: 1rem;
-      text-decoration: none;
-      color: black;
-      :hover {
-        color: white;
-        cursor: pointer;
-      }
-    }
-  }
 `;
 
 const SocialLinks = styled.ul`
   list-style: none;
   margin: 0;
   padding: 0;
-  text-align: 0;
+  display: flex;
+  justify-content: center;
+`;
+
+const SocialLink = styled.a`
+  padding: 3px 5px;
+  border-radius: 3px;
+  color: black;
+  text-decoration: none;
+  margin-left: 0.5rem;
+  :hover {
+    color: white;
+  }
 `;
 
 const Footer = () => (
-  <footer className="footer">
+  <FooterWrapper>
     <h3>Where To Find Me</h3>
-  </footer>
+    <SocialLinks>
+      {FooterLinks.map(link => (
+        <li key={link.name}>
+          <SocialLink href={link.link} target="_blank" rel="nofollow">
+            {link.name}
+          </SocialLink>
+        </li>
+      ))}
+    </SocialLinks>
+  </FooterWrapper>
 );
 
 export default Footer;
