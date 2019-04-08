@@ -5,10 +5,15 @@ import SEO from "../components/seo";
 import styled from "styled-components";
 
 const StyledIntro = styled.div`
-  h1,
-  p {
-    text-align: center;
-    font-size: 64px;
+  .home {
+    display: flex;
+  }
+  .one {
+    flex: 1;
+  }
+  h1 {
+    position: relative;
+    top: 250px;
   }
 `;
 
@@ -16,7 +21,15 @@ const IndexPage = () => (
   <Layout>
     {/* <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} /> */}
     <StyledIntro>
-      <h1>Hi, my name is Enkhtaivan Bayasgalan</h1>
+      <div className="home">
+        <div className="one" />
+        <h1>
+          Hi,
+          <br />
+          I'm Enkhtaivan Bayasgalan and I make excellent websites
+        </h1>
+        <div className="one" />
+      </div>
     </StyledIntro>
   </Layout>
 );

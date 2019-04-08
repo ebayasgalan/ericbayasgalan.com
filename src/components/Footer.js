@@ -17,6 +17,9 @@ const FooterLinks = [
 ];
 
 const FooterWrapper = styled.footer`
+  h3 {
+    margin-bottom: 0.3rem;
+  }
   position: fixed;
   bottom: 0;
   left: 0;
