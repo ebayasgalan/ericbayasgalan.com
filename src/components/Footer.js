@@ -17,10 +17,15 @@ const FooterLinks = [
 ];
 
 const FooterWrapper = styled.footer`
-  h3 {
-    margin-bottom: 0.3rem;
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
-  position: fixed;
+  h3 {
+    margin: 0.3rem;
+  }
+  position: relative;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -33,6 +38,7 @@ const SocialLinks = styled.ul`
   padding: 0;
   display: flex;
   justify-content: center;
+  margin-bottom: 5px;
 `;
 
 const SocialLink = styled.a`

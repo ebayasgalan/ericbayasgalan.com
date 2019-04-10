@@ -9,6 +9,9 @@ const StyledAbout = styled.div`
     box-sizing: border-box;
   }
   .about {
+    height: 750px;
+  }
+  .picture {
     display: flex;
     .one {
       flex: 1;
@@ -38,21 +41,21 @@ const About = () => {
     <StyledAbout>
       <h2>ABOUT</h2>
       <div className="about">
-        <span className="one" />
         <div className="picture">
+          <span className="one" />
           <img src={proPic} alt="profile picture" />
+          <span className="one" />
         </div>
-        <span className="one" />
+        <p className="description">
+          Hi, I'm Enkhtaivan Bayasgalan also known as Eric.
+          <br />I am a software engineer living and working in the Bay Area. I
+          am dedicated and passionate about making websites. Every project or a
+          problem is a chance for me to improve my knowledge and better myself
+          as a developer and co-worker. I see myself as a flexible developer,
+          able to work with any team and understand the goal of each project. I
+          am currently seeking a full time position in web development.
+        </p>
       </div>
-      <h3 className="description">
-        Hi, I'm Enkhtaivan Bayasgalan also known as Eric.
-        <br />I am a software engineer living and working in the Bay Area. I am
-        dedicated and passionate about making websites. Every project or a
-        problem is a chance for me to improve my knowledge and better myself as
-        a developer and co-worker. I see myself as a flexible developer, able to
-        work with any team and understand the goal of each project. I am
-        currently seeking a full time position in web development.
-      </h3>
     </StyledAbout>
   );
 };
