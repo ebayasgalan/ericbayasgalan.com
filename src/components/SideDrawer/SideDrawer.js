@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import "../styles/SideDrawer.css";
+import resume from "../../images/resume.pdf";
 
 const sideDrawer = props => {
   let drawerClasses = "side-drawer";
@@ -18,6 +19,9 @@ const sideDrawer = props => {
         </li>
         <li>
           <Link to="/contact">CONTACT</Link>
+        </li>
+        <li>
+          <a href={resume}>RESUME</a>
         </li>
       </ul>
     </nav>
