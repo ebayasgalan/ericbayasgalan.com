@@ -7,9 +7,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgba(13, 158, 248, 80%);
-
-  /* background-image: url(../../images/stars.jpg); */
+  background-color: #24abbe;
 }
 article,
 aside,

@@ -19,7 +19,7 @@ const Home = () => (
         <h1>
           Hi,
           <br />
-          I'm Enkhtaivan Bayasgalan and I make websites
+          I'm Enkhtaivan Bayasgalan and I make web apps
         </h1>
       </div>
     </div>
