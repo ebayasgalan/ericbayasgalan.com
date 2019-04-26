@@ -9,10 +9,6 @@ const FooterLinks = [
   {
     name: "Github",
     link: "https://github.com/ebayasgalan"
-  },
-  {
-    name: "Twitter",
-    link: "https://twitter.com/BayasgalanEric"
   }
 ];
 
