@@ -25,6 +25,7 @@ const StyledAbout = styled.div`
     padding: 0.3rem;
   }
   h2 {
+    margin-top: 20px;
     text-align: center;
   }
   .description {
