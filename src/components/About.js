@@ -31,8 +31,6 @@ const StyledAbout = styled.div`
     text-align: center;
   }
   .description {
-    height: 250px;
-    width: auto;
     margin: 0.2rem;
     padding: 0.3rem;
     text-align: center;
