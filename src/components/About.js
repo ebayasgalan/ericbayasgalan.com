@@ -9,7 +9,9 @@ const StyledAbout = styled.div`
     box-sizing: border-box;
   }
   .about {
-    height: 750px;
+    /* height: 750px; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
   .picture {
     display: flex;
@@ -35,6 +37,7 @@ const StyledAbout = styled.div`
     padding: 0.3rem;
     text-align: center;
     font-size: 22px;
+    align-content: center;
   }
 `;
 
@@ -48,15 +51,14 @@ const About = () => {
           <img src={proPic} alt="profile picture" />
           <span className="one" />
         </div>
-        <p className="description">
+        <h3 className="description">
           Hi, I'm Enkhtaivan Bayasgalan also known as Eric.
           <br />I am a software engineer living and working in the Bay Area. I
           am dedicated and passionate about making websites. Every project or a
           problem is a chance for me to improve my knowledge and better myself
           as a developer and co-worker. I see myself as a flexible developer,
-          able to work with any team and understand the goal of each project. I
-          am currently seeking a full time position in web development.
-        </p>
+          able to work with any team and understand the goal of each project.
+        </h3>
       </div>
     </StyledAbout>
   );
