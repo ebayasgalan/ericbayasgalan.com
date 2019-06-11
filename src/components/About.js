@@ -8,8 +8,8 @@ const StyledAbout = styled.div`
     padding: 0;
     box-sizing: border-box;
   }
+  height: 695px;
   .about {
-    /* height: 750px; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }

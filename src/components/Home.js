@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const StyledIntro = styled.div`
   .home {
-    height: 750px;
+    height: 695px;
   }
   .intro {
     text-align: center;

@@ -9,6 +9,7 @@ const StyledComponent = styled.div`
     padding: 0;
     box-sizing: border-box;
   }
+  height: 695px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
