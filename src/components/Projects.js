@@ -15,6 +15,10 @@ const StyledComponent = styled.div`
   grid-gap: 10px;
   margin: 3px;
   padding: 10px;
+  img {
+    border-radius: 2rem;
+    margin-top: 2rem;
+  }
   a {
     padding: 3px 5px;
     border-radius: 3px;
@@ -25,21 +29,40 @@ const StyledComponent = styled.div`
       color: white;
     }
   }
+  .buttons {
+    text-align: center;
+  }
+  button {
+    background: #80d6ff;
+    border-radius: 0.4rem;
+    width: 8rem;
+    height: 3rem;
+  }
 `;
 
 const Projects = () => (
   <StyledComponent>
     <div>
       <img src={oceanBeach} alt="hotel picture" />
-      <a href="https://hotel-next-prod.herokuapp.com/">See the Demo</a>
-      <a href="https://github.com/ebayasgalan/Ocean-Beach-Hotel">
-        See the Code
-      </a>
+      <div className="buttons">
+        <a href="https://hotel-next-prod.herokuapp.com/">
+          <button>See the Demo</button>
+        </a>
+        <a href="https://github.com/ebayasgalan/Ocean-Beach-Hotel">
+          <button>See the Code</button>
+        </a>
+      </div>
     </div>
     <div>
       <img src={easyMarket} alt="easy-market picture" />
-      <a href="https://easy-market-next-prod.herokuapp.com">See the Demo</a>
-      <a href="https://github.com/ebayasgalan/easy-market">See the Code</a>
+      <div className="buttons">
+        <a href="https://easy-market-next-prod.herokuapp.com">
+          <button>See the Demo</button>
+        </a>
+        <a href="https://github.com/ebayasgalan/easy-market">
+          <button>See the Code</button>
+        </a>
+      </div>
     </div>
   </StyledComponent>
 );

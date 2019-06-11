@@ -4,12 +4,13 @@ import proPic from "../images/proPic.jpeg";
 
 const StyledIntro = styled.div`
   .home {
-    height: 695px;
+    height: 720px;
   }
   .intro {
     text-align: center;
   }
   .picture {
+    margin-top: 5rem;
     display: flex;
     .one {
       flex: 1;
