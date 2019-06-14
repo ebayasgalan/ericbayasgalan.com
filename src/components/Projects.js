@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import oceanBeach from "../images/OceanBeach.png";
-import easyMarket from "../images/easyMarket.png";
+import oceanBeach from "../images/hotel.png";
+import easyMarket from "../images/eCommerce.png";
 
 const StyledComponent = styled.div`
   * {
