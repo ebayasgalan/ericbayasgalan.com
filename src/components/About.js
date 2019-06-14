@@ -16,6 +16,27 @@ const StyledAbout = styled.div`
     align-content: center;
     line-height: 4rem;
   }
+  .about::before {
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    z-index: -1;
+    content: "";
+    transform-origin: top right;
+    transform: skewY(2.5deg);
+    background: linear-gradient(to left, #fde57e, #9d8210 70%);
+  }
+
+  .about::after {
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    z-index: -1;
+    content: "";
+    transform-origin: top right;
+    transform: skewY(2.5deg);
+    background: linear-gradient(to left, #fde57e, #9d8210 70%);
+  }
 `;
 
 const About = () => {
@@ -23,6 +44,7 @@ const About = () => {
     <StyledAbout>
       <div className="about">
         <h3 className="description">
+          <br />
           <h1>About Me</h1>
           <br />I am a software engineer living and working in the Bay Area. I
           have big passion on web development and I am dedicated to my work.

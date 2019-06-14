@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "gatsby";
+import { Link } from "react-scroll";
 import resume from "../images/resume.pdf";
 
 import logo from "../images/eb_logo.png";
@@ -10,7 +10,14 @@ const Toolbar = props => (
   <header className="toolbar">
     <nav className="toolbar_navigation">
       <div className="toolbar_logo">
-        <Link to="/">
+        <Link
+          style={{ cursor: "pointer" }}
+          activeClass="active"
+          to="home"
+          spy={true}
+          smooth={true}
+          duration={500}
+        >
           <img src={logo} alt="LOGO" />
         </Link>
       </div>
@@ -21,13 +28,40 @@ const Toolbar = props => (
       <div className="toolbar_navigation-items">
         <ul>
           <li>
-            <Link to="/about">ABOUT</Link>
+            <Link
+              style={{ cursor: "pointer" }}
+              activeClass="active"
+              to="about"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              About Me
+            </Link>
           </li>
           <li>
-            <Link to="/projects">PROJECTS</Link>
+            <Link
+              style={{ cursor: "pointer" }}
+              activeClass="active"
+              to="projects"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              Projects
+            </Link>
           </li>
           <li>
-            <Link to="/contact">CONTACT</Link>
+            <Link
+              style={{ cursor: "pointer" }}
+              activeClass="active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              Contact
+            </Link>
           </li>
           <li>
             <a href={resume}>RESUME</a>

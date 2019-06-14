@@ -27,7 +27,7 @@ const StyledComponent = styled.div`
 
 const Contact = () => (
   <StyledComponent>
-    <div className="infoWrapper">
+    <div className="infoWrapper contact">
       <div className="info">
         <h1>Send me an email, let's chat</h1>
         <a href="mailto:eric.bayasgalan@protonmail.com">

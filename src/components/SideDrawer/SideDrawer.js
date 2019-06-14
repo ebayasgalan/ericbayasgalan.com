@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "gatsby";
+import { Link } from "react-scroll";
 import "../styles/SideDrawer.css";
 import resume from "../../images/resume.pdf";
 
@@ -12,13 +12,52 @@ const sideDrawer = props => {
     <nav className={drawerClasses}>
       <ul>
         <li>
-          <Link to="/about">ABOUT</Link>
+          <Link
+            style={{ cursor: "pointer" }}
+            activeClass="active"
+            to="home"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            Home
+          </Link>
         </li>
         <li>
-          <Link to="/projects">PROJECTS</Link>
+          <Link
+            style={{ cursor: "pointer" }}
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            About
+          </Link>
         </li>
         <li>
-          <Link to="/contact">CONTACT</Link>
+          <Link
+            style={{ cursor: "pointer" }}
+            activeClass="active"
+            to="projects"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            Projects
+          </Link>
+        </li>
+        <li>
+          <Link
+            style={{ cursor: "pointer" }}
+            activeClass="active"
+            to="contact"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            Contact
+          </Link>
         </li>
         <li>
           <a href={resume}>RESUME</a>

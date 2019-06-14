@@ -42,7 +42,7 @@ const StyledComponent = styled.div`
 
 const Projects = () => (
   <StyledComponent>
-    <div>
+    <div className="projects">
       <img src={oceanBeach} alt="hotel picture" />
       <div className="buttons">
         <a href="https://hotel-next-prod.herokuapp.com/">
