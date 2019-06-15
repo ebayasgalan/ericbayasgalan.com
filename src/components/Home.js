@@ -3,10 +3,15 @@ import styled from "styled-components";
 import proPic from "../images/proPic.jpeg";
 
 const StyledIntro = styled.div`
-  .home {
-    height: 720px;
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
-  .intro {
+  .home {
+    height: 700px;
+  }
+  h1 {
     text-align: center;
   }
   .picture {
@@ -15,6 +20,7 @@ const StyledIntro = styled.div`
     .one {
       flex: 1;
     }
+    padding-top: 3rem;
   }
   img {
     height: 20rem;
@@ -22,24 +28,23 @@ const StyledIntro = styled.div`
     border-radius: 50%;
     margin: 2rem;
     padding: 0.3rem;
+    border: 0.5rem solid #fde57e;
   }
 `;
 
 const Home = () => (
   <StyledIntro>
     <div className="home">
-      <div className="intro">
-        <div className="picture">
-          <span className="one" />
-          <img src={proPic} alt="profile picture" />
-          <span className="one" />
-        </div>
-        <h1>
-          Hi,
-          <br />
-          I'm Enkhtaivan Bayasgalan and I make web apps
-        </h1>
+      <div className="picture">
+        <span className="one" />
+        <img src={proPic} alt="profile picture" />
+        <span className="one" />
       </div>
+      <h1>
+        Hi,
+        <br />
+        I'm Enkhtaivan Bayasgalan and I am a web developer
+      </h1>
     </div>
   </StyledIntro>
 );

@@ -7,7 +7,6 @@ const StyledAbout = styled.div`
     padding: 0;
     box-sizing: border-box;
   }
-  height: 695px;
   .description {
     margin: 4rem 3rem;
     padding: 0.3rem;
@@ -26,17 +25,10 @@ const StyledAbout = styled.div`
     transform: skewY(2.5deg);
     background: linear-gradient(to left, #fde57e, #9d8210 70%);
   }
-
-  .about::after {
-    position: absolute;
-    height: 100px;
-    width: 100%;
-    z-index: -1;
-    content: "";
-    transform-origin: top right;
-    transform: skewY(2.5deg);
-    background: linear-gradient(to left, #fde57e, #9d8210 70%);
+  h1 {
+    padding-top: 6rem;
   }
+  height: 700px;
 `;
 
 const About = () => {
@@ -44,14 +36,12 @@ const About = () => {
     <StyledAbout>
       <div className="about">
         <h3 className="description">
-          <br />
-          <h1>About Me</h1>
-          <br />I am a software engineer living and working in the Bay Area. I
-          have big passion on web development and I am dedicated to my work.
-          Every project or a problem is a chance for me to improve my knowledge
-          and better myself as a developer and co-worker. I see myself as a
-          flexible developer, able to work with any team and understand the goal
-          of each project.
+          <h1>About</h1>
+          <br />I am a front-end engineer living and working in the Bay Area. I
+          love building websites and I am dedicated to my work. Every project or
+          a problem is a chance for me to improve my knowledge and better myself
+          as a developer and co-worker. I see myself as a flexible developer,
+          able to work with any team and understand the goal of each project.
         </h3>
       </div>
     </StyledAbout>

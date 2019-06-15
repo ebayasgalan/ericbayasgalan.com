@@ -20,12 +20,15 @@ const FooterWrapper = styled.footer`
   }
   h3 {
     margin: 0.3rem;
+    padding-top: 1rem;
   }
   position: relative;
   bottom: 0;
   left: 0;
   width: 100%;
+  height: 120px;
   text-align: center;
+  background-color: #9d8210;
 `;
 
 const SocialLinks = styled.ul`
