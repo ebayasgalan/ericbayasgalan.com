@@ -11,9 +11,9 @@ const StyledAbout = styled.div`
     margin: 4rem 3rem;
     padding: 0.3rem;
     text-align: center;
-    font-size: 30px;
     align-content: center;
     line-height: 4rem;
+    font-size: 30px;
   }
   .about::before {
     position: absolute;
@@ -27,6 +27,7 @@ const StyledAbout = styled.div`
   }
   h1 {
     padding-top: 6rem;
+    text-align: center;
   }
   height: 700px;
 `;
@@ -35,11 +36,11 @@ const About = () => {
   return (
     <StyledAbout>
       <div className="about">
+        <h1>About</h1>
         <h3 className="description">
-          <h1>About</h1>
-          <br />I am a front-end engineer living and working in the Bay Area. I
-          love building websites and I am dedicated to my work. Every project or
-          a problem is a chance for me to improve my knowledge and better myself
+          I am a front-end engineer living and working in the Bay Area. I love
+          building websites and I am dedicated to my work. Every project or a
+          problem is a chance for me to improve my knowledge and better myself
           as a developer and co-worker. I see myself as a flexible developer,
           able to work with any team and understand the goal of each project.
         </h3>

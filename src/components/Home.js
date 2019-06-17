@@ -14,7 +14,7 @@ const StyledIntro = styled.div`
   h1 {
     text-align: center;
   }
-  .picture {
+  .pic {
     margin-top: 5rem;
     display: flex;
     .one {
@@ -35,9 +35,9 @@ const StyledIntro = styled.div`
 const Home = () => (
   <StyledIntro>
     <div className="home">
-      <div className="picture">
+      <div className="pic">
         <span className="one" />
-        <img src={proPic} alt="profile picture" />
+        <img src={proPic} alt="profile" />
         <span className="one" />
       </div>
       <h1>

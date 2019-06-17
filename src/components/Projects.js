@@ -68,7 +68,7 @@ const Projects = () => (
     <h1>Projects</h1>
     <div className="showcase">
       <div>
-        <img src={oceanBeach} alt="hotel picture" />
+        <img src={oceanBeach} alt="hotel" />
         <div className="buttons">
           <a href="https://hotel-next-prod.herokuapp.com/">
             <button>See the Demo</button>
@@ -79,7 +79,7 @@ const Projects = () => (
         </div>
       </div>
       <div>
-        <img src={easyMarket} alt="easy-market picture" />
+        <img src={easyMarket} alt="eCommerce" />
         <div className="buttons">
           <a href="https://easy-market-next-prod.herokuapp.com">
             <button>See the Demo</button>
