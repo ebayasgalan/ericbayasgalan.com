@@ -27,24 +27,18 @@ const StyledComponent = styled.div`
       border: solid 0.2rem #fde57e;
     }
   }
-  a {
-    padding: 3px 5px;
-    border-radius: 3px;
-    color: black;
-    text-decoration: none;
-    margin-left: 0.5rem;
-    :hover {
-      color: white;
-    }
-  }
   .buttons {
     text-align: center;
   }
   button {
-    background: #80d6ff;
-    border-radius: 0.4rem;
+    background: #fde57e;
+    border-radius: 0.7rem;
     width: 8rem;
-    height: 3rem;
+    height: 2.5rem;
+    margin: 3px 6px;
+  }
+  .projects {
+    margin-top: 300px;
   }
   .projects::before {
     position: absolute;
@@ -59,6 +53,15 @@ const StyledComponent = styled.div`
   h1 {
     text-align: center;
     padding-top: 6rem;
+    margin-top: 20px;
+  }
+  @media (max-width: 768px) {
+    .showcase {
+      grid-template-columns: 1fr;
+    }
+    img {
+      width: 300px;
+    }
   }
 `;
 

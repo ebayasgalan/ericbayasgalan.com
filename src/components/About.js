@@ -13,7 +13,10 @@ const StyledAbout = styled.div`
     text-align: center;
     align-content: center;
     line-height: 4rem;
-    font-size: 30px;
+    font-size: 36px;
+  }
+  .about {
+    margin-top: 300px;
   }
   .about::before {
     position: absolute;
@@ -29,7 +32,11 @@ const StyledAbout = styled.div`
     padding-top: 6rem;
     text-align: center;
   }
-  height: 700px;
+  @media (max-width: 768px) {
+    .description {
+      font-size: 24px;
+    }
+  }
 `;
 
 const About = () => {
@@ -37,13 +44,13 @@ const About = () => {
     <StyledAbout>
       <div className="about">
         <h1>About</h1>
-        <h3 className="description">
+        <p className="description">
           I am a front-end engineer living and working in the Bay Area. I love
-          building websites and I am dedicated to my work. Every project or a
-          problem is a chance for me to improve my knowledge and better myself
-          as a developer and co-worker. I see myself as a flexible developer,
-          able to work with any team and understand the goal of each project.
-        </h3>
+          building websites. Every project is a chance for me to improve and
+          better myself as a developer and co-worker. I see myself as a flexible
+          developer, able to work with any team and understand the goal of each
+          project.
+        </p>
       </div>
     </StyledAbout>
   );

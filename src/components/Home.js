@@ -8,27 +8,29 @@ const StyledIntro = styled.div`
     padding: 0;
     box-sizing: border-box;
   }
-  .home {
-    height: 700px;
-  }
   h1 {
     text-align: center;
   }
   .pic {
-    margin-top: 5rem;
     display: flex;
     .one {
       flex: 1;
     }
     padding-top: 3rem;
   }
+
   img {
     height: 20rem;
     width: 20rem;
     border-radius: 50%;
-    margin: 2rem;
+    margin: 3rem;
     padding: 0.3rem;
-    border: 0.5rem solid #fde57e;
+    border: 0.2rem solid #fde57e;
+  }
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 28px;
+    }
   }
 `;
 

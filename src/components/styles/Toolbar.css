@@ -3,8 +3,9 @@
   top: 0;
   left: 0;
   width: 100%;
-  background: #80d6ff;
+  background: #fde57e;
   height: 70px;
+  opacity: 0.8;
 }
 
 .toolbar_navigation {

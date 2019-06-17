@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import styled from "styled-components";
 
 const StyledComponent = styled.div`
@@ -19,9 +20,9 @@ const StyledComponent = styled.div`
     text-decoration: none;
     color: black;
     font-size: 24px;
-  }
-  a:hover {
-    color: white;
+    :hover {
+      color: white;
+    }
   }
 `;
 
@@ -33,6 +34,18 @@ const Contact = () => (
         <a href="mailto:eric.bayasgalan@protonmail.com">
           eric.bayasgalan@protonmail.com
         </a>
+        <span className="scrollTop">
+          <Link
+            style={{ cursor: "pointer" }}
+            activeClass="active"
+            to="home"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            back to top
+          </Link>
+        </span>
       </div>
     </div>
   </StyledComponent>
