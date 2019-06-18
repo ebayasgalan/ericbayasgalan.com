@@ -42,7 +42,7 @@ const StyledComponent = styled.div`
   }
   .projects::before {
     position: absolute;
-    height: 100px;
+    height: 50px;
     width: 100%;
     z-index: -1;
     content: "";
@@ -61,6 +61,9 @@ const StyledComponent = styled.div`
     }
     img {
       width: 300px;
+    }
+    .projects {
+      margin-top: 0;
     }
   }
 `;

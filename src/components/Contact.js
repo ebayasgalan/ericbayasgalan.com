@@ -24,6 +24,11 @@ const StyledComponent = styled.div`
       color: white;
     }
   }
+  .scrollTop {
+    position: absolute;
+    top: 360px;
+    right: 3rem;
+  }
 `;
 
 const Contact = () => (
@@ -43,7 +48,7 @@ const Contact = () => (
             smooth={true}
             duration={500}
           >
-            back to top
+            back to top ⇧
           </Link>
         </span>
       </div>

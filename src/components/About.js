@@ -20,7 +20,7 @@ const StyledAbout = styled.div`
   }
   .about::before {
     position: absolute;
-    height: 100px;
+    height: 50px;
     width: 100%;
     z-index: -1;
     content: "";
@@ -43,11 +43,11 @@ const About = () => {
   return (
     <StyledAbout>
       <div className="about">
-        <h1>About</h1>
+        <h1>About Me</h1>
         <p className="description">
-          I am a front-end engineer living and working in the Bay Area. I love
-          building websites. Every project is a chance for me to improve and
-          better myself as a developer and co-worker. I see myself as a flexible
+          Hi, I am a front-end developer from the Bay Area and I love building
+          websites. Every project is a chance for me to improve and better
+          myself as a developer and co-worker. I see myself as a flexible
           developer, able to work with any team and understand the goal of each
           project.
         </p>

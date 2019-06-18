@@ -1055,12 +1055,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-06-17T17:49:30.259Z",
+      "buildTime": "2019-06-18T04:35:02.514Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "efc5b3b83ed0d6d981f1ba7284098e3f",
+        "contentDigest": "343437da0bcf94509ec22093c3fdcc0a",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1070,7 +1070,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "46b541f0a3d070cf20d2d0aded5ce5b4",
+        "contentDigest": "3b1e7049f636b672935f90dc0931d8de",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1081,9 +1081,9 @@
       "extension": "",
       "size": 352,
       "prettySize": "352 B",
-      "modifiedTime": "2019-06-14T22:56:23.591Z",
-      "accessTime": "2019-06-17T17:49:34.797Z",
-      "changeTime": "2019-06-14T22:56:23.591Z",
+      "modifiedTime": "2019-06-17T19:10:14.098Z",
+      "accessTime": "2019-06-18T04:35:07.061Z",
+      "changeTime": "2019-06-17T19:10:14.098Z",
       "birthTime": "2019-03-14T06:03:20.741Z",
       "root": "/",
       "dir": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src",
@@ -1100,13 +1100,13 @@
       "blksize": 4096,
       "ino": 8608428097,
       "blocks": 0,
-      "atimeMs": 1560793774797.1606,
-      "mtimeMs": 1560552983591.3337,
-      "ctimeMs": 1560552983591.3337,
+      "atimeMs": 1560832507061.4214,
+      "mtimeMs": 1560798614097.685,
+      "ctimeMs": 1560798614097.685,
       "birthtimeMs": 1552543400740.9758,
-      "atime": "2019-06-17T17:49:34.797Z",
-      "mtime": "2019-06-14T22:56:23.591Z",
-      "ctime": "2019-06-14T22:56:23.591Z",
+      "atime": "2019-06-18T04:35:07.061Z",
+      "mtime": "2019-06-17T19:10:14.098Z",
+      "ctime": "2019-06-17T19:10:14.098Z",
       "birthtime": "2019-03-14T06:03:20.741Z"
     },
     "7d5c9187-73c1-5ddc-ad20-6d563be2f736": {
@@ -1496,6 +1496,63 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
+    "74d130a6-80e1-545c-ad98-4410c49736f3": {
+      "id": "74d130a6-80e1-545c-ad98-4410c49736f3",
+      "children": [
+        "d25b7c8b-cc85-50e7-8e78-c226d3d0b3e1"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "0a0018977cd512b320b3ad0b40cdcc59",
+        "type": "File",
+        "mediaType": "image/png",
+        "description": "File \"src/images/eb_logo.png\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/images/eb_logo.png",
+      "relativePath": "eb_logo.png",
+      "extension": "png",
+      "size": 5073,
+      "prettySize": "5.07 kB",
+      "modifiedTime": "2019-06-17T19:10:14.099Z",
+      "accessTime": "2019-06-17T19:10:14.137Z",
+      "changeTime": "2019-06-17T19:10:14.099Z",
+      "birthTime": "2019-06-17T19:10:00.049Z",
+      "root": "/",
+      "dir": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/images",
+      "base": "eb_logo.png",
+      "ext": ".png",
+      "name": "eb_logo",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8610428904,
+      "blocks": 16,
+      "atimeMs": 1560798614136.9636,
+      "mtimeMs": 1560798614099,
+      "ctimeMs": 1560798614099.213,
+      "birthtimeMs": 1560798600049.3413,
+      "atime": "2019-06-17T19:10:14.137Z",
+      "mtime": "2019-06-17T19:10:14.099Z",
+      "ctime": "2019-06-17T19:10:14.099Z",
+      "birthtime": "2019-06-17T19:10:00.049Z"
+    },
+    "d25b7c8b-cc85-50e7-8e78-c226d3d0b3e1": {
+      "id": "d25b7c8b-cc85-50e7-8e78-c226d3d0b3e1",
+      "children": [],
+      "parent": "74d130a6-80e1-545c-ad98-4410c49736f3",
+      "internal": {
+        "contentDigest": "0a0018977cd512b320b3ad0b40cdcc59",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
     "SitePage /404/": {
       "jsonName": "404-22d",
       "internalComponentName": "Component404",
@@ -1554,63 +1611,6 @@
         "contentDigest": "a961ac5bba4db8057f9986d105ea369d",
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
-      }
-    },
-    "74d130a6-80e1-545c-ad98-4410c49736f3": {
-      "id": "74d130a6-80e1-545c-ad98-4410c49736f3",
-      "children": [
-        "d25b7c8b-cc85-50e7-8e78-c226d3d0b3e1"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "0a0018977cd512b320b3ad0b40cdcc59",
-        "type": "File",
-        "mediaType": "image/png",
-        "description": "File \"src/images/eb_logo.png\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/images/eb_logo.png",
-      "relativePath": "eb_logo.png",
-      "extension": "png",
-      "size": 5073,
-      "prettySize": "5.07 kB",
-      "modifiedTime": "2019-06-17T19:10:14.099Z",
-      "accessTime": "2019-06-17T19:10:14.137Z",
-      "changeTime": "2019-06-17T19:10:14.099Z",
-      "birthTime": "2019-06-17T19:10:00.049Z",
-      "root": "/",
-      "dir": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/images",
-      "base": "eb_logo.png",
-      "ext": ".png",
-      "name": "eb_logo",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 8610428904,
-      "blocks": 16,
-      "atimeMs": 1560798614136.9636,
-      "mtimeMs": 1560798614099,
-      "ctimeMs": 1560798614099.213,
-      "birthtimeMs": 1560798600049.3413,
-      "atime": "2019-06-17T19:10:14.137Z",
-      "mtime": "2019-06-17T19:10:14.099Z",
-      "ctime": "2019-06-17T19:10:14.099Z",
-      "birthtime": "2019-06-17T19:10:00.049Z"
-    },
-    "d25b7c8b-cc85-50e7-8e78-c226d3d0b3e1": {
-      "id": "d25b7c8b-cc85-50e7-8e78-c226d3d0b3e1",
-      "children": [],
-      "parent": "74d130a6-80e1-545c-ad98-4410c49736f3",
-      "internal": {
-        "contentDigest": "0a0018977cd512b320b3ad0b40cdcc59",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
       }
     }
   },
