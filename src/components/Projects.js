@@ -38,7 +38,7 @@ const StyledComponent = styled.div`
     margin: 3px 6px;
   }
   .projects {
-    margin-top: 300px;
+    margin-top: 200px;
   }
   .projects::before {
     position: absolute;
