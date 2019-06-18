@@ -19,15 +19,15 @@ const StyledComponent = styled.div`
   .info > a {
     text-decoration: none;
     color: black;
-    font-size: 26px;
+    font-size: 24px;
     :hover {
       color: white;
     }
   }
   .scrollTop {
     position: absolute;
-    top: 240px;
-    right: 3rem;
+    top: 260px;
+    right: 2rem;
     font-size: 18px;
     :hover {
       color: white;

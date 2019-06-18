@@ -34,10 +34,10 @@ const StyledAbout = styled.div`
   }
   @media (max-width: 768px) {
     .description {
-      font-size: 22px;
+      font-size: 20px;
     }
     .about {
-      margin-top: 120px;
+      margin-top: 100px;
     }
   }
 `;
