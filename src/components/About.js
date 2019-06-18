@@ -36,6 +36,9 @@ const StyledAbout = styled.div`
     .description {
       font-size: 24px;
     }
+    .about {
+      margin-top: 0;
+    }
   }
 `;
 
