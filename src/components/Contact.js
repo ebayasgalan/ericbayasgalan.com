@@ -9,7 +9,7 @@ const StyledComponent = styled.div`
     box-sizing: border-box;
   }
   .infoWrapper {
-    height: 750px;
+    height: 600px;
   }
   .info {
     text-align: center;
@@ -26,7 +26,7 @@ const StyledComponent = styled.div`
   }
   .scrollTop {
     position: absolute;
-    top: 360px;
+    top: 240px;
     right: 3rem;
   }
 `;
@@ -35,7 +35,7 @@ const Contact = () => (
   <StyledComponent>
     <div className="infoWrapper contact">
       <div className="info">
-        <h1>Send me an email, let's chat</h1>
+        <h1>Send me an email</h1>
         <a href="mailto:eric.bayasgalan@protonmail.com">
           eric.bayasgalan@protonmail.com
         </a>
