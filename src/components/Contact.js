@@ -16,10 +16,10 @@ const StyledComponent = styled.div`
     position: relative;
     top: 300px;
   }
-  a {
+  .info > a {
     text-decoration: none;
     color: black;
-    font-size: 24px;
+    font-size: 26px;
     :hover {
       color: white;
     }
@@ -28,6 +28,10 @@ const StyledComponent = styled.div`
     position: absolute;
     top: 240px;
     right: 3rem;
+    font-size: 18px;
+    :hover {
+      color: white;
+    }
   }
 `;
 

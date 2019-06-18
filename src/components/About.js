@@ -34,10 +34,10 @@ const StyledAbout = styled.div`
   }
   @media (max-width: 768px) {
     .description {
-      font-size: 24px;
+      font-size: 22px;
     }
     .about {
-      margin-top: 0;
+      margin-top: 120px;
     }
   }
 `;
@@ -49,10 +49,9 @@ const About = () => {
         <h1>About Me</h1>
         <p className="description">
           Hi, I am a front-end developer from the Bay Area and I love building
-          websites. Every project is a chance for me to improve and better
-          myself as a developer and co-worker. I see myself as a flexible
-          developer, able to work with any team and understand the goal of each
-          project.
+          websites or applications. Every project is exciting and a chance for
+          me to improve. I see myself as a flexible developer, able to work with
+          any team and understand the goal of each project.
         </p>
       </div>
     </StyledAbout>
