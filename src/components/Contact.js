@@ -39,7 +39,7 @@ const Contact = () => (
   <StyledComponent>
     <div className="infoWrapper contact">
       <div className="info">
-        <h1>Send me an email</h1>
+        <h2>Feel free to contact me via email below</h2>
         <a href="mailto:eric.bayasgalan@protonmail.com">
           eric.bayasgalan@protonmail.com
         </a>

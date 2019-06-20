@@ -16,7 +16,7 @@ const StyledAbout = styled.div`
     font-size: 36px;
   }
   .about {
-    margin-top: 300px;
+    margin-top: 250px;
   }
   .about::before {
     position: absolute;
@@ -35,6 +35,7 @@ const StyledAbout = styled.div`
   @media (max-width: 768px) {
     .description {
       font-size: 20px;
+      margin: 10px 0.5rem;
     }
     .about {
       margin-top: 100px;
@@ -46,9 +47,9 @@ const About = () => {
   return (
     <StyledAbout>
       <div className="about">
-        <h1>About Me</h1>
+        <h1>About me</h1>
         <p className="description">
-          Hi, I am a front-end developer from the Bay Area and I love building
+          I am a front-end developer from the Bay Area and I love building
           websites or applications. Every project is exciting and a chance for
           me to improve. I see myself as a flexible developer, able to work with
           any team and understand the goal of each project.

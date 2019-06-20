@@ -42,11 +42,7 @@ const Home = () => (
         <img src={proPic} alt="profile" />
         <span className="one" />
       </div>
-      <h1>
-        Hi,
-        <br />
-        I'm Enkhtaivan Bayasgalan and I am a web developer
-      </h1>
+      <h1>Hi, my name is Enkhtaivan Bayasgalan and I am a web developer</h1>
     </div>
   </StyledIntro>
 );

@@ -4,11 +4,13 @@ import styled from "styled-components";
 const FooterLinks = [
   {
     name: "Linkedin",
-    link: "https://www.linkedin.com/in/enkhtaivan-bayasgalan-849824149/"
+    link: "https://www.linkedin.com/in/enkhtaivan-bayasgalan-849824149/",
+    color: "#3468E0"
   },
   {
     name: "Github",
-    link: "https://github.com/ebayasgalan"
+    link: "https://github.com/ebayasgalan",
+    color: "#686A78"
   }
 ];
 
@@ -45,7 +47,9 @@ const SocialLink = styled.a`
   border-radius: 3px;
   color: black;
   text-decoration: none;
-  margin-left: 0.5rem;
+  font-size: 22px;
+  margin: 0.5rem;
+  background-color: ${props => props.color};
   :hover {
     color: white;
   }
@@ -57,7 +61,12 @@ const Footer = () => (
     <SocialLinks>
       {FooterLinks.map(link => (
         <li key={link.name}>
-          <SocialLink href={link.link} target="_blank" rel="nofollow">
+          <SocialLink
+            href={link.link}
+            color={link.color}
+            target="_blank"
+            rel="nofollow"
+          >
             {link.name}
           </SocialLink>
         </li>

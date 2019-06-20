@@ -38,7 +38,7 @@ const StyledComponent = styled.div`
     margin: 3px 6px;
   }
   .projects {
-    margin-top: 200px;
+    margin-top: 240px;
   }
   .projects::before {
     position: absolute;
@@ -63,7 +63,7 @@ const StyledComponent = styled.div`
       width: 300px;
     }
     .projects {
-      margin-top: 0;
+      margin-top: 100px;
     }
   }
 `;
