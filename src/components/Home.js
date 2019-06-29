@@ -16,7 +16,7 @@ const StyledIntro = styled.div`
     .one {
       flex: 1;
     }
-    padding-top: 3rem;
+    padding-top: 1.6rem;
   }
 
   img {
@@ -24,7 +24,6 @@ const StyledIntro = styled.div`
     width: 20rem;
     border-radius: 50%;
     margin: 3rem;
-    padding: 0.3rem;
     border: 0.2rem solid #fde57e;
   }
   @media (max-width: 768px) {
