@@ -9,6 +9,8 @@ const StyledComponent = styled.div`
     padding: 0;
     box-sizing: border-box;
   }
+  background: red;
+  height: 800px;
   .showcase {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -37,19 +39,6 @@ const StyledComponent = styled.div`
     height: 2.5rem;
     margin: 3px 6px;
   }
-  .projects {
-    margin-top: 240px;
-  }
-  .projects::before {
-    position: absolute;
-    height: 50px;
-    width: 100%;
-    z-index: -1;
-    content: "";
-    transform-origin: top right;
-    transform: skewY(2.5deg);
-    background: linear-gradient(to left, #fde57e, #9d8210 70%);
-  }
   h1 {
     text-align: center;
     padding-top: 6rem;
@@ -60,7 +49,7 @@ const StyledComponent = styled.div`
       grid-template-columns: 1fr;
     }
     img {
-      width: 300px;
+      width: 400px;
     }
     .projects {
       margin-top: 100px;

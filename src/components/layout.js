@@ -50,9 +50,8 @@ const Layout = ({ children }) => {
   return (
     <div>
       <Navbar />
-      <div style={{ height: "64px" }} />
       <main>{children}</main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

@@ -1,47 +1,42 @@
 import React from "react";
 import styled from "styled-components";
-import proPic from "../images/proPic.jpeg";
+import homePage from "../images/homePage.jpg";
 
 const StyledIntro = styled.div`
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  h1 {
-    text-align: center;
-  }
-  .pic {
-    display: flex;
-    .one {
-      flex: 1;
-    }
-    padding-top: 1.6rem;
-  }
-
+  height: 860px;
   img {
-    height: 20rem;
-    width: 20rem;
-    border-radius: 50%;
-    margin: 3rem;
-    border: 0.2rem solid #fde57e;
+    height: inherit;
+    width: 100%;
+    margin: 0;
   }
-  @media (max-width: 768px) {
-    h1 {
-      font-size: 28px;
-    }
+  .intro {
+    position: absolute;
+    bottom: 260px;
+    left: 360px;
+    text-align: center;
+    color: #becfdc;
+  }
+  .name {
+    font-size: 100px;
+  }
+  .title {
+    font-size: 36px;
+    margin-top: 80px;
+  }
+  button {
+    background: #3a617f;
   }
 `;
 
 const Home = () => (
   <StyledIntro>
     <div className="home">
-      <div className="pic">
-        <span className="one" />
-        <img src={proPic} alt="profile" />
-        <span className="one" />
+      <img src={homePage} alt="desk" />
+      <div className="intro">
+        <p className="name">ERIC BAYASGALAN</p>
+        <p className="title">Full Stack Software Engineer</p>
+        <button>color: #8AA5BA</button>
       </div>
-      <h1>Hi, my name is Enkhtaivan Bayasgalan and I am a web developer</h1>
     </div>
   </StyledIntro>
 );

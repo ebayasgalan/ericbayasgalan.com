@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+import proPic from "../images/proPic.jpeg";
+import webTechs from "../images/webTechs.svg";
 
 const StyledAbout = styled.div`
   * {
@@ -7,38 +9,34 @@ const StyledAbout = styled.div`
     padding: 0;
     box-sizing: border-box;
   }
+  height: 880px;
+  .about {
+    background: linear-gradient(#1d222b, #becfdc);
+    color: #000;
+  }
+  .pictures {
+    text-align: center;
+    margin: 10px;
+    img {
+      border-radius: 50%;
+      height: 280px;
+    }
+  }
   .description {
-    margin: 4rem 3rem;
     padding: 0.3rem;
     text-align: center;
-    align-content: center;
-    line-height: 4rem;
-    font-size: 36px;
-  }
-  .about {
-    margin-top: 250px;
-  }
-  .about::before {
-    position: absolute;
-    height: 50px;
-    width: 100%;
-    z-index: -1;
-    content: "";
-    transform-origin: top right;
-    transform: skewY(2.5deg);
-    background: linear-gradient(to left, #fde57e, #9d8210 70%);
+    line-height: 2rem;
+    font-size: 28px;
   }
   h1 {
-    padding-top: 6rem;
+    margin-top: 10px;
+    padding-top: 4rem;
     text-align: center;
   }
   @media (max-width: 768px) {
     .description {
-      font-size: 20px;
+      font-size: 26px;
       margin: 10px 0.5rem;
-    }
-    .about {
-      margin-top: 100px;
     }
   }
 `;
@@ -48,12 +46,17 @@ const About = () => {
     <StyledAbout>
       <div className="about">
         <h1>About me</h1>
+        <div className="pictures">
+          <img src={proPic} alt="atLibrary" />
+        </div>
         <p className="description">
-          I am a front-end developer from the Bay Area and I love building
-          websites or applications. Every project is exciting and a chance for
-          me to improve. I see myself as a flexible developer, able to work with
-          any team and understand the goal of each project.
+          I am a full stack software developer and I love building web
+          applications. Every project is exciting and a chance for me to
+          improve. I see myself as a flexible developer, able to work with any
+          team and understand the goal of each project.
         </p>
+        <h1>Skills</h1>
+        <img src={webTechs} alt="" height="360px" width="100%" />
       </div>
     </StyledAbout>
   );

@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-scroll";
-import resume from "../images/resume.pdf";
 
 import logo from "../images/eb_logo.png";
 import "./styles/Toolbar.css";
@@ -62,9 +61,6 @@ const Toolbar = props => (
             >
               Contact
             </Link>
-          </li>
-          <li>
-            <a href={resume}>RESUME</a>
           </li>
         </ul>
       </div>

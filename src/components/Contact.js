@@ -1,20 +1,16 @@
 import React from "react";
 import { Link } from "react-scroll";
 import styled from "styled-components";
+import deskTop from "../images/contactPage.jpg";
 
 const StyledComponent = styled.div`
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  .infoWrapper {
-    height: 600px;
-  }
+  background: blue;
+  height: 600px;
   .info {
     text-align: center;
     position: relative;
     top: 300px;
+    background: blue;
   }
   .info > a {
     text-decoration: none;
@@ -37,7 +33,7 @@ const StyledComponent = styled.div`
 
 const Contact = () => (
   <StyledComponent>
-    <div className="infoWrapper contact">
+    <div className="contact">
       <div className="info">
         <h2>Feel free to contact me via email below</h2>
         <a href="mailto:eric.bayasgalan@protonmail.com">
@@ -55,6 +51,7 @@ const Contact = () => (
             back to top ⇧
           </Link>
         </span>
+        {/* <img src={deskTop} alt="" /> */}
       </div>
     </div>
   </StyledComponent>
