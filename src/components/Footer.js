@@ -7,7 +7,6 @@ const FooterLinks = [
   {
     name: "Linkedin",
     link: "https://www.linkedin.com/in/enkhtaivan-bayasgalan-849824149/",
-    // color: "#3468E0",
     color: "#686A78",
 
     img: Linkedin
@@ -15,7 +14,6 @@ const FooterLinks = [
   {
     name: "Github",
     link: "https://github.com/ebayasgalan",
-    color: "#686A78",
     img: Github
   }
 ];
@@ -68,12 +66,7 @@ const Footer = () => (
     <SocialLinks>
       {FooterLinks.map(link => (
         <li key={link.name}>
-          <SocialLink
-            href={link.link}
-            color={link.color}
-            target="_blank"
-            rel="nofollow"
-          >
+          <SocialLink href={link.link} target="_blank" rel="nofollow">
             <img src={link.img} alt="" height="30px" width="50px" />
           </SocialLink>
         </li>

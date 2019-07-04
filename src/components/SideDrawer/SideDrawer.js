@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
 import "../styles/SideDrawer.css";
-import resume from "../../images/resume.pdf";
 
 const sideDrawer = props => {
   let drawerClasses = "side-drawer";
@@ -58,9 +57,6 @@ const sideDrawer = props => {
           >
             Contact
           </Link>
-        </li>
-        <li>
-          <a href={resume}>RESUME</a>
         </li>
       </ul>
     </nav>

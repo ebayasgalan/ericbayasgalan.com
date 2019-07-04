@@ -14,32 +14,45 @@ const StyledComponent = styled.div`
   .showcase {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
+    grid-gap: 1px;
     margin: 3px;
     padding: 10px;
-    width: 100%;
+    width: 90%;
     text-align: center;
   }
   img {
     border-radius: 2rem;
     margin-top: 2rem;
     height: auto;
-    width: 450px;
+    width: 350px;
   }
   .buttons {
     text-align: center;
   }
   button {
-    background: #fde57e;
+    background: #becfdc;
     border-radius: 0.7rem;
     width: 8rem;
     height: 2.5rem;
     margin: 3px 6px;
+    :hover {
+      background: white;
+      cursor: pointer;
+    }
   }
   h1 {
     text-align: center;
     padding-top: 6rem;
     margin-top: 20px;
+  }
+  .description {
+    h2 {
+      margin-top: 1.5rem;
+    }
+    font-size: 20px;
+    p {
+      margin: 1rem;
+    }
   }
   @media (max-width: 768px) {
     .showcase {
@@ -61,6 +74,16 @@ const Projects = () => (
     <div className="showcase">
       <div>
         <img src={oceanBeach} alt="hotel" />
+      </div>
+      <div className="description">
+        <h2>Ocean Beach Hotel</h2>
+        <p className="builtWith">
+          Built with: Javascript | Next.js | Graphql-Yoga | Prisma | Apollo{" "}
+        </p>
+        <p className="summary">
+          A hotel web application that allows the user to make a reservation
+          after siging in.
+        </p>
         <div className="buttons">
           <a href="https://hotel-next-prod.herokuapp.com/">
             <button>See the Demo</button>
@@ -72,6 +95,17 @@ const Projects = () => (
       </div>
       <div>
         <img src={easyMarket} alt="eCommerce" />
+      </div>
+      <div className="description">
+        <h2>Easy Market</h2>
+        <p className="builtWith">
+          Built with: Javascript | Next.js | Apollo | Graphql-Yoga | Prisma |
+          Stripe API | Cloudinary API
+        </p>
+        <p className="summary">
+          Ecommerce web application that allows the user to post or view items
+          for sale.
+        </p>
         <div className="buttons">
           <a href="https://easy-market-next-prod.herokuapp.com">
             <button>See the Demo</button>
