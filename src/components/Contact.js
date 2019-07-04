@@ -4,14 +4,7 @@ import styled from "styled-components";
 import deskTop from "../images/contactPage.jpg";
 
 const StyledComponent = styled.div`
-  background: blue;
-  height: 600px;
-  .info {
-    text-align: center;
-    position: relative;
-    top: 300px;
-    background: blue;
-  }
+  height: 700px;
   .info > a {
     text-decoration: none;
     color: black;
@@ -29,16 +22,21 @@ const StyledComponent = styled.div`
       color: white;
     }
   }
+  .intro {
+    position: absolute;
+    bottom: 260px;
+    left: 360px;
+    text-align: center;
+    color: #becfdc;
+  }
 `;
 
 const Contact = () => (
   <StyledComponent>
     <div className="contact">
+      <img src={deskTop} alt="workSpace" height="740px" width="100%vh" />
       <div className="info">
-        <h2>Feel free to contact me via email below</h2>
-        <a href="mailto:eric.bayasgalan@protonmail.com">
-          eric.bayasgalan@protonmail.com
-        </a>
+        <div className="intro">Contact Me</div>
         <span className="scrollTop">
           <Link
             style={{ cursor: "pointer" }}
@@ -51,7 +49,6 @@ const Contact = () => (
             back to top ⇧
           </Link>
         </span>
-        {/* <img src={deskTop} alt="" /> */}
       </div>
     </div>
   </StyledComponent>

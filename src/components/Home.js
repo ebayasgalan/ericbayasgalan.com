@@ -35,7 +35,6 @@ const Home = () => (
       <div className="intro">
         <p className="name">ERIC BAYASGALAN</p>
         <p className="title">Full Stack Software Engineer</p>
-        <button>color: #8AA5BA</button>
       </div>
     </div>
   </StyledIntro>

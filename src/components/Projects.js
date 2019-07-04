@@ -9,7 +9,7 @@ const StyledComponent = styled.div`
     padding: 0;
     box-sizing: border-box;
   }
-  background: red;
+  background: linear-gradient(#becfdc, #1d222b);
   height: 800px;
   .showcase {
     display: grid;
@@ -25,9 +25,6 @@ const StyledComponent = styled.div`
     margin-top: 2rem;
     height: auto;
     width: 450px;
-    :hover {
-      border: solid 0.2rem #fde57e;
-    }
   }
   .buttons {
     text-align: center;

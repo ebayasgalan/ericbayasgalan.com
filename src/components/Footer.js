@@ -1,16 +1,22 @@
 import React from "react";
 import styled from "styled-components";
+import Github from "../images/github_icon.svg";
+import Linkedin from "../images/linkedin.svg";
 
 const FooterLinks = [
   {
     name: "Linkedin",
     link: "https://www.linkedin.com/in/enkhtaivan-bayasgalan-849824149/",
-    color: "#3468E0"
+    // color: "#3468E0",
+    color: "#686A78",
+
+    img: Linkedin
   },
   {
     name: "Github",
     link: "https://github.com/ebayasgalan",
-    color: "#686A78"
+    color: "#686A78",
+    img: Github
   }
 ];
 
@@ -21,16 +27,18 @@ const FooterWrapper = styled.footer`
     box-sizing: border-box;
   }
   h3 {
-    margin: 0.3rem;
+    margin: 2rem;
     padding-top: 1rem;
+    color: white;
   }
   position: relative;
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 120px;
+  height: 140px;
   text-align: center;
-  background-color: #9d8210;
+  background-color: black;
+  margin-top: 10px;
 `;
 
 const SocialLinks = styled.ul`
@@ -45,13 +53,12 @@ const SocialLinks = styled.ul`
 const SocialLink = styled.a`
   padding: 3px 5px;
   border-radius: 3px;
-  color: black;
-  text-decoration: none;
-  font-size: 22px;
+  font-size: 40px;
   margin: 0.5rem;
+  border-radius: 50%;
   background-color: ${props => props.color};
   :hover {
-    color: white;
+    background-color: white;
   }
 `;
 
@@ -67,7 +74,7 @@ const Footer = () => (
             target="_blank"
             rel="nofollow"
           >
-            {link.name}
+            <img src={link.img} alt="" height="30px" width="50px" />
           </SocialLink>
         </li>
       ))}
