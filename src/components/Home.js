@@ -11,17 +11,17 @@ const StyledIntro = styled.div`
   }
   .intro {
     position: absolute;
-    bottom: 260px;
-    left: 360px;
+    top: 45%;
+    left: 23rem;
     text-align: center;
-    color: #becfdc;
+    color: white;
   }
   .name {
-    font-size: 100px;
+    font-size: 86px;
   }
   .title {
     font-size: 36px;
-    margin-top: 80px;
+    margin-top: 3rem;
   }
   button {
     background: #3a617f;

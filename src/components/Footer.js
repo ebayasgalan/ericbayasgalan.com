@@ -54,7 +54,7 @@ const SocialLink = styled.a`
   font-size: 40px;
   margin: 0.5rem;
   border-radius: 50%;
-  background-color: ${props => props.color};
+  background-color: gray;
   :hover {
     background-color: white;
   }

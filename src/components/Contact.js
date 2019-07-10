@@ -10,7 +10,7 @@ const StyledComponent = styled.div`
     color: black;
     font-size: 26px;
     :hover {
-      color: white;
+      color: #becfdc;
     }
   }
   .scrollTop {
