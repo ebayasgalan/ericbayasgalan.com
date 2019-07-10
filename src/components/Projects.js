@@ -10,7 +10,6 @@ const StyledComponent = styled.div`
     box-sizing: border-box;
   }
   background: linear-gradient(#becfdc, #1d222b);
-  height: 800px;
   .showcase {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

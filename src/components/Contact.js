@@ -28,10 +28,11 @@ const StyledComponent = styled.div`
     }
     .cards {
       display: grid;
+      width: 700px;
       grid-template-columns: repeat(3, 1fr);
       position: absolute;
       bottom: 440px;
-      right: 13%;
+      right: 14%;
       text-align: center;
     }
   }
@@ -46,7 +47,7 @@ const Contact = () => (
         <div className="cards">
           <div className="location">
             <h3>Location 📍</h3>
-            <span className="details">El Cerrito, California</span>
+            <span className="details">El Cerrito, CA</span>
           </div>
           <div className="email">
             <h3>Email ✉️</h3>

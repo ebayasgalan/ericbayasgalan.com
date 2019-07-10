@@ -3,11 +3,13 @@ import styled from "styled-components";
 import homePage from "../images/homePage.jpg";
 
 const StyledIntro = styled.div`
-  height: 860px;
   img {
-    height: inherit;
     width: 100%;
     margin: 0;
+  }
+  .home {
+    position: relative;
+    width: auto;
   }
   .intro {
     position: absolute;
@@ -23,8 +25,16 @@ const StyledIntro = styled.div`
     font-size: 36px;
     margin-top: 3rem;
   }
-  button {
-    background: #3a617f;
+  @media (max-width: 768px) {
+    .intro {
+      left: 9rem;
+    }
+    .name {
+      font-size: 44px;
+    }
+    .title {
+      font-size: 26px;
+    }
   }
 `;
 

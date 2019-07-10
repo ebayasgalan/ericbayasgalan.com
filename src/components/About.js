@@ -9,11 +9,11 @@ const StyledAbout = styled.div`
     padding: 0;
     box-sizing: border-box;
   }
-  height: 880px;
+  /* height: 880px; */
   .about {
     background: linear-gradient(#1d222b, #becfdc);
     color: #000;
-    margin-top: 60px;
+    /* margin-top: 60px; */
   }
   .pictures {
     text-align: center;
