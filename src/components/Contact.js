@@ -4,7 +4,7 @@ import styled from "styled-components";
 import deskTop from "../images/contactPage.jpg";
 
 const StyledComponent = styled.div`
-  height: 700px;
+  /* height: 700px; */
   .info a {
     text-decoration: none;
     color: black;
@@ -28,12 +28,20 @@ const StyledComponent = styled.div`
     }
     .cards {
       display: grid;
-      width: 700px;
+      width: 33rem;
       grid-template-columns: repeat(3, 1fr);
       position: absolute;
       bottom: 440px;
-      right: 14%;
+      right: 16%;
       text-align: center;
+    }
+    @media (max-width: 768px) {
+      .cards {
+        width: 19rem;
+        grid-template-columns: repeat(1, 1fr);
+        bottom: 360px;
+        right: 15%;
+      }
     }
   }
 `;

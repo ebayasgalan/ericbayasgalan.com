@@ -27,10 +27,10 @@ const StyledIntro = styled.div`
       left: 9rem;
     }
     .name {
-      font-size: 44px;
+      font-size: 32px;
     }
     .title {
-      font-size: 26px;
+      font-size: 22px;
     }
   }
 `;
