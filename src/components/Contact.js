@@ -8,7 +8,6 @@ const StyledComponent = styled.div`
   .info a {
     text-decoration: none;
     color: black;
-    font-size: 26px;
     :hover {
       color: #becfdc;
     }
@@ -32,12 +31,8 @@ const StyledComponent = styled.div`
       grid-template-columns: repeat(3, 1fr);
       position: absolute;
       bottom: 440px;
-      right: 15%;
+      right: 13%;
       text-align: center;
-      .details,
-      a {
-        font-size: 20px;
-      }
     }
   }
 `;

@@ -12,7 +12,7 @@ const StyledIntro = styled.div`
   .intro {
     position: absolute;
     top: 45%;
-    left: 23rem;
+    left: 18rem;
     text-align: center;
     color: white;
   }
