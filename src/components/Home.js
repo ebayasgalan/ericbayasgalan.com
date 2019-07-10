@@ -7,14 +7,10 @@ const StyledIntro = styled.div`
     width: 100%;
     margin: 0;
   }
-  .home {
-    position: relative;
-    width: auto;
-  }
   .intro {
     position: absolute;
     top: 45%;
-    left: 18rem;
+    left: 17rem;
     text-align: center;
     color: white;
   }
@@ -27,6 +23,7 @@ const StyledIntro = styled.div`
   }
   @media (max-width: 768px) {
     .intro {
+      top: 20%;
       left: 9rem;
     }
     .name {
