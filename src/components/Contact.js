@@ -9,7 +9,7 @@ const StyledComponent = styled.div`
     a {
       text-decoration: none;
       color: black;
-      font-size: 17px;
+      font-size: 15px;
     }
   }
   /* .info {
@@ -24,11 +24,12 @@ const StyledComponent = styled.div`
     height: 100%;
     vertical-align: middle;
   } */
-  /* .scrollTop {
-    position: absolute;
+  .scrollTop {
+    display: none;
+    /* position: absolute;
     top: 15rem;
-    right: 1rem;
-  } */
+    right: 1rem; */
+  }
   img {
     display: block;
     max-width: 100%;
@@ -37,7 +38,7 @@ const StyledComponent = styled.div`
     color: white;
     font-size: 28px;
     position: absolute;
-    left: 11rem;
+    left: 9.5rem;
   }
   .cards {
     position: absolute;
@@ -123,7 +124,7 @@ const Contact = () => (
         </div>
       </div>
       <span className="scrollTop">
-        {/* <Link
+        <Link
           style={{ cursor: "pointer" }}
           activeClass="active"
           to="home"
@@ -132,7 +133,7 @@ const Contact = () => (
           duration={500}
         >
           back to top ⇧
-        </Link> */}
+        </Link>
       </span>
     </div>
     <img src={deskTop} alt="workSpace" />
