@@ -9,7 +9,7 @@ const StyledComponent = styled.div`
     a {
       text-decoration: none;
       color: black;
-      font-size: 15px;
+      font-size: 13px;
     }
   }
   /* .info {
@@ -51,6 +51,7 @@ const StyledComponent = styled.div`
   }
   .card_items {
     color: black;
+    margin-bottom: 5px;
     font-size: 17px;
     /* background: linear-gradient(#becfdc, #1d222b);
     border: black 1px solid;
