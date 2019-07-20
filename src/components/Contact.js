@@ -8,8 +8,8 @@ const StyledComponent = styled.div`
     position: relative;
     a {
       text-decoration: none;
-      color: white;
-      font-size: 14px;
+      color: black;
+      font-size: 17px;
     }
   }
   /* .info {
@@ -35,28 +35,31 @@ const StyledComponent = styled.div`
   }
   .header {
     color: white;
-    font-size: 32px;
+    font-size: 28px;
     position: absolute;
-    height: 100%;
-    text-align: center;
-    width: 100%;
+    left: 11rem;
   }
   .cards {
     position: absolute;
-    top: 3rem;
-    left: 9rem;
+    top: 2.5rem;
+    left: 8.5rem;
     display: flex;
     flex-direction: column;
     text-align: center;
+    justify-content: center;
   }
   .card_items {
-    background: linear-gradient(#becfdc, #1d222b);
+    color: black;
+    margin: 4px;
+    /* background: linear-gradient(#becfdc, #1d222b);
     border: black 1px solid;
     border-radius: 12px;
-    padding: 3px;
-    margin: 2px;
+    padding: 2px;
+    width: 13rem;
+    height: 4rem;
+    margin: 1px;
     font-size: 16px;
-    color: white;
+    color: white; */
   }
   /* @media (min-width: 578px) {
     .cards {
@@ -103,12 +106,6 @@ const Contact = () => (
       <div className="info">
         <p className="header">Contact Me</p>
         <div className="cards">
-          <div className="card_items">
-            <h4>
-              Location <span>📍</span>
-            </h4>
-            <span className="details">El Cerrito, CA</span>
-          </div>
           <div className="card_items">
             <h4>
               Email <span>✉️</span>
