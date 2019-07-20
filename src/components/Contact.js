@@ -43,7 +43,7 @@ const StyledComponent = styled.div`
   .cards {
     position: absolute;
     top: 2.5rem;
-    left: 8.5rem;
+    left: 8.3rem;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -52,6 +52,7 @@ const StyledComponent = styled.div`
   .card_items {
     color: black;
     margin: 4px;
+    font-size: 18px;
     /* background: linear-gradient(#becfdc, #1d222b);
     border: black 1px solid;
     border-radius: 12px;
