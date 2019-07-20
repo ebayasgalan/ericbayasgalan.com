@@ -3,41 +3,29 @@ import styled from "styled-components";
 import proPic from "../images/proPic.jpeg";
 import webTechs from "../images/webTechs.svg";
 
-const StyledAbout = styled.div`
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  /* height: 880px; */
+const StyledAbout = styled.section`
   .about {
     background: linear-gradient(#1d222b, #becfdc);
     color: #000;
-    /* margin-top: 60px; */
   }
-  .pictures {
+  .picture {
     text-align: center;
-    margin: 10px;
+    margin: 0.5rem;
     img {
       border-radius: 50%;
-      height: 280px;
+      height: 260px;
     }
   }
   .description {
-    padding: 0.3rem;
+    padding: 1rem;
     text-align: center;
-    line-height: 2rem;
-    font-size: 28px;
+    line-height: 1.7rem;
+    font-size: 20px;
   }
   h1 {
-    padding-top: 2rem;
+    padding-top: 1rem;
     text-align: center;
-  }
-  @media (max-width: 768px) {
-    .description {
-      font-size: 26px;
-      margin: 10px 0.5rem;
-    }
+    font-size: 32px;
   }
 `;
 
@@ -46,7 +34,7 @@ const About = () => {
     <StyledAbout>
       <div className="about">
         <h1>About me</h1>
-        <div className="pictures">
+        <div className="picture">
           <img src={proPic} alt="atLibrary" />
         </div>
         <p className="description">
@@ -56,7 +44,7 @@ const About = () => {
           playing basketball, and spending time with family and friends.
         </p>
         <h1>Skills</h1>
-        <img src={webTechs} alt="" height="360px" width="100%" />
+        <img src={webTechs} alt="" height="200px" width="100%" />
       </div>
     </StyledAbout>
   );

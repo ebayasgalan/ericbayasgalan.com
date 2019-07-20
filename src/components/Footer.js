@@ -8,7 +8,6 @@ const FooterLinks = [
     name: "Linkedin",
     link: "https://www.linkedin.com/in/enkhtaivan-bayasgalan-849824149/",
     color: "#686A78",
-
     img: Linkedin
   },
   {
@@ -19,39 +18,23 @@ const FooterLinks = [
 ];
 
 const FooterWrapper = styled.footer`
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  h3 {
-    margin: 2rem;
-    padding-top: 1rem;
-    color: white;
-  }
   position: relative;
-  bottom: 0;
-  left: 0;
   width: 100%;
-  height: 140px;
+  height: auto;
   text-align: center;
   background-color: black;
-  margin-top: 10px;
 `;
 
 const SocialLinks = styled.ul`
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 5px;
   display: flex;
   justify-content: center;
-  margin-bottom: 5px;
 `;
 
 const SocialLink = styled.a`
-  padding: 3px 5px;
-  border-radius: 3px;
-  font-size: 40px;
+  font-size: 38px;
   margin: 0.5rem;
   border-radius: 50%;
   background-color: gray;
@@ -62,12 +45,11 @@ const SocialLink = styled.a`
 
 const Footer = () => (
   <FooterWrapper>
-    <h3>Where To Find Me</h3>
     <SocialLinks>
       {FooterLinks.map(link => (
         <li key={link.name}>
           <SocialLink href={link.link} target="_blank" rel="nofollow">
-            <img src={link.img} alt="" height="30px" width="50px" />
+            <img src={link.img} height="25px" width="50px" />
           </SocialLink>
         </li>
       ))}

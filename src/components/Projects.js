@@ -4,65 +4,43 @@ import oceanBeach from "../images/hotel.png";
 import easyMarket from "../images/eCommerce.png";
 
 const StyledComponent = styled.div`
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
   background: linear-gradient(#becfdc, #1d222b);
   .showcase {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     grid-gap: 1px;
-    margin: 3px;
     padding: 10px;
-    width: 90%;
     text-align: center;
   }
   img {
-    border-radius: 2rem;
+    border-radius: 1.5rem;
     margin-top: 2rem;
     height: auto;
-    width: 350px;
+    width: 260px;
   }
   .buttons {
     text-align: center;
+    margin: 10px;
   }
   button {
     background: #becfdc;
-    border-radius: 0.7rem;
-    width: 8rem;
+    border-radius: 0.6rem;
+    width: 7rem;
     height: 2.5rem;
-    margin: 3px 6px;
-    :hover {
-      background: white;
-      cursor: pointer;
-    }
+    margin-right: 20px;
   }
   h1 {
     text-align: center;
-    padding-top: 6rem;
-    margin-top: 20px;
+    padding-top: 1.5rem;
   }
   .description {
     h2 {
-      margin-top: 1.5rem;
+      margin-top: 1rem;
     }
-    font-size: 20px;
-    p {
-      margin: 1rem;
-    }
+    font-size: 16px;
   }
-  @media (max-width: 768px) {
-    .showcase {
-      grid-template-columns: 1fr;
-    }
-    img {
-      width: 400px;
-    }
-    .projects {
-      margin-top: 100px;
-    }
+  .builtWith {
+    margin-bottom: 0.5rem;
   }
 `;
 
@@ -81,7 +59,7 @@ const Projects = () => (
         </p>
         <p className="summary">
           A hotel web application that allows the user to make a reservation
-          after siging in.
+          after signing in.
         </p>
         <div className="buttons">
           <a href="https://hotel-next-prod.herokuapp.com/">
