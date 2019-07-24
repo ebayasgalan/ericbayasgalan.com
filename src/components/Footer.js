@@ -19,7 +19,6 @@ const FooterLinks = [
 
 const FooterWrapper = styled.footer`
   position: relative;
-  width: 100%;
   text-align: center;
   background-color: black;
   height: 3.3rem;
@@ -42,6 +41,9 @@ const FooterWrapper = styled.footer`
       background-color: white;
     }
   }
+
+  /* for medium size screens */
+
   @media (min-width: 478px) {
     height: 6rem;
     padding: 1rem;
@@ -52,22 +54,7 @@ const FooterWrapper = styled.footer`
       font-size: 2rem;
       img {
         width: 60px;
-        height: 36px;
-      }
-    }
-  }
-  @media (min-width: 976px) {
-    height: 9rem;
-    padding: 2rem;
-    p {
-      padding-top: 1rem;
-      font-size: 18px;
-    }
-    a {
-      font-size: 2.5rem;
-      img {
-        width: 70px;
-        height: 40px;
+        height: 34px;
       }
     }
   }

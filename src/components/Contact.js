@@ -9,6 +9,9 @@ const StyledComponent = styled.div`
       text-decoration: none;
       color: black;
       font-size: 13px;
+      :hover {
+        color: #becfdc;
+      }
     }
   }
   img {
@@ -17,7 +20,7 @@ const StyledComponent = styled.div`
   }
   .header {
     color: white;
-    font-size: 28px;
+    font-size: 34px;
     position: absolute;
     left: 9.5rem;
   }
@@ -33,15 +36,15 @@ const StyledComponent = styled.div`
     color: black;
     font-size: 17px;
   }
+
+  /* for medium size screens */
+
   @media (min-width: 478px) {
     .cards {
       top: 6rem;
       right: 2rem;
       a {
         font-size: 30px;
-        :hover {
-          color: red;
-        }
       }
     }
     .card_items {
@@ -49,24 +52,27 @@ const StyledComponent = styled.div`
       margin-bottom: 2rem;
     }
     .header {
-      font-size: 38px;
+      font-size: 46px;
       left: 48%;
     }
   }
+
+  /* for large size screens */
+
   @media (min-width: 976px) {
     .card_items {
       font-size: 36px;
       margin-bottom: 4rem;
     }
     .header {
-      font-size: 52px;
+      font-size: 56px;
     }
     .cards {
       position: absolute;
       height: 100%;
       text-align: center;
-      width: 100%;
-      margin-top: 5rem;
+      max-width: 100%;
+      margin-top: 4rem;
     }
     .cards:before {
       content: "";

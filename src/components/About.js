@@ -13,19 +13,74 @@ const StyledAbout = styled.section`
     margin: 0.5rem;
     img {
       border-radius: 50%;
-      height: 260px;
+      height: 220px;
+    }
+  }
+  .skills {
+    img {
+      height: 160px;
+      width: 100%;
     }
   }
   .description {
     padding: 1rem;
     text-align: center;
-    line-height: 1.7rem;
+    line-height: 1.5rem;
     font-size: 20px;
   }
   h1 {
-    padding-top: 1rem;
+    padding-top: 1.5rem;
     text-align: center;
-    font-size: 32px;
+    font-size: 34px;
+  }
+  h2 {
+    text-align: center;
+  }
+
+  /* for medium size screens */
+
+  @media (min-width: 478px) {
+    .picture {
+      img {
+        height: 300px;
+      }
+    }
+    .description {
+      font-size: 24px;
+      line-height: 2.5rem;
+    }
+    h1 {
+      padding-top: 2rem;
+      font-size: 46px;
+    }
+    .skills {
+      padding-top: 1rem;
+      img {
+        height: 220px;
+      }
+    }
+  }
+
+  /* for large size screens */
+
+  @media (min-width: 976px) {
+    .picture {
+      img {
+        height: 320px;
+      }
+    }
+    .description {
+      font-size: 28px;
+    }
+    h1 {
+      font-size: 56px;
+    }
+    .skills {
+      padding-top: 2rem;
+      img {
+        height: 280px;
+      }
+    }
   }
 `;
 
@@ -43,8 +98,10 @@ const About = () => {
           experience applications. Aside from coding, I enjoy being outdoors,
           playing basketball, and spending time with family and friends.
         </p>
-        <h1>Skills</h1>
-        <img src={webTechs} alt="" height="200px" width="100%" />
+        <div className="skills">
+          <h2>Skills</h2>
+          <img src={webTechs} alt="" height="200px" width="100%" />
+        </div>
       </div>
     </StyledAbout>
   );

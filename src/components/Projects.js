@@ -4,7 +4,7 @@ import oceanBeach from "../images/hotel.png";
 import easyMarket from "../images/eCommerce.png";
 
 const StyledComponent = styled.div`
-  background: linear-gradient(#becfdc, #1d222b);
+  background: linear-gradient(#becfdc, #545c6b);
   .showcase {
     display: grid;
     grid-template-columns: 1fr;
@@ -15,6 +15,7 @@ const StyledComponent = styled.div`
     margin-top: 1rem;
     height: auto;
     width: 220px;
+    padding: 1rem;
   }
   .buttons {
     text-align: center;
@@ -23,41 +24,59 @@ const StyledComponent = styled.div`
   button {
     background: #becfdc;
     border-radius: 0.6rem;
-    width: 7rem;
+    width: 6rem;
     height: 2.5rem;
     margin-right: 20px;
   }
   h1 {
     text-align: center;
-    padding-top: 5rem;
+    font-size: 34px;
   }
   .description {
-    h2 {
-      margin-top: 1rem;
-    }
     font-size: 16px;
+    padding: 1rem;
   }
   .builtWith {
     margin-top: 1rem;
   }
+
+  /* for medium size screens */
+
   @media (min-width: 478px) {
+    h1 {
+      padding: 3rem 0;
+      font-size: 46px;
+    }
     img {
-      width: 360px;
+      width: 400px;
     }
     .description {
       font-size: 24px;
     }
     button {
-      border-radius: 0.6rem;
       width: 9rem;
-      height: 3rem;
-      margin-right: 1rem;
+      height: 3.5rem;
       font-size: 20px;
     }
   }
+
+  /* for large size screens */
+
   @media (min-width: 976px) {
     .showcase {
       grid-template-columns: 1fr 1fr;
+    }
+    h1 {
+      font-size: 56px;
+    }
+    img {
+      width: 450px;
+    }
+    .description {
+      font-size: 28px;
+      h3 {
+        padding-top: 2rem;
+      }
     }
   }
 `;
@@ -71,7 +90,7 @@ const Projects = () => (
         <img src={oceanBeach} alt="hotel" />
       </div>
       <div className="description">
-        <h2>Ocean Beach Hotel</h2>
+        <h3>Ocean Beach Hotel</h3>
         <p className="summary">
           A hotel web application that allows the user to make a reservation
           after signing in.
@@ -100,7 +119,7 @@ const Projects = () => (
         <img src={easyMarket} alt="eCommerce" />
       </div>
       <div className="description">
-        <h2>Easy Market</h2>
+        <h3>Easy Market</h3>
         <p className="summary">
           Ecommerce web application that allows the user to post or view items
           for sale.
