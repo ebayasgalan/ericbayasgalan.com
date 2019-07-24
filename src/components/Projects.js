@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import oceanBeach from "../images/hotel.png";
 import easyMarket from "../images/eCommerce.png";
+import comingSoon from "../images/comingSoon.jpg";
 
 const StyledComponent = styled.div`
   background: linear-gradient(#becfdc, #545c6b);
@@ -86,6 +87,8 @@ const Projects = () => (
     <div className="projects" />
     <h1>Projects</h1>
     <div className="showcase">
+      {/* Hotel application */}
+
       <div>
         <img src={oceanBeach} alt="hotel" />
       </div>
@@ -115,6 +118,9 @@ const Projects = () => (
           </a>
         </div>
       </div>
+
+      {/* Ecommerce application */}
+
       <div>
         <img src={easyMarket} alt="eCommerce" />
       </div>
@@ -145,6 +151,16 @@ const Projects = () => (
           </a>
         </div>
       </div>
+
+      {/* coming soon */}
+
+      {/* <div>
+        <img src={comingSoon} alt="currently working on it" />
+      </div>
+      <div className="description">
+        <h3>Next Project</h3>
+        <p className="summary">Currently working on it.</p>
+      </div> */}
     </div>
   </StyledComponent>
 );

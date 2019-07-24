@@ -52,6 +52,7 @@ const StyledComponent = styled.div`
       margin-bottom: 2rem;
     }
     .header {
+      padding-top: 1rem;
       font-size: 46px;
       left: 48%;
     }

@@ -23,7 +23,7 @@ const StyledIntro = styled.section`
     color: #fff;
   }
   p {
-    margin-top: 5px;
+    padding: 0.5rem;
     font-size: 16px;
   }
   img {
@@ -33,6 +33,29 @@ const StyledIntro = styled.section`
   }
   h1 {
     font-size: 36px;
+  }
+
+  /* for medium size screens */
+
+  @media (min-width: 478px) {
+    h1 {
+      font-size: 56px;
+    }
+    p {
+      padding-top: 1rem;
+      font-size: 26px;
+    }
+  }
+
+  /* for large size screens */
+
+  @media (min-width: 976px) {
+    h1 {
+      font-size: 76px;
+    }
+    p {
+      font-size: 30px;
+    }
   }
 `;
 

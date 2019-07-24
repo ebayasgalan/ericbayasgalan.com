@@ -59,6 +59,9 @@ const StyledAbout = styled.section`
         height: 220px;
       }
     }
+    h2 {
+      font-size: 30px;
+    }
   }
 
   /* for large size screens */
@@ -66,7 +69,7 @@ const StyledAbout = styled.section`
   @media (min-width: 976px) {
     .picture {
       img {
-        height: 320px;
+        height: 340px;
       }
     }
     .description {
@@ -78,8 +81,11 @@ const StyledAbout = styled.section`
     .skills {
       padding-top: 2rem;
       img {
-        height: 280px;
+        height: 300px;
       }
+    }
+    h2 {
+      font-size: 36px;
     }
   }
 `;
