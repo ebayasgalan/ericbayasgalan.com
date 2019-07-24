@@ -51,7 +51,7 @@ const StyledComponent = styled.div`
       width: 380px;
     }
     .description {
-      font-size: 24px;
+      font-size: 22px;
     }
     button {
       width: 9rem;
@@ -71,10 +71,10 @@ const StyledComponent = styled.div`
       padding-top: 2rem;
     }
     img {
-      width: 420px;
+      width: 400px;
     }
     .description {
-      font-size: 28px;
+      font-size: 24px;
       h3 {
         padding-top: 2rem;
       }
@@ -101,11 +101,11 @@ const Projects = () => (
       <div className="description">
         <h3>Ocean Beach Hotel</h3>
         <p className="summary">
-          A hotel web application that allows the user to make a reservation
-          after signing in.
+          Hotel application that allows a user to make reservations after
+          signing in.
         </p>
         <p className="builtWith">
-          Built with: Javascript | Next.js | Graphql-Yoga | Prisma | Apollo{" "}
+          Built with: Javascript | Next.js | Graphql-Yoga | Prisma | Apollo
         </p>
         <div className="buttons">
           <a
@@ -139,8 +139,9 @@ const Projects = () => (
       <div className="description">
         <h3>Easy Market</h3>
         <p className="summary">
-          Ecommerce web application that allows the user to post or view items
-          for sale.
+          Ecommerce application designed to allow users to post or view items
+          for sale. After signing in, the user can place an order and use credit
+          card.
         </p>
         <p className="builtWith">
           Built with: Javascript | Next.js | Apollo | Graphql-Yoga | Prisma |

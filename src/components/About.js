@@ -37,7 +37,7 @@ const StyledAbout = styled.section`
   @media (min-width: 478px) {
     .picture {
       img {
-        height: 300px;
+        height: 260px;
       }
     }
     .description {
@@ -60,7 +60,7 @@ const StyledAbout = styled.section`
   @media (min-width: 976px) {
     .picture {
       img {
-        height: 340px;
+        height: 300px;
       }
     }
     .description {
