@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-scroll";
 import styled from "styled-components";
 import deskTop from "../images/contactPage.jpg";
 
@@ -11,24 +10,6 @@ const StyledComponent = styled.div`
       color: black;
       font-size: 13px;
     }
-  }
-  /* .info {
-    position: absolute;
-    height: 100%;
-    text-align: center;
-    width: 100%;
-  }
-  .info:before {
-    content: "";
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-  } */
-  .scrollTop {
-    display: none;
-    /* position: absolute;
-    top: 15rem;
-    right: 1rem; */
   }
   img {
     display: block;
@@ -51,53 +32,49 @@ const StyledComponent = styled.div`
   .card_items {
     color: black;
     font-size: 17px;
-    /* background: linear-gradient(#becfdc, #1d222b);
-    border: black 1px solid;
-    border-radius: 12px;
-    padding: 2px;
-    width: 13rem;
-    height: 4rem;
-    margin: 1px;
-    font-size: 16px;
-    color: white; */
   }
-  /* @media (min-width: 578px) {
+  @media (min-width: 478px) {
     .cards {
-      top: 3rem;
-      right: 4rem;
-      font-size: 24px;
-      h4,
-      a {
-        font-size: 24px;
-      }
-    }
-    .scrollTop {
-      top: 24rem;
-      right: 1rem;
-      a {
-        font-size: 22px;
-      }
-    }
-  } */
-  /* @media (min-width: 769px) {
-    .cards {
-      flex-direction: row;
       top: 6rem;
-      left: 14rem;
-      font-size: 24px;
-      h4,
+      right: 2rem;
       a {
-        font-size: 24px;
+        font-size: 30px;
+        :hover {
+          color: red;
+        }
       }
     }
-    .scrollTop {
-      top: 26rem;
-      right: 1rem;
-      a {
-        font-size: 24px;
-      }
+    .card_items {
+      font-size: 28px;
+      margin-bottom: 2rem;
     }
-  } */
+    .header {
+      font-size: 38px;
+      left: 48%;
+    }
+  }
+  @media (min-width: 976px) {
+    .card_items {
+      font-size: 36px;
+      margin-bottom: 4rem;
+    }
+    .header {
+      font-size: 52px;
+    }
+    .cards {
+      position: absolute;
+      height: 100%;
+      text-align: center;
+      width: 100%;
+      margin-top: 5rem;
+    }
+    .cards:before {
+      content: "";
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+    }
+  }
 `;
 
 const Contact = () => (
@@ -108,7 +85,10 @@ const Contact = () => (
         <div className="cards">
           <div className="card_items">
             <h4>
-              Email <span>✉️</span>
+              Email{" "}
+              <span role="img" aria-label="envelope">
+                ✉️
+              </span>
             </h4>
             <a href="mailto:eric.bayasgalan@protonmail.com">
               eric.bayasgalan@protonmail.com
@@ -116,24 +96,15 @@ const Contact = () => (
           </div>
           <div className="card_items">
             <h4>
-              Phone <span>📱</span>
+              Phone{" "}
+              <span role="img" aria-label="phone">
+                📱
+              </span>
             </h4>
-            <span className="details">(510)932-9916</span>
+            <p>(510)932-9916</p>
           </div>
         </div>
       </div>
-      <span className="scrollTop">
-        <Link
-          style={{ cursor: "pointer" }}
-          activeClass="active"
-          to="home"
-          spy={true}
-          smooth={true}
-          duration={500}
-        >
-          back to top ⇧
-        </Link>
-      </span>
     </div>
     <img src={deskTop} alt="workSpace" />
   </StyledComponent>

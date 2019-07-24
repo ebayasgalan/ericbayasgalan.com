@@ -8,15 +8,13 @@ const StyledComponent = styled.div`
   .showcase {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 1px;
-    padding: 10px;
     text-align: center;
   }
   img {
-    border-radius: 1.5rem;
-    margin-top: 2rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
     height: auto;
-    width: 260px;
+    width: 220px;
   }
   .buttons {
     text-align: center;
@@ -31,7 +29,7 @@ const StyledComponent = styled.div`
   }
   h1 {
     text-align: center;
-    padding-top: 1.5rem;
+    padding-top: 5rem;
   }
   .description {
     h2 {
@@ -40,7 +38,27 @@ const StyledComponent = styled.div`
     font-size: 16px;
   }
   .builtWith {
-    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+  }
+  @media (min-width: 478px) {
+    img {
+      width: 360px;
+    }
+    .description {
+      font-size: 24px;
+    }
+    button {
+      border-radius: 0.6rem;
+      width: 9rem;
+      height: 3rem;
+      margin-right: 1rem;
+      font-size: 20px;
+    }
+  }
+  @media (min-width: 976px) {
+    .showcase {
+      grid-template-columns: 1fr 1fr;
+    }
   }
 `;
 
@@ -54,18 +72,26 @@ const Projects = () => (
       </div>
       <div className="description">
         <h2>Ocean Beach Hotel</h2>
-        <p className="builtWith">
-          Built with: Javascript | Next.js | Graphql-Yoga | Prisma | Apollo{" "}
-        </p>
         <p className="summary">
           A hotel web application that allows the user to make a reservation
           after signing in.
         </p>
+        <p className="builtWith">
+          Built with: Javascript | Next.js | Graphql-Yoga | Prisma | Apollo{" "}
+        </p>
         <div className="buttons">
-          <a href="https://hotel-next-prod.herokuapp.com/">
+          <a
+            href="https://hotel-next-prod.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button>See the Demo</button>
           </a>
-          <a href="https://github.com/ebayasgalan/Ocean-Beach-Hotel">
+          <a
+            href="https://github.com/ebayasgalan/Ocean-Beach-Hotel"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button>See the Code</button>
           </a>
         </div>
@@ -75,19 +101,27 @@ const Projects = () => (
       </div>
       <div className="description">
         <h2>Easy Market</h2>
-        <p className="builtWith">
-          Built with: Javascript | Next.js | Apollo | Graphql-Yoga | Prisma |
-          Stripe API | Cloudinary API
-        </p>
         <p className="summary">
           Ecommerce web application that allows the user to post or view items
           for sale.
         </p>
+        <p className="builtWith">
+          Built with: Javascript | Next.js | Apollo | Graphql-Yoga | Prisma |
+          Stripe API | Cloudinary API
+        </p>
         <div className="buttons">
-          <a href="https://easy-market-next-prod.herokuapp.com">
+          <a
+            href="https://easy-market-next-prod.herokuapp.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button>See the Demo</button>
           </a>
-          <a href="https://github.com/ebayasgalan/easy-market">
+          <a
+            href="https://github.com/ebayasgalan/easy-market"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button>See the Code</button>
           </a>
         </div>

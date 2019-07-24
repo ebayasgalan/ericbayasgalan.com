@@ -20,27 +20,64 @@ const FooterLinks = [
 const FooterWrapper = styled.footer`
   position: relative;
   width: 100%;
-  height: auto;
   text-align: center;
   background-color: black;
+  height: 3.3rem;
+  padding-top: 0.4rem;
+  p {
+    color: white;
+    font-size: 12px;
+  }
+  a {
+    font-size: 0.7rem;
+    padding-top: 0.8rem;
+    margin: 0.5rem;
+    border-radius: 50%;
+    background-color: gray;
+    img {
+      width: 50px;
+      height: 20px;
+    }
+    :hover {
+      background-color: white;
+    }
+  }
+  @media (min-width: 478px) {
+    height: 6rem;
+    padding: 1rem;
+    p {
+      font-size: 16px;
+    }
+    a {
+      font-size: 2rem;
+      img {
+        width: 60px;
+        height: 36px;
+      }
+    }
+  }
+  @media (min-width: 976px) {
+    height: 9rem;
+    padding: 2rem;
+    p {
+      padding-top: 1rem;
+      font-size: 18px;
+    }
+    a {
+      font-size: 2.5rem;
+      img {
+        width: 70px;
+        height: 40px;
+      }
+    }
+  }
 `;
 
 const SocialLinks = styled.ul`
   list-style: none;
-  margin: 0;
-  padding: 5px;
+  padding: 2px;
   display: flex;
   justify-content: center;
-`;
-
-const SocialLink = styled.a`
-  font-size: 38px;
-  margin: 0.5rem;
-  border-radius: 50%;
-  background-color: gray;
-  :hover {
-    background-color: white;
-  }
 `;
 
 const Footer = () => (
@@ -48,12 +85,13 @@ const Footer = () => (
     <SocialLinks>
       {FooterLinks.map(link => (
         <li key={link.name}>
-          <SocialLink href={link.link} target="_blank" rel="nofollow">
-            <img src={link.img} height="25px" width="50px" />
-          </SocialLink>
+          <a href={link.link} target="_blank" rel="noopener noreferrer">
+            <img src={link.img} alt="" />
+          </a>
         </li>
       ))}
     </SocialLinks>
+    <p>copyright © 2019</p>
   </FooterWrapper>
 );
 
