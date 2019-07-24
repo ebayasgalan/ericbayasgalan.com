@@ -92,7 +92,7 @@ const About = () => {
           playing basketball, and spending time with family and friends.
         </p>
         <div className="skills">
-          <h2>Skills to Pay the Bills</h2>
+          <h2>Skills</h2>
           <img src={webTechs} alt="" height="200px" width="100%" />
         </div>
       </div>
