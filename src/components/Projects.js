@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import oceanBeach from "../images/hotel.png";
 import easyMarket from "../images/eCommerce.png";
-import comingSoon from "../images/comingSoon.jpg";
 
 const StyledComponent = styled.div`
   background: linear-gradient(#becfdc, #545c6b);
@@ -17,10 +16,13 @@ const StyledComponent = styled.div`
     height: auto;
     width: 220px;
     padding: 0.5rem;
+    :hover {
+      cursor: pointer;
+    }
   }
   .buttons {
     text-align: center;
-    margin: 10px;
+    padding: 1rem;
   }
   button {
     background: #becfdc;
@@ -28,6 +30,9 @@ const StyledComponent = styled.div`
     width: 6rem;
     height: 2.5rem;
     margin-right: 20px;
+    :hover {
+      cursor: pointer;
+    }
   }
   h1 {
     text-align: center;
@@ -164,16 +169,6 @@ const Projects = () => (
           </a>
         </div>
       </div>
-
-      {/* coming soon */}
-
-      {/* <div>
-        <img src={comingSoon} alt="currently working on it" />
-      </div>
-      <div className="description">
-        <h3>Next Project</h3>
-        <p className="summary">Currently working on it.</p>
-      </div> */}
     </div>
   </StyledComponent>
 );
