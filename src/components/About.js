@@ -23,7 +23,7 @@ const StyledAbout = styled.section`
     }
   }
   .description {
-    padding: 1rem;
+    padding: 0.5rem;
     text-align: center;
     line-height: 1.5rem;
     font-size: 20px;

@@ -45,7 +45,6 @@ const StyledComponent = styled.div`
 
   @media (min-width: 478px) {
     h1 {
-      padding: 3rem 0;
       font-size: 46px;
     }
     img {
@@ -69,6 +68,7 @@ const StyledComponent = styled.div`
     }
     h1 {
       font-size: 56px;
+      padding-top: 2rem;
     }
     img {
       width: 450px;
