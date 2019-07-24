@@ -66,7 +66,7 @@ const Home = () => {
         <div className="text-box">
           <div className="intro">
             <h1 className="name">ERIC BAYASGALAN</h1>
-            <p>Full Stack Software Engineer</p>
+            <p>Web Developer</p>
           </div>
         </div>
         <img src={homePage} alt="desk" />

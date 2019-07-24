@@ -53,7 +53,7 @@ const StyledComponent = styled.div`
     }
     .header {
       padding-top: 1rem;
-      font-size: 46px;
+      font-size: 40px;
       left: 46%;
     }
   }
@@ -66,7 +66,7 @@ const StyledComponent = styled.div`
       margin-bottom: 4rem;
     }
     .header {
-      font-size: 56px;
+      font-size: 50px;
     }
     .cards {
       position: absolute;

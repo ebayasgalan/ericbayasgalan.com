@@ -16,7 +16,7 @@ const StyledComponent = styled.div`
     margin-top: 1rem;
     height: auto;
     width: 220px;
-    padding: 1rem;
+    padding: 0.5rem;
   }
   .buttons {
     text-align: center;
@@ -45,10 +45,10 @@ const StyledComponent = styled.div`
 
   @media (min-width: 478px) {
     h1 {
-      font-size: 46px;
+      font-size: 40px;
     }
     img {
-      width: 400px;
+      width: 380px;
     }
     .description {
       font-size: 24px;
@@ -67,11 +67,11 @@ const StyledComponent = styled.div`
       grid-template-columns: 1fr 1fr;
     }
     h1 {
-      font-size: 56px;
+      font-size: 50px;
       padding-top: 2rem;
     }
     img {
-      width: 450px;
+      width: 420px;
     }
     .description {
       font-size: 28px;
@@ -90,7 +90,13 @@ const Projects = () => (
       {/* Hotel application */}
 
       <div>
-        <img src={oceanBeach} alt="hotel" />
+        <a
+          href="https://hotel-next-prod.herokuapp.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={oceanBeach} alt="hotel" />
+        </a>
       </div>
       <div className="description">
         <h3>Ocean Beach Hotel</h3>
@@ -122,7 +128,13 @@ const Projects = () => (
       {/* Ecommerce application */}
 
       <div>
-        <img src={easyMarket} alt="eCommerce" />
+        <a
+          href="https://easy-market-next-prod.herokuapp.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={easyMarket} alt="eCommerce" />
+        </a>
       </div>
       <div className="description">
         <h3>Easy Market</h3>

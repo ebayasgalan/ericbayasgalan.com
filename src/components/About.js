@@ -86,8 +86,8 @@ const About = () => {
           <img src={proPic} alt="atLibrary" />
         </div>
         <p className="description">
-          Hi, I am a full stack developer and I love creating web apps. I have
-          passion for learning new technologies and building great user
+          Hi, I am a software engineer and I love creating web apps. I have
+          passion for learning new technologies and building awesome user
           experience applications. Aside from coding, I enjoy being outdoors,
           playing basketball, and spending time with family and friends.
         </p>

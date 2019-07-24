@@ -78,7 +78,7 @@ const Footer = () => (
         </li>
       ))}
     </SocialLinks>
-    <p>copyright © 2019</p>
+    <p>© Eric Bayasgalan 2019</p>
   </FooterWrapper>
 );
 

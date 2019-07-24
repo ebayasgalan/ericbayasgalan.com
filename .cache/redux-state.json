@@ -1059,12 +1059,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-07-24T20:04:03.112Z",
+      "buildTime": "2019-07-24T20:23:11.874Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "016412e789050b86c7314bbd1229bb9b",
+        "contentDigest": "d226e9c7ce9be46c484ee6ef2db3a118",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1074,7 +1074,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "65251142ecc951d1b87a4677aa8b3a61",
+        "contentDigest": "70dbc1b35fb9012b1146d6c9116431db",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1085,9 +1085,9 @@
       "extension": "",
       "size": 416,
       "prettySize": "416 B",
-      "modifiedTime": "2019-07-24T19:38:16.667Z",
-      "accessTime": "2019-07-24T20:04:07.330Z",
-      "changeTime": "2019-07-24T19:38:16.667Z",
+      "modifiedTime": "2019-07-24T20:16:25.806Z",
+      "accessTime": "2019-07-24T20:23:16.555Z",
+      "changeTime": "2019-07-24T20:16:25.806Z",
       "birthTime": "2019-03-14T06:03:20.741Z",
       "root": "/",
       "dir": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src",
@@ -1104,13 +1104,13 @@
       "blksize": 4096,
       "ino": 8608428097,
       "blocks": 0,
-      "atimeMs": 1563998647329.9624,
-      "mtimeMs": 1563997096667.3142,
-      "ctimeMs": 1563997096667.3142,
+      "atimeMs": 1563999796554.627,
+      "mtimeMs": 1563999385806.389,
+      "ctimeMs": 1563999385806.389,
       "birthtimeMs": 1552543400740.9758,
-      "atime": "2019-07-24T20:04:07.330Z",
-      "mtime": "2019-07-24T19:38:16.667Z",
-      "ctime": "2019-07-24T19:38:16.667Z",
+      "atime": "2019-07-24T20:23:16.555Z",
+      "mtime": "2019-07-24T20:16:25.806Z",
+      "ctime": "2019-07-24T20:16:25.806Z",
       "birthtime": "2019-03-14T06:03:20.741Z"
     },
     "7d5c9187-73c1-5ddc-ad20-6d563be2f736": {
