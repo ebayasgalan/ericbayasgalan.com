@@ -10,7 +10,7 @@ const StyledAbout = styled.section`
   }
   .picture {
     text-align: center;
-    margin: 0.5rem;
+    padding-top: 2rem;
     img {
       border-radius: 50%;
       height: 220px;
@@ -28,11 +28,6 @@ const StyledAbout = styled.section`
     line-height: 1.5rem;
     font-size: 20px;
   }
-  h1 {
-    padding-top: 1.5rem;
-    text-align: center;
-    font-size: 34px;
-  }
   h2 {
     text-align: center;
   }
@@ -48,10 +43,6 @@ const StyledAbout = styled.section`
     .description {
       font-size: 24px;
       line-height: 2.5rem;
-    }
-    h1 {
-      padding-top: 2rem;
-      font-size: 46px;
     }
     .skills {
       padding-top: 1rem;
@@ -75,9 +66,6 @@ const StyledAbout = styled.section`
     .description {
       font-size: 28px;
     }
-    h1 {
-      font-size: 56px;
-    }
     .skills {
       padding-top: 2rem;
       img {
@@ -94,7 +82,6 @@ const About = () => {
   return (
     <StyledAbout>
       <div className="about">
-        <h1>About me</h1>
         <div className="picture">
           <img src={proPic} alt="atLibrary" />
         </div>
@@ -105,7 +92,7 @@ const About = () => {
           playing basketball, and spending time with family and friends.
         </p>
         <div className="skills">
-          <h2>Skills</h2>
+          <h2>Skills to Pay the Bills</h2>
           <img src={webTechs} alt="" height="200px" width="100%" />
         </div>
       </div>

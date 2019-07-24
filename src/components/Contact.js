@@ -54,7 +54,7 @@ const StyledComponent = styled.div`
     .header {
       padding-top: 1rem;
       font-size: 46px;
-      left: 48%;
+      left: 46%;
     }
   }
 
