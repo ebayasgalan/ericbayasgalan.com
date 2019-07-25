@@ -20,7 +20,7 @@ const StyledComponent = styled.div`
   }
   .header {
     color: white;
-    font-size: 34px;
+    font-size: 30px;
     position: absolute;
     left: 9.5rem;
   }

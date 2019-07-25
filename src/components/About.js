@@ -86,10 +86,10 @@ const About = () => {
           <img src={proPic} alt="atLibrary" />
         </div>
         <p className="description">
-          Hi, I am a software engineer and I love creating web apps. I have
-          passion for learning new technologies and building awesome user
-          experience applications. Aside from coding, I enjoy being outdoors,
-          playing basketball, and spending time with family and friends.
+          Hi, I am a software engineer and I love creating web apps. I'm
+          passionate about learning new technologies and building websites.
+          Aside from coding, I enjoy being outdoors, playing basketball, and
+          spending time with family and friends.
         </p>
         <div className="skills">
           <h2>Skills</h2>

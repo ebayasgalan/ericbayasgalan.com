@@ -43,7 +43,7 @@ const StyledIntro = styled.section`
     }
     p {
       padding-top: 1rem;
-      font-size: 26px;
+      font-size: 32px;
     }
   }
 
@@ -54,7 +54,7 @@ const StyledIntro = styled.section`
       font-size: 76px;
     }
     p {
-      font-size: 30px;
+      font-size: 42px;
     }
   }
 `;
