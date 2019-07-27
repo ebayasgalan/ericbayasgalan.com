@@ -1059,12 +1059,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-07-25T03:51:47.549Z",
+      "buildTime": "2019-07-27T03:45:19.917Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "7b8a871b9171a9b8b181248e70751679",
+        "contentDigest": "c99f91859d79d1cedf2c39752c4f7a7d",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1074,7 +1074,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "c5102aebc43a99c8f45cf387c7123802",
+        "contentDigest": "061f16ba3d86a3803927b464ee2506fe",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1086,7 +1086,7 @@
       "size": 416,
       "prettySize": "416 B",
       "modifiedTime": "2019-07-24T20:16:25.806Z",
-      "accessTime": "2019-07-25T03:51:51.835Z",
+      "accessTime": "2019-07-27T03:45:29.313Z",
       "changeTime": "2019-07-24T20:16:25.806Z",
       "birthTime": "2019-03-14T06:03:20.741Z",
       "root": "/",
@@ -1095,7 +1095,7 @@
       "ext": "",
       "name": "images",
       "relativeDirectory": "..",
-      "dev": 16777222,
+      "dev": 16777220,
       "mode": 16877,
       "nlink": 13,
       "uid": 501,
@@ -1104,11 +1104,11 @@
       "blksize": 4096,
       "ino": 8608428097,
       "blocks": 0,
-      "atimeMs": 1564026711834.7783,
+      "atimeMs": 1564199129312.5623,
       "mtimeMs": 1563999385806.389,
       "ctimeMs": 1563999385806.389,
       "birthtimeMs": 1552543400740.9758,
-      "atime": "2019-07-25T03:51:51.835Z",
+      "atime": "2019-07-27T03:45:29.313Z",
       "mtime": "2019-07-24T20:16:25.806Z",
       "ctime": "2019-07-24T20:16:25.806Z",
       "birthtime": "2019-03-14T06:03:20.741Z"
@@ -1398,53 +1398,6 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
-    "333e1714-6207-5587-9a52-8fcdc821a67a": {
-      "id": "333e1714-6207-5587-9a52-8fcdc821a67a",
-      "children": [
-        "2e0eb581-afe9-5ac8-a198-e9a225ab38fd"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "93e925026ebca979bb49f6c7e6934d7b",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/images/contactPage.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/images/contactPage.jpg",
-      "relativePath": "contactPage.jpg",
-      "extension": "jpg",
-      "size": 5137181,
-      "prettySize": "5.14 MB",
-      "modifiedTime": "2019-07-04T00:01:47.217Z",
-      "accessTime": "2019-07-04T00:01:47.470Z",
-      "changeTime": "2019-07-04T00:01:47.220Z",
-      "birthTime": "2019-07-04T00:01:47.197Z",
-      "root": "/",
-      "dir": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/images",
-      "base": "contactPage.jpg",
-      "ext": ".jpg",
-      "name": "contactPage",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 8610890053,
-      "blocks": 10040,
-      "atimeMs": 1562198507470.4043,
-      "mtimeMs": 1562198507216.6445,
-      "ctimeMs": 1562198507219.7834,
-      "birthtimeMs": 1562198507197.2231,
-      "atime": "2019-07-04T00:01:47.470Z",
-      "mtime": "2019-07-04T00:01:47.217Z",
-      "ctime": "2019-07-04T00:01:47.220Z",
-      "birthtime": "2019-07-04T00:01:47.197Z"
-    },
     "54ab9d3d-cd23-5dcb-8057-6b4b3accc473": {
       "id": "54ab9d3d-cd23-5dcb-8057-6b4b3accc473",
       "children": [],
@@ -1489,16 +1442,6 @@
       "mtime": "2019-07-24T20:16:25.809Z",
       "ctime": "2019-07-24T20:16:25.811Z",
       "birthtime": "2019-07-24T20:16:25.806Z"
-    },
-    "2e0eb581-afe9-5ac8-a198-e9a225ab38fd": {
-      "id": "2e0eb581-afe9-5ac8-a198-e9a225ab38fd",
-      "children": [],
-      "parent": "333e1714-6207-5587-9a52-8fcdc821a67a",
-      "internal": {
-        "contentDigest": "93e925026ebca979bb49f6c7e6934d7b",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     },
     "27b94b21-e086-50c6-97ce-4c084e69610f": {
       "id": "27b94b21-e086-50c6-97ce-4c084e69610f",
@@ -1705,6 +1648,63 @@
         "contentDigest": "a961ac5bba4db8057f9986d105ea369d",
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
+      }
+    },
+    "333e1714-6207-5587-9a52-8fcdc821a67a": {
+      "id": "333e1714-6207-5587-9a52-8fcdc821a67a",
+      "children": [
+        "2e0eb581-afe9-5ac8-a198-e9a225ab38fd"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "7dacd5c68d895e9787188da6fba5d18b",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/contactPage.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/images/contactPage.jpg",
+      "relativePath": "contactPage.jpg",
+      "extension": "jpg",
+      "size": 3922484,
+      "prettySize": "3.92 MB",
+      "modifiedTime": "2019-07-27T03:47:46.309Z",
+      "accessTime": "2019-07-27T03:47:46.427Z",
+      "changeTime": "2019-07-27T03:47:46.311Z",
+      "birthTime": "2019-07-27T03:46:01.280Z",
+      "root": "/",
+      "dir": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/images",
+      "base": "contactPage.jpg",
+      "ext": ".jpg",
+      "name": "contactPage",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8611952531,
+      "blocks": 7664,
+      "atimeMs": 1564199266427.2366,
+      "mtimeMs": 1564199266309,
+      "ctimeMs": 1564199266310.6948,
+      "birthtimeMs": 1564199161279.96,
+      "atime": "2019-07-27T03:47:46.427Z",
+      "mtime": "2019-07-27T03:47:46.309Z",
+      "ctime": "2019-07-27T03:47:46.311Z",
+      "birthtime": "2019-07-27T03:46:01.280Z"
+    },
+    "2e0eb581-afe9-5ac8-a198-e9a225ab38fd": {
+      "id": "2e0eb581-afe9-5ac8-a198-e9a225ab38fd",
+      "children": [],
+      "parent": "333e1714-6207-5587-9a52-8fcdc821a67a",
+      "internal": {
+        "contentDigest": "7dacd5c68d895e9787188da6fba5d18b",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
       }
     }
   },
