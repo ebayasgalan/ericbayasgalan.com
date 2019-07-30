@@ -1059,12 +1059,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-07-27T03:45:19.917Z",
+      "buildTime": "2019-07-30T02:27:57.172Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "c99f91859d79d1cedf2c39752c4f7a7d",
+        "contentDigest": "831d3457dd56ac8d5c3f05af50e30c75",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1074,7 +1074,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "061f16ba3d86a3803927b464ee2506fe",
+        "contentDigest": "015a73f2ba0e3e4bcd3c3531768d8129",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1085,9 +1085,9 @@
       "extension": "",
       "size": 416,
       "prettySize": "416 B",
-      "modifiedTime": "2019-07-24T20:16:25.806Z",
-      "accessTime": "2019-07-27T03:45:29.313Z",
-      "changeTime": "2019-07-24T20:16:25.806Z",
+      "modifiedTime": "2019-07-27T03:47:46.308Z",
+      "accessTime": "2019-07-30T02:28:02.241Z",
+      "changeTime": "2019-07-27T03:47:46.308Z",
       "birthTime": "2019-03-14T06:03:20.741Z",
       "root": "/",
       "dir": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src",
@@ -1104,13 +1104,13 @@
       "blksize": 4096,
       "ino": 8608428097,
       "blocks": 0,
-      "atimeMs": 1564199129312.5623,
-      "mtimeMs": 1563999385806.389,
-      "ctimeMs": 1563999385806.389,
+      "atimeMs": 1564453682241.1128,
+      "mtimeMs": 1564199266307.5486,
+      "ctimeMs": 1564199266307.5486,
       "birthtimeMs": 1552543400740.9758,
-      "atime": "2019-07-27T03:45:29.313Z",
-      "mtime": "2019-07-24T20:16:25.806Z",
-      "ctime": "2019-07-24T20:16:25.806Z",
+      "atime": "2019-07-30T02:28:02.241Z",
+      "mtime": "2019-07-27T03:47:46.308Z",
+      "ctime": "2019-07-27T03:47:46.308Z",
       "birthtime": "2019-03-14T06:03:20.741Z"
     },
     "7d5c9187-73c1-5ddc-ad20-6d563be2f736": {
@@ -1590,6 +1590,63 @@
       "ctime": "2019-07-24T19:38:16.669Z",
       "birthtime": "2019-07-24T19:29:49.032Z"
     },
+    "333e1714-6207-5587-9a52-8fcdc821a67a": {
+      "id": "333e1714-6207-5587-9a52-8fcdc821a67a",
+      "children": [
+        "2e0eb581-afe9-5ac8-a198-e9a225ab38fd"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "7dacd5c68d895e9787188da6fba5d18b",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/contactPage.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/images/contactPage.jpg",
+      "relativePath": "contactPage.jpg",
+      "extension": "jpg",
+      "size": 3922484,
+      "prettySize": "3.92 MB",
+      "modifiedTime": "2019-07-27T03:47:46.309Z",
+      "accessTime": "2019-07-27T03:47:46.427Z",
+      "changeTime": "2019-07-27T03:47:46.311Z",
+      "birthTime": "2019-07-27T03:46:01.280Z",
+      "root": "/",
+      "dir": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/images",
+      "base": "contactPage.jpg",
+      "ext": ".jpg",
+      "name": "contactPage",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8611952531,
+      "blocks": 7664,
+      "atimeMs": 1564199266427.2366,
+      "mtimeMs": 1564199266309,
+      "ctimeMs": 1564199266310.6948,
+      "birthtimeMs": 1564199161279.96,
+      "atime": "2019-07-27T03:47:46.427Z",
+      "mtime": "2019-07-27T03:47:46.309Z",
+      "ctime": "2019-07-27T03:47:46.311Z",
+      "birthtime": "2019-07-27T03:46:01.280Z"
+    },
+    "2e0eb581-afe9-5ac8-a198-e9a225ab38fd": {
+      "id": "2e0eb581-afe9-5ac8-a198-e9a225ab38fd",
+      "children": [],
+      "parent": "333e1714-6207-5587-9a52-8fcdc821a67a",
+      "internal": {
+        "contentDigest": "7dacd5c68d895e9787188da6fba5d18b",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
     "SitePage /404/": {
       "jsonName": "404-22d",
       "internalComponentName": "Component404",
@@ -1648,63 +1705,6 @@
         "contentDigest": "a961ac5bba4db8057f9986d105ea369d",
         "description": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
         "owner": "internal-data-bridge"
-      }
-    },
-    "333e1714-6207-5587-9a52-8fcdc821a67a": {
-      "id": "333e1714-6207-5587-9a52-8fcdc821a67a",
-      "children": [
-        "2e0eb581-afe9-5ac8-a198-e9a225ab38fd"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "7dacd5c68d895e9787188da6fba5d18b",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/images/contactPage.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/images/contactPage.jpg",
-      "relativePath": "contactPage.jpg",
-      "extension": "jpg",
-      "size": 3922484,
-      "prettySize": "3.92 MB",
-      "modifiedTime": "2019-07-27T03:47:46.309Z",
-      "accessTime": "2019-07-27T03:47:46.427Z",
-      "changeTime": "2019-07-27T03:47:46.311Z",
-      "birthTime": "2019-07-27T03:46:01.280Z",
-      "root": "/",
-      "dir": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/images",
-      "base": "contactPage.jpg",
-      "ext": ".jpg",
-      "name": "contactPage",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 8611952531,
-      "blocks": 7664,
-      "atimeMs": 1564199266427.2366,
-      "mtimeMs": 1564199266309,
-      "ctimeMs": 1564199266310.6948,
-      "birthtimeMs": 1564199161279.96,
-      "atime": "2019-07-27T03:47:46.427Z",
-      "mtime": "2019-07-27T03:47:46.309Z",
-      "ctime": "2019-07-27T03:47:46.311Z",
-      "birthtime": "2019-07-27T03:46:01.280Z"
-    },
-    "2e0eb581-afe9-5ac8-a198-e9a225ab38fd": {
-      "id": "2e0eb581-afe9-5ac8-a198-e9a225ab38fd",
-      "children": [],
-      "parent": "333e1714-6207-5587-9a52-8fcdc821a67a",
-      "internal": {
-        "contentDigest": "7dacd5c68d895e9787188da6fba5d18b",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
       }
     }
   },

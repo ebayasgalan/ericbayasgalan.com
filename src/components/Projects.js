@@ -32,6 +32,7 @@ const StyledComponent = styled.div`
     margin-right: 20px;
     :hover {
       cursor: pointer;
+      color: white;
     }
   }
   h1 {
