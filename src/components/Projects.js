@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import oceanBeach from "../images/hotel.png";
 import easyMarket from "../images/eCommerce.png";
+import comingSoon from "../images/comingSoon.jpg";
 
 const StyledComponent = styled.div`
   background: linear-gradient(#becfdc, #545c6b);
@@ -101,7 +102,7 @@ const Projects = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={oceanBeach} alt="hotel" />
+          <img src={comingSoon} alt="hotel" />
         </a>
       </div>
       <div className="description">
