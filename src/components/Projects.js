@@ -102,7 +102,7 @@ const Projects = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={comingSoon} alt="hotel" />
+          <img src={oceanBeach} alt="hotel" />
         </a>
       </div>
       <div className="description">
