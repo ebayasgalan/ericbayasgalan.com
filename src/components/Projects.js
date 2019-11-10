@@ -3,6 +3,7 @@ import styled from "styled-components";
 import oceanBeach from "../images/hotel.png";
 import easyMarket from "../images/eCommerce.png";
 import comingSoon from "../images/comingSoon.jpg";
+import { CSSTransitionGroup } from "react-transition-group";
 
 const StyledComponent = styled.div`
   background: linear-gradient(#becfdc, #545c6b);
@@ -47,6 +48,33 @@ const StyledComponent = styled.div`
   .builtWith {
     margin-top: 1rem;
   }
+  /* @-webkit-keyframes fadeOutLeft {
+    from {
+      opacity: 1;
+    }
+
+    to {
+      opacity: 0;
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+    }
+  }
+
+  @keyframes fadeOutLeft {
+    from {
+      opacity: 1;
+    }
+
+    to {
+      opacity: 0;
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+    }
+  }
+  .fadeOutLeft {
+    -webkit-animation-name: fadeOutLeft;
+    animation-name: fadeOutLeft;
+  } */
 
   /* for medium size screens */
 
