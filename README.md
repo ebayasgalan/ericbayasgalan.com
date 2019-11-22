@@ -1,3 +1,3 @@
-portfolio website
+My portfolio website
 
-visit https://www.ericbayasgalan.com
+check it out at https://www.ericbayasgalan.com

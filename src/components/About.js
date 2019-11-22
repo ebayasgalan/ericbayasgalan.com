@@ -1,7 +1,7 @@
-import React from "react";
-import styled from "styled-components";
-import proPic from "../images/proPic.jpeg";
-import webTechs from "../images/webTechs.svg";
+import React from 'react';
+import styled from 'styled-components';
+import proPic from '../images/proPic.jpeg';
+import webTechs from '../images/webTechs.svg';
 
 const StyledAbout = styled.section`
   .about {
@@ -81,19 +81,19 @@ const StyledAbout = styled.section`
 const About = () => {
   return (
     <StyledAbout>
-      <div className="about">
-        <div className="picture">
-          <img src={proPic} alt="atLibrary" />
+      <div className='about'>
+        <div className='picture'>
+          <img src={proPic} alt='atLibrary' />
         </div>
-        <p className="description">
-          Hi, I am a software engineer and I love creating web apps. I'm
-          passionate about learning new technologies and building websites.
-          Aside from coding, I enjoy being outdoors, playing basketball, and
-          spending time with family and friends.
+        <p className='description'>
+          Hi, I am a web developer and I love creating web apps. I'm passionate
+          about learning new technologies and building websites. Aside from
+          coding, I enjoy being outdoors, playing basketball, and spending time
+          with family and friends.
         </p>
-        <div className="skills">
+        <div className='skills'>
           <h2>Skills</h2>
-          <img src={webTechs} alt="" height="200px" width="100%" />
+          <img src={webTechs} alt='' height='200px' width='100%' />
         </div>
       </div>
     </StyledAbout>

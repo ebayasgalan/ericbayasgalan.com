@@ -1,9 +1,9 @@
-import React from "react";
-import styled from "styled-components";
-import oceanBeach from "../images/hotel.png";
-import easyMarket from "../images/eCommerce.png";
-import comingSoon from "../images/comingSoon.jpg";
-import { CSSTransitionGroup } from "react-transition-group";
+import React from 'react';
+import styled from 'styled-components';
+import oceanBeach from '../images/hotel.png';
+import easyMarket from '../images/eCommerce.png';
+import comingSoon from '../images/comingSoon.jpg';
+import { CSSTransitionGroup } from 'react-transition-group';
 
 const StyledComponent = styled.div`
   background: linear-gradient(#becfdc, #545c6b);
@@ -119,41 +119,41 @@ const StyledComponent = styled.div`
 
 const Projects = () => (
   <StyledComponent>
-    <div className="projects" />
+    <div className='projects' />
     <h1>Projects</h1>
-    <div className="showcase">
+    <div className='showcase'>
       {/* Hotel application */}
 
       <div>
         <a
-          href="https://hotel-next-prod.herokuapp.com/"
-          target="_blank"
-          rel="noopener noreferrer"
+          href='https://hotel-next-prod.herokuapp.com/'
+          target='_blank'
+          rel='noopener noreferrer'
         >
-          <img src={oceanBeach} alt="hotel" />
+          <img src={oceanBeach} alt='hotel' />
         </a>
       </div>
-      <div className="description">
+      <div className='description'>
         <h3>Ocean Beach Hotel</h3>
-        <p className="summary">
+        <p className='summary'>
           Hotel application that allows a user to make reservations after
           signing in.
         </p>
-        <p className="builtWith">
+        <p className='builtWith'>
           Built with: Javascript | Next.js | Graphql-Yoga | Prisma | Apollo
         </p>
-        <div className="buttons">
+        <div className='buttons'>
           <a
-            href="https://hotel-next-prod.herokuapp.com/"
-            target="_blank"
-            rel="noopener noreferrer"
+            href='https://hotel-next-prod.herokuapp.com/'
+            target='_blank'
+            rel='noopener noreferrer'
           >
             <button>See the Demo</button>
           </a>
           <a
-            href="https://github.com/ebayasgalan/Ocean-Beach-Hotel"
-            target="_blank"
-            rel="noopener noreferrer"
+            href='https://github.com/ebayasgalan/Ocean-Beach-Hotel'
+            target='_blank'
+            rel='noopener noreferrer'
           >
             <button>See the Code</button>
           </a>
@@ -164,36 +164,35 @@ const Projects = () => (
 
       <div>
         <a
-          href="https://easy-market-next-prod.herokuapp.com"
-          target="_blank"
-          rel="noopener noreferrer"
+          href='https://easy-market-next-prod.herokuapp.com'
+          target='_blank'
+          rel='noopener noreferrer'
         >
-          <img src={easyMarket} alt="eCommerce" />
+          <img src={easyMarket} alt='eCommerce' />
         </a>
       </div>
-      <div className="description">
+      <div className='description'>
         <h3>Easy Market</h3>
-        <p className="summary">
-          Ecommerce application designed to allow users to post or view items
-          for sale. After signing in, the user can place an order and use credit
-          card.
+        <p className='summary'>
+          Ecommerce application that allows a user to post or view items for
+          sale after signing in.
         </p>
-        <p className="builtWith">
+        <p className='builtWith'>
           Built with: Javascript | Next.js | Apollo | Graphql-Yoga | Prisma |
           Stripe API | Cloudinary API
         </p>
-        <div className="buttons">
+        <div className='buttons'>
           <a
-            href="https://easy-market-next-prod.herokuapp.com"
-            target="_blank"
-            rel="noopener noreferrer"
+            href='https://easy-market-next-prod.herokuapp.com'
+            target='_blank'
+            rel='noopener noreferrer'
           >
             <button>See the Demo</button>
           </a>
           <a
-            href="https://github.com/ebayasgalan/easy-market"
-            target="_blank"
-            rel="noopener noreferrer"
+            href='https://github.com/ebayasgalan/easy-market'
+            target='_blank'
+            rel='noopener noreferrer'
           >
             <button>See the Code</button>
           </a>

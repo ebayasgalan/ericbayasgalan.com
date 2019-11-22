@@ -1,6 +1,6 @@
-import React from "react";
-import styled from "styled-components";
-import homePage from "../images/homePage.jpg";
+import React from 'react';
+import styled from 'styled-components';
+import homePage from '../images/homePage.jpg';
 
 const StyledIntro = styled.section`
   .home {
@@ -13,7 +13,7 @@ const StyledIntro = styled.section`
     width: 100%;
   }
   .text-box:before {
-    content: "";
+    content: '';
     display: inline-block;
     height: 100%;
     vertical-align: middle;
@@ -62,14 +62,14 @@ const StyledIntro = styled.section`
 const Home = () => {
   return (
     <StyledIntro>
-      <div className="home">
-        <div className="text-box">
-          <div className="intro">
-            <h1 className="name">ERIC BAYASGALAN</h1>
-            <p>Web Developer</p>
+      <div className='home'>
+        <div className='text-box'>
+          <div className='intro'>
+            <h1 className='name'>ERIC BAYASGALAN</h1>
+            <p>Let's bring ideas to life!</p>
           </div>
         </div>
-        <img src={homePage} alt="desk" />
+        <img src={homePage} alt='desk' />
       </div>
     </StyledIntro>
   );
