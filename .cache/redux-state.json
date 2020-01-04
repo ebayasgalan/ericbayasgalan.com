@@ -744,12 +744,14 @@
       "siteMetadata": {},
       "port": "8000",
       "host": "localhost",
-      "buildTime": "2019-11-22T06:57:30.874Z",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2020-01-04T15:58:37.597Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "dd5bb1dbefb95a25f67af8f27bd2e346",
+        "contentDigest": "e6d24fa29a5747da7f815449c131331e",
         "type": "Site",
         "owner": "internal-data-bridge"
       }

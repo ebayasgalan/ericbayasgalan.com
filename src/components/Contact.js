@@ -1,6 +1,6 @@
-import React from "react";
-import styled from "styled-components";
-import deskTop from "../images/contactPage.jpg";
+import React from 'react';
+import styled from 'styled-components';
+import deskTop from '../images/contactPage.jpg';
 
 const StyledComponent = styled.div`
   .contact {
@@ -16,7 +16,8 @@ const StyledComponent = styled.div`
   }
   img {
     display: block;
-    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
   }
   .header {
     color: white;
@@ -76,7 +77,7 @@ const StyledComponent = styled.div`
       margin-top: 4rem;
     }
     .cards:before {
-      content: "";
+      content: '';
       display: inline-block;
       height: 100%;
       vertical-align: middle;
@@ -86,25 +87,25 @@ const StyledComponent = styled.div`
 
 const Contact = () => (
   <StyledComponent>
-    <div className="contact">
-      <div className="info">
-        <p className="header">Contact Me</p>
-        <div className="cards">
-          <div className="card_items">
+    <div className='contact'>
+      <div className='info'>
+        <p className='header'>Contact Me</p>
+        <div className='cards'>
+          <div className='card_items'>
             <h4>
-              Email{" "}
-              <span role="img" aria-label="envelope">
+              Email{' '}
+              <span role='img' aria-label='envelope'>
                 ✉️
               </span>
             </h4>
-            <a href="mailto:eric.bayasgalan@protonmail.com">
+            <a href='mailto:eric.bayasgalan@protonmail.com'>
               eric.bayasgalan@protonmail.com
             </a>
           </div>
-          <div className="card_items">
+          <div className='card_items'>
             <h4>
-              Phone{" "}
-              <span role="img" aria-label="phone">
+              Phone{' '}
+              <span role='img' aria-label='phone'>
                 📱
               </span>
             </h4>
@@ -113,7 +114,7 @@ const Contact = () => (
         </div>
       </div>
     </div>
-    <img src={deskTop} alt="workSpace" />
+    <img src={deskTop} alt='workSpace' />
   </StyledComponent>
 );
 

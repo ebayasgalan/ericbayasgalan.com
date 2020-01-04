@@ -30,6 +30,7 @@ const StyledIntro = styled.section`
     display: block;
     width: 100%;
     height: 100vh;
+    object-fit: cover;
   }
   h1 {
     font-size: 36px;
