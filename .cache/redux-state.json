@@ -742,16 +742,14 @@
     },
     "Site": {
       "siteMetadata": {},
-      "port": "8000",
+      "port": 8001,
       "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
-      "buildTime": "2020-01-04T15:58:37.597Z",
+      "buildTime": "2020-01-13T21:05:56.591Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "e6d24fa29a5747da7f815449c131331e",
+        "contentDigest": "274beb971539393f05279cc7f7c9c1e2",
         "type": "Site",
         "owner": "internal-data-bridge"
       }

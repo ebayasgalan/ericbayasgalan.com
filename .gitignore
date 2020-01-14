@@ -1,7 +1,6 @@
 # Logs
 logs
 *.log
-
 .DS_Store
 
 # Runtime data
@@ -15,10 +14,10 @@ pids
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
-# Dependency directory
-# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+# Build directory
 node_modules
 .gatsby-context.js
 .sass-cache/
-# public/
+/public
 .cache/
+.vscode/
