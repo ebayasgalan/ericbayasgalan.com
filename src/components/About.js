@@ -83,16 +83,21 @@ const About = () => {
     <StyledAbout>
       <div className='about'>
         <div className='picture'>
-          <img src={proPic} alt='atLibrary' />
+          {/* <img src={proPic} alt='atLibrary' /> */}
         </div>
         <p className='description'>
-          Hi, I am a web developer and I love creating web apps. I'm passionate
-          about learning new technologies and building websites. Aside from
-          coding, I enjoy being outdoors, playing basketball, and spending time
-          with family and friends.
+          Hello! I'm Eric, a software engineer residing in San Francisco, CA. I
+          enjoy building top-notch, pixel perfect user interfaces with efficient
+          and modern backends. I believe anything is possible through commitment
+          and hardwork. I'm always up for learning new things.
+        </p>
+        <p>
+          Shortly after graduating college, I got into web development and I
+          love it. I have 3+ years of experience in building exceptional
+          websites and applications. Here are a few technologies I've been
+          working with:
         </p>
         <div className='skills'>
-          <h2>Skills</h2>
           <img src={webTechs} alt='' height='200px' width='100%' />
         </div>
       </div>

@@ -66,8 +66,13 @@ const Home = () => {
       <div className='home'>
         <div className='text-box'>
           <div className='intro'>
-            <h1 className='name'>ERIC BAYASGALAN</h1>
-            <p>Let's bring ideas to life!</p>
+            <p>Hi, my name is </p>
+            <h1 className='name'>Eric Bayasgalan.</h1>
+            <p>I build things for the web.</p>
+            <p className='description'>
+              I am a software engineer in San Francisco, CA. I specialize in
+              building high-quality websites and applications.
+            </p>
           </div>
         </div>
         <img src={homePage} alt='desk' />
