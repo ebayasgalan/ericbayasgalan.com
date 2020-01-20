@@ -528,7 +528,7 @@
       "resolve": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "444582dc9a87ad2fb5a26523e66d6041",
+      "version": "a3a15e3cbf7c7e9a83319156c141fd62",
       "pluginOptions": {
         "plugins": []
       },
@@ -632,7 +632,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "a2ce2fc4c2a0a92f2b674c2aa7f5cc60",
+        "contentDigest": "c391bb8794fbef1f80c3a13e6de0d4d8",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -742,16 +742,16 @@
     },
     "Site": {
       "siteMetadata": {},
-      "port": "8000",
+      "port": 8001,
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2020-01-16T00:56:54.336Z",
+      "buildTime": "2020-01-20T19:23:45.248Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "60dafcf0b9b1654a453a393eea90e8d9",
+        "contentDigest": "c39305d752eea87d09bb18f98a61eb04",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -845,51 +845,6 @@
       "ctime": "2019-07-03T08:43:21.708Z",
       "birthtime": "2019-07-03T08:43:21.707Z"
     },
-    "846dd4bf-e217-53bb-8c37-4dc582eeeda8": {
-      "id": "846dd4bf-e217-53bb-8c37-4dc582eeeda8",
-      "children": [],
-      "parent": null,
-      "internal": {
-        "contentDigest": "0255bf2cd6e42c2fdbe2e189e418929f",
-        "type": "File",
-        "mediaType": "image/svg+xml",
-        "description": "File \"src/images/github_icon.svg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/images/github_icon.svg",
-      "relativePath": "github_icon.svg",
-      "extension": "svg",
-      "size": 3908,
-      "prettySize": "3.91 kB",
-      "modifiedTime": "2019-07-24T19:38:19.881Z",
-      "accessTime": "2019-12-19T02:48:42.029Z",
-      "changeTime": "2019-07-24T19:38:19.881Z",
-      "birthTime": "2019-07-24T19:29:49.032Z",
-      "root": "/",
-      "dir": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/images",
-      "base": "github_icon.svg",
-      "ext": ".svg",
-      "name": "github_icon",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 8611902535,
-      "blocks": 8,
-      "atimeMs": 1576723722029.332,
-      "mtimeMs": 1563997099880.6323,
-      "ctimeMs": 1563997099880.6323,
-      "birthtimeMs": 1563996589031.532,
-      "atime": "2019-12-19T02:48:42.029Z",
-      "mtime": "2019-07-24T19:38:19.881Z",
-      "ctime": "2019-07-24T19:38:19.881Z",
-      "birthtime": "2019-07-24T19:29:49.032Z"
-    },
     "7d5c9187-73c1-5ddc-ad20-6d563be2f736": {
       "id": "7d5c9187-73c1-5ddc-ad20-6d563be2f736",
       "children": [],
@@ -934,6 +889,51 @@
       "mtime": "2019-03-20T02:29:25.367Z",
       "ctime": "2019-03-31T04:36:36.890Z",
       "birthtime": "2019-03-20T02:29:25.363Z"
+    },
+    "846dd4bf-e217-53bb-8c37-4dc582eeeda8": {
+      "id": "846dd4bf-e217-53bb-8c37-4dc582eeeda8",
+      "children": [],
+      "parent": null,
+      "internal": {
+        "contentDigest": "0255bf2cd6e42c2fdbe2e189e418929f",
+        "type": "File",
+        "mediaType": "image/svg+xml",
+        "description": "File \"src/images/github_icon.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/images/github_icon.svg",
+      "relativePath": "github_icon.svg",
+      "extension": "svg",
+      "size": 3908,
+      "prettySize": "3.91 kB",
+      "modifiedTime": "2019-07-24T19:38:19.881Z",
+      "accessTime": "2019-12-19T02:48:42.029Z",
+      "changeTime": "2019-07-24T19:38:19.881Z",
+      "birthTime": "2019-07-24T19:29:49.032Z",
+      "root": "/",
+      "dir": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/src/images",
+      "base": "github_icon.svg",
+      "ext": ".svg",
+      "name": "github_icon",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 8611902535,
+      "blocks": 8,
+      "atimeMs": 1576723722029.332,
+      "mtimeMs": 1563997099880.6323,
+      "ctimeMs": 1563997099880.6323,
+      "birthtimeMs": 1563996589031.532,
+      "atime": "2019-12-19T02:48:42.029Z",
+      "mtime": "2019-07-24T19:38:19.881Z",
+      "ctime": "2019-07-24T19:38:19.881Z",
+      "birthtime": "2019-07-24T19:29:49.032Z"
     },
     "27b94b21-e086-50c6-97ce-4c084e69610f": {
       "id": "27b94b21-e086-50c6-97ce-4c084e69610f",
@@ -1313,7 +1313,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "8da7bd21b4c844cbf659d3621bc4be74"
+    "PLUGINS_HASH": "e3c2365d733544506681346f0666d31e"
   },
   "componentDataDependencies": {
     "nodes": {},

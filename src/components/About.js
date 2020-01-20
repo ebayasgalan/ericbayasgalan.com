@@ -83,7 +83,7 @@ const About = () => {
     <StyledAbout>
       <div className='about'>
         <div className='picture'>
-          {/* <img src={proPic} alt='atLibrary' /> */}
+          <img src={proPic} alt='atLibrary' />
         </div>
         <p className='description'>
           Hello! I'm Eric, a software engineer residing in San Francisco, CA. I
