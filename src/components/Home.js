@@ -25,11 +25,11 @@ const StyledIntro = styled.section`
   .intro {
     display: inline-block;
     color: #fff;
-    margin: 5rem 3rem;
+    margin: 8rem 1rem;
     padding: 0.5rem;
   }
   .intro p {
-    font-size: 16px;
+    font-size: 14px;
   }
   .intro .name {
     font-size: 34px;
@@ -75,7 +75,7 @@ const StyledIntro = styled.section`
 
   @media (min-width: 976px) {
     .intro {
-      margin: 14rem 5rem;
+      margin: 15rem 12rem;
     }
     .intro p {
       font-size: 26px;
