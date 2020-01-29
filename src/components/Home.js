@@ -3,13 +3,17 @@ import styled from 'styled-components';
 import homePage from '../images/homePage.jpg';
 
 const StyledIntro = styled.section`
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
   .home {
     position: relative;
   }
   .text-box {
     position: absolute;
     height: 100%;
-    text-align: center;
     width: 100%;
   }
   .text-box:before {
@@ -21,19 +25,26 @@ const StyledIntro = styled.section`
   .intro {
     display: inline-block;
     color: #fff;
-  }
-  p {
+    margin: 5rem 3rem;
     padding: 0.5rem;
+  }
+  .intro p {
     font-size: 16px;
+  }
+  .intro .name {
+    font-size: 34px;
+  }
+  .intro .subtitle {
+    font-size: 28px;
+  }
+  .intro .description {
+    width: 220px;
   }
   img {
     display: block;
     width: 100%;
     height: 100vh;
     object-fit: cover;
-  }
-  h1 {
-    font-size: 36px;
   }
 
   /* for medium size screens */
@@ -46,16 +57,37 @@ const StyledIntro = styled.section`
       padding-top: 1rem;
       font-size: 32px;
     }
+    .intro p {
+      font-size: 22px;
+    }
+    .intro .name {
+      font-size: 56px;
+    }
+    .intro .subtitle {
+      font-size: 58px;
+    }
+    .intro .description {
+      width: 420px;
+    }
   }
 
   /* for large size screens */
 
   @media (min-width: 976px) {
-    h1 {
-      font-size: 76px;
+    .intro {
+      margin: 14rem 5rem;
     }
-    p {
-      font-size: 42px;
+    .intro p {
+      font-size: 26px;
+    }
+    .intro .name {
+      font-size: 68px;
+    }
+    .intro .subtitle {
+      font-size: 66px;
+    }
+    .intro .description {
+      width: 560px;
     }
   }
 `;
@@ -68,10 +100,11 @@ const Home = () => {
           <div className='intro'>
             <p>Hi, my name is </p>
             <h1 className='name'>Eric Bayasgalan.</h1>
-            <p>I build things for the web.</p>
+            <p className='subtitle'>I build things for the web.</p>
+            <br />
             <p className='description'>
-              I am a software engineer in San Francisco, CA. I specialize in
-              building high-quality websites and applications.
+              I am a software engineer based in San Francisco, CA. I specialize
+              in building high-quality websites and applications.
             </p>
           </div>
         </div>
