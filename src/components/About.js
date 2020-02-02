@@ -12,8 +12,8 @@ const StyledAbout = styled.section`
     text-align: center;
     padding-top: 2rem;
     img {
-      border-radius: 50%;
-      height: 220px;
+      border-radius: 10%;
+      height: 260px;
     }
   }
   .skills {
@@ -57,22 +57,27 @@ const StyledAbout = styled.section`
   /* for large size screens */
 
   @media (min-width: 976px) {
+    .about {
+      display: flex;
+      padding: 10rem;
+      align-content: space-around;
+    }
     .picture {
       img {
-        height: 300px;
+        height: 360px;
+        /* margin-top: 4rem; */
+        object-fit: cover;
       }
     }
     .description {
-      font-size: 28px;
+      font-size: 24px;
+      margin-left: 5rem;
     }
     .skills {
-      padding-top: 2rem;
+      padding-top: 1rem;
       img {
-        height: 300px;
+        height: 200px;
       }
-    }
-    h2 {
-      font-size: 36px;
     }
   }
 `;
@@ -97,9 +102,9 @@ const About = () => {
             and applications. Here are a few technologies I've been working
             with:
           </p>
-        </div>
-        <div className='skills'>
-          <img src={webTechs} alt='' height='200px' width='100%' />
+          <div className='skills'>
+            <img src={webTechs} alt='' />
+          </div>
         </div>
       </div>
     </StyledAbout>

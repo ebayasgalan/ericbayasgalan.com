@@ -37,7 +37,7 @@ const StyledComponent = styled.div`
       color: white;
     }
   }
-  h1 {
+  h2 {
     text-align: center;
     font-size: 34px;
   }
@@ -48,33 +48,6 @@ const StyledComponent = styled.div`
   .builtWith {
     margin-top: 1rem;
   }
-  /* @-webkit-keyframes fadeOutLeft {
-    from {
-      opacity: 1;
-    }
-
-    to {
-      opacity: 0;
-      -webkit-transform: translate3d(-100%, 0, 0);
-      transform: translate3d(-100%, 0, 0);
-    }
-  }
-
-  @keyframes fadeOutLeft {
-    from {
-      opacity: 1;
-    }
-
-    to {
-      opacity: 0;
-      -webkit-transform: translate3d(-100%, 0, 0);
-      transform: translate3d(-100%, 0, 0);
-    }
-  }
-  .fadeOutLeft {
-    -webkit-animation-name: fadeOutLeft;
-    animation-name: fadeOutLeft;
-  } */
 
   /* for medium size screens */
 
@@ -101,7 +74,7 @@ const StyledComponent = styled.div`
     .showcase {
       grid-template-columns: 1fr 1fr;
     }
-    h1 {
+    h2 {
       font-size: 50px;
       padding-top: 2rem;
     }
@@ -120,7 +93,7 @@ const StyledComponent = styled.div`
 const Projects = () => (
   <StyledComponent>
     <div className='projects' />
-    <h1>Projects</h1>
+    <h2>Some things I've built</h2>
     <div className='showcase'>
       {/* Hotel application */}
 

@@ -5,51 +5,54 @@
  * See: https://www.gatsbyjs.org/docs/static-query/
  */
 
-import React, { Component } from "react";
-import PropTypes from "prop-types";
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
-import "./styles/layout.css";
-import SideDrawer from "./SideDrawer/SideDrawer";
-import Toolbar from "./Toolbar";
-import Backdrop from "./Backdrop";
-import Footer from "./Footer";
+import './styles/layout.css';
+import SideDrawer from './SideDrawer/SideDrawer';
+import Toolbar from './Toolbar';
+import Backdrop from './Backdrop';
+import Footer from './Footer';
+import Social from './Social';
+import Navigation from './Nav';
 
-class Navbar extends Component {
-  state = {
-    sideDrawerOpen: false
-  };
+// class Navbar extends Component {
+//   state = {
+//     sideDrawerOpen: false
+//   };
 
-  drawerToggleClickHandler = () => {
-    this.setState(prevState => {
-      return { sideDrawerOpen: !prevState.sideDrawerOpen };
-    });
-  };
+//   drawerToggleClickHandler = () => {
+//     this.setState(prevState => {
+//       return { sideDrawerOpen: !prevState.sideDrawerOpen };
+//     });
+//   };
 
-  backdropClickHandler = () => {
-    this.setState({ sideDrawerOpen: false });
-  };
+//   backdropClickHandler = () => {
+//     this.setState({ sideDrawerOpen: false });
+//   };
 
-  render() {
-    let backdrop;
+//   render() {
+//     let backdrop;
 
-    if (this.state.sideDrawerOpen) {
-      backdrop = <Backdrop click={this.backdropClickHandler} />;
-    }
+//     if (this.state.sideDrawerOpen) {
+//       backdrop = <Backdrop click={this.backdropClickHandler} />;
+//     }
 
-    return (
-      <div style={{ height: "100%" }}>
-        <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
-        <SideDrawer show={this.state.sideDrawerOpen} />
-        {backdrop}
-      </div>
-    );
-  }
-}
+//     return (
+//       <div style={{ height: '100%' }}>
+//         <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
+//         <SideDrawer show={this.state.sideDrawerOpen} />
+//         {backdrop}
+//       </div>
+//     );
+//   }
+// }
 
 const Layout = ({ children }) => {
   return (
     <div>
-      <Navbar />
+      <Navigation />
+      <Social />
       <main>{children}</main>
       <Footer />
     </div>

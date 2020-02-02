@@ -33,12 +33,14 @@ const StyledIntro = styled.section`
   }
   .intro .name {
     font-size: 34px;
+    margin-top: 2rem;
   }
   .intro .subtitle {
     font-size: 28px;
   }
   .intro .description {
     width: 220px;
+    line-height: 2.5rem;
   }
   img {
     display: block;
@@ -75,7 +77,7 @@ const StyledIntro = styled.section`
 
   @media (min-width: 976px) {
     .intro {
-      margin: 15rem 12rem;
+      margin: 12rem 10rem;
     }
     .intro p {
       font-size: 26px;
