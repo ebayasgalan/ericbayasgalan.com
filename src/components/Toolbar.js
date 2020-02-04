@@ -1,36 +1,36 @@
-import React from "react";
-import { Link } from "react-scroll";
+import React from 'react';
+import { Link } from 'react-scroll';
 
-import logo from "../images/eb_logo.png";
-import "./styles/Toolbar.css";
-import DrawerToggleButton from "./SideDrawer/DrawerToggleButton";
+import logo from '../images/eb_logo.png';
+import './styles/Toolbar.css';
+import DrawerToggleButton from './SideDrawer/DrawerToggleButton';
 
 const Toolbar = props => (
-  <header className="toolbar">
-    <nav className="toolbar_navigation">
-      <div className="toolbar_logo">
+  <header className='toolbar'>
+    <nav className='toolbar_navigation'>
+      <div className='toolbar_logo'>
         <Link
-          style={{ cursor: "pointer" }}
-          activeClass="active"
-          to="home"
+          style={{ cursor: 'pointer' }}
+          activeClass='active'
+          to='home'
           spy={true}
           smooth={true}
           duration={500}
         >
-          <img src={logo} alt="LOGO" />
+          <img src={logo} alt='LOGO' />
         </Link>
       </div>
-      <div className="spacer" />
-      <div className="toolbar_toggle-button">
+      <div className='spacer' />
+      <div className='toolbar_toggle-button'>
         <DrawerToggleButton click={props.drawerClickHandler} />
       </div>
-      <div className="toolbar_navigation-items">
+      <div className='toolbar_navigation-items'>
         <ul>
           <li>
             <Link
-              style={{ cursor: "pointer" }}
-              activeClass="active"
-              to="about"
+              style={{ cursor: 'pointer' }}
+              activeClass='active'
+              to='about'
               spy={true}
               smooth={true}
               duration={500}
@@ -40,9 +40,9 @@ const Toolbar = props => (
           </li>
           <li>
             <Link
-              style={{ cursor: "pointer" }}
-              activeClass="active"
-              to="projects"
+              style={{ cursor: 'pointer' }}
+              activeClass='active'
+              to='projects'
               spy={true}
               smooth={true}
               duration={500}
@@ -52,9 +52,9 @@ const Toolbar = props => (
           </li>
           <li>
             <Link
-              style={{ cursor: "pointer" }}
-              activeClass="active"
-              to="contact"
+              style={{ cursor: 'pointer' }}
+              activeClass='active'
+              to='contact'
               spy={true}
               smooth={true}
               duration={500}

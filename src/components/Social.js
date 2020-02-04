@@ -21,6 +21,9 @@ const StyledList = styled.ul`
     margin: 0 auto;
     background-color: #a8b2d1;
   }
+  li {
+    margin: 0.7rem;
+  }
 
   li:last-of-type {
     margin-bottom: 20px;
