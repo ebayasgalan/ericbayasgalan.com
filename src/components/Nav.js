@@ -157,7 +157,7 @@ const StyledListItem = styled.li`
   margin: 0 20px;
   text-transform: uppercase;
   position: relative;
-  font-size: 18px;
+  font-size: 20px;
 `;
 const StyledListLink = styled(Link)`
   padding: 12px 10px;

@@ -52,9 +52,6 @@ const StyledIntro = styled.section`
   /* for medium size screens */
 
   @media (min-width: 478px) {
-    h1 {
-      font-size: 56px;
-    }
     p {
       padding-top: 1rem;
       font-size: 32px;
@@ -63,10 +60,10 @@ const StyledIntro = styled.section`
       font-size: 22px;
     }
     .intro .name {
-      font-size: 56px;
+      font-size: 54px;
     }
     .intro .subtitle {
-      font-size: 58px;
+      font-size: 50px;
     }
     .intro .description {
       width: 420px;
