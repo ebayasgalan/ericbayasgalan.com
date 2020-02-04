@@ -1,21 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import Github from '../images/github_icon.svg';
-import Linkedin from '../images/linkedin.svg';
-
-const FooterLinks = [
-  {
-    name: 'Linkedin',
-    link: 'https://www.linkedin.com/in/enkhtaivan-bayasgalan-849824149/',
-    color: '#686A78',
-    img: Linkedin
-  },
-  {
-    name: 'Github',
-    link: 'https://github.com/ebayasgalan',
-    img: Github
-  }
-];
 
 const FooterWrapper = styled.footer`
   position: relative;
@@ -60,25 +44,18 @@ const FooterWrapper = styled.footer`
   }
 `;
 
-const SocialLinks = styled.ul`
-  list-style: none;
-  padding: 2px;
-  display: flex;
-  justify-content: center;
-`;
+// const SocialLinks = styled.ul`
+//   list-style: none;
+//   padding: 2px;
+//   display: flex;
+//   justify-content: center;
+// `;
 
 const Footer = () => (
   <FooterWrapper>
-    <SocialLinks>
-      {/* {FooterLinks.map(link => (
-        <li key={link.name}>
-          <a href={link.link} target="_blank" rel="noopener noreferrer">
-            <img src={link.img} alt="" />
-          </a>
-        </li>
-      ))} */}
-      <p>Made with ♥️ & lots of ☕️ by Eric Bayasgalan</p>
-    </SocialLinks>
+    {/* <SocialLinks> */}
+    <p>Made with ♥️ & lots of ☕️ by Eric Bayasgalan</p>
+    {/* </SocialLinks> */}
   </FooterWrapper>
 );
 

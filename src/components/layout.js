@@ -9,12 +9,12 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import './styles/layout.css';
-import SideDrawer from './SideDrawer/SideDrawer';
-import Toolbar from './Toolbar';
-import Backdrop from './Backdrop';
 import Footer from './Footer';
 import Social from './Social';
 import Navigation from './Nav';
+// import SideDrawer from './SideDrawer/SideDrawer';
+// import Toolbar from './Toolbar';
+// import Backdrop from './Backdrop';
 
 // class Navbar extends Component {
 //   state = {
@@ -54,7 +54,7 @@ const Layout = ({ children }) => {
       <Navigation />
       <Social />
       <main>{children}</main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

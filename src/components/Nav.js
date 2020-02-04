@@ -155,6 +155,7 @@ const StyledList = styled.ul`
 const StyledListItem = styled.li`
   padding: 10px;
   margin: 0 20px;
+  text-transform: uppercase;
   position: relative;
   font-size: 18px;
 `;

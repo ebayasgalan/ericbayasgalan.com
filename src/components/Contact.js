@@ -89,18 +89,15 @@ const Contact = () => (
   <StyledComponent>
     <div className='contact'>
       <div className='info'>
-        <p className='header'>Contact Me</p>
+        <p className='header'>Get In Touch</p>
         <div className='cards'>
           <div className='card_items'>
             <h4>
-              Email{' '}
               <span role='img' aria-label='envelope'>
                 ✉️
               </span>
             </h4>
-            <a href='mailto:eric.bayasgalan@protonmail.com'>
-              eric.bayasgalan@protonmail.com
-            </a>
+            <a href='mailto:eric.bayasgalan@protonmail.com'>Send an email</a>
           </div>
           <div className='card_items'>
             <h4>
