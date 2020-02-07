@@ -94,19 +94,21 @@ const Contact = () => (
           <div className='card_items'>
             <h4>
               <span role='img' aria-label='envelope'>
-                ✉️
+                feel free to contact me via email
               </span>
             </h4>
-            <a href='mailto:eric.bayasgalan@protonmail.com'>Send an email</a>
+            <a href='mailto:eric.bayasgalan@protonmail.com'>
+              eric.bayasgalan@protonmail.com
+            </a>
           </div>
           <div className='card_items'>
-            <h4>
+            {/* <h4>
               Phone{' '}
               <span role='img' aria-label='phone'>
                 📱
               </span>
             </h4>
-            <p>(510)932-9916</p>
+            <p>(510)932-9916</p> */}
           </div>
         </div>
       </div>
