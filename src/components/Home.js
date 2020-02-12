@@ -102,8 +102,8 @@ const Home = () => {
             <p className='subtitle'>I build things for the web.</p>
             <br />
             <p className='description'>
-              I am a software engineer based in San Francisco, CA. I specialize
-              in building high-quality websites and applications.
+              I am a software engineer based in San Francisco, CA. I'm good at
+              building high-quality websites and applications.
             </p>
           </div>
         </div>
