@@ -36,8 +36,8 @@ const StyledLink = styled.a`
     transform: translateY(-3px);
   }
   svg {
-    width: 22px;
-    height: 22px;
+    width: 28px;
+    height: 28px;
   }
 `;
 
