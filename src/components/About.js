@@ -36,17 +36,18 @@ const StyledAbout = styled.section`
   @media (min-width: 478px) {
     .picture {
       img {
-        height: 260px;
+        height: 360px;
       }
     }
     .description {
+      padding: 3rem;
       font-size: 24px;
       line-height: 2.5rem;
     }
     .skills {
-      padding-top: 1rem;
       img {
-        height: 220px;
+        margin-top: 3rem;
+        height: 160px;
       }
     }
     h2 {
@@ -74,8 +75,8 @@ const StyledAbout = styled.section`
       margin-left: 5rem;
     }
     .skills {
-      padding-top: 1rem;
       img {
+        margin-top: 3rem;
         height: 200px;
       }
     }

@@ -32,7 +32,7 @@ const FooterWrapper = styled.footer`
     height: 6rem;
     padding: 1rem;
     p {
-      font-size: 16px;
+      font-size: 18px;
     }
     a {
       font-size: 2rem;
@@ -54,7 +54,7 @@ const FooterWrapper = styled.footer`
 const Footer = () => (
   <FooterWrapper>
     {/* <SocialLinks> */}
-    <p>Made by Eric Bayasgalan</p>
+    <p>Designed and built by Eric Bayasgalan</p>
     {/* </SocialLinks> */}
   </FooterWrapper>
 );
