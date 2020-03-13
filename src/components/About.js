@@ -60,7 +60,7 @@ const StyledAbout = styled.section`
   @media (min-width: 976px) {
     .about {
       display: flex;
-      padding: 10rem;
+      padding: 6rem;
       align-content: space-around;
     }
     .picture {
