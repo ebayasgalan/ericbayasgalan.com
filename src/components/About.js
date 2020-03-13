@@ -23,7 +23,7 @@ const StyledAbout = styled.section`
     }
   }
   .description {
-    padding: 0.5rem;
+    /* padding: 0.5rem; */
     line-height: 1.5rem;
     font-size: 20px;
   }
@@ -40,7 +40,7 @@ const StyledAbout = styled.section`
       }
     }
     .description {
-      padding: 3rem;
+      /* padding: 3rem; */
       font-size: 24px;
       line-height: 2.5rem;
     }
@@ -65,7 +65,7 @@ const StyledAbout = styled.section`
     }
     .picture {
       img {
-        height: 360px;
+        height: 380px;
         /* margin-top: 4rem; */
         object-fit: cover;
       }
@@ -76,7 +76,7 @@ const StyledAbout = styled.section`
     }
     .skills {
       img {
-        margin-top: 3rem;
+        padding-top: 1rem;
         height: 200px;
       }
     }
