@@ -16,7 +16,7 @@ const StyledComponent = styled.div`
     border-radius: 1rem;
     margin-top: 1rem;
     height: auto;
-    width: 220px;
+    width: 200px;
     padding: 0.5rem;
     :hover {
       cursor: pointer;
@@ -56,7 +56,7 @@ const StyledComponent = styled.div`
       font-size: 40px;
     }
     img {
-      width: 380px;
+      width: 360px;
     }
     .description {
       font-size: 22px;
@@ -79,7 +79,7 @@ const StyledComponent = styled.div`
       padding-top: 2rem;
     }
     img {
-      width: 400px;
+      width: 380px;
     }
     .description {
       font-size: 24px;
