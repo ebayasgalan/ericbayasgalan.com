@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
+import { useSpring, animated } from 'react-spring';
 import oceanBeach from '../images/hotel.png';
 import easyMarket from '../images/eCommerce.png';
 import comingSoon from '../images/comingSoon.jpg';
-import { CSSTransitionGroup } from 'react-transition-group';
 
 const StyledComponent = styled.div`
   background: linear-gradient(#becfdc, #545c6b);
@@ -90,89 +90,119 @@ const StyledComponent = styled.div`
   }
 `;
 
-const Projects = () => (
-  <StyledComponent>
-    <div className='projects' />
-    <h2>Some things I've built</h2>
-    <div className='showcase'>
-      {/* Hotel application */}
+const calc = (x, y) => [
+  -(y - window.innerHeight / 2) / 20,
+  (x - window.innerWidth / 2) / 20,
+  1.1
+];
+const trans = (x, y, s) =>
+  `perspective(900px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`;
 
-      <div>
-        <a
-          href='https://hotel-next-prod.herokuapp.com/'
-          target='_blank'
-          rel='noopener noreferrer'
+const Projects = () => {
+  const [card, setCard] = useSpring(() => ({
+    xys: [0, 0, 1],
+    config: { mass: 2, tension: 300, friction: 70 }
+  }));
+  const [card2, setCard2] = useSpring(() => ({
+    xys: [0, 0, 1],
+    config: { mass: 2, tension: 300, friction: 70 }
+  }));
+  return (
+    <StyledComponent>
+      <div className='projects' />
+      <h2>Some things I've built</h2>
+      <div className='showcase'>
+        {/* Hotel application */}
+
+        <animated.div
+          onMouseMove={({ clientX: x, clientY: y }) =>
+            setCard({ xys: calc(x, y) })
+          }
+          onMouseLeave={() => setCard({ xys: [0, 0, 1] })}
+          style={{ transform: card.xys.interpolate(trans) }}
         >
-          <img src={oceanBeach} alt='hotel' />
-        </a>
-      </div>
-      <div className='description'>
-        <h3>Ocean Beach Hotel</h3>
-        <p className='summary'>
-          Hotel application that allows a user to make reservations after
-          signing in.
-        </p>
-        <p className='builtWith'>
-          Built with: Javascript | Next.js | Graphql-Yoga | Prisma | Apollo
-        </p>
-        <div className='buttons'>
           <a
             href='https://hotel-next-prod.herokuapp.com/'
             target='_blank'
             rel='noopener noreferrer'
           >
-            <button>See the Demo</button>
+            <img src={oceanBeach} alt='hotel' />
           </a>
-          <a
-            href='https://github.com/ebayasgalan/Ocean-Beach-Hotel'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <button>See the Code</button>
-          </a>
+        </animated.div>
+        <div className='description'>
+          <h3>Ocean Beach Hotel</h3>
+          <p className='summary'>
+            Hotel application that allows a user to make reservations after
+            signing in.
+          </p>
+          <p className='builtWith'>
+            Built with: Javascript | Next.js | Graphql-Yoga | Prisma | Apollo
+          </p>
+          <div className='buttons'>
+            <a
+              href='https://hotel-next-prod.herokuapp.com/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <button>See the Demo</button>
+            </a>
+            <a
+              href='https://github.com/ebayasgalan/Ocean-Beach-Hotel'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <button>See the Code</button>
+            </a>
+          </div>
         </div>
-      </div>
 
-      {/* Ecommerce application */}
+        {/* Ecommerce application */}
 
-      <div>
-        <a
-          href='https://easy-market-next-prod.herokuapp.com'
-          target='_blank'
-          rel='noopener noreferrer'
+        <animated.div
+          onMouseMove={({ clientX: x, clientY: y }) =>
+            setCard2({ xys: calc(x, y) })
+          }
+          onMouseLeave={() => setCard2({ xys: [0, 0, 1] })}
+          style={{ transform: card2.xys.interpolate(trans) }}
         >
-          <img src={easyMarket} alt='eCommerce' />
-        </a>
-      </div>
-      <div className='description'>
-        <h3>Easy Market</h3>
-        <p className='summary'>
-          Ecommerce application that allows a user to post or view items for
-          sale after signing in.
-        </p>
-        <p className='builtWith'>
-          Built with: Javascript | Next.js | Apollo | Graphql-Yoga | Prisma |
-          Stripe API | Cloudinary API
-        </p>
-        <div className='buttons'>
           <a
             href='https://easy-market-next-prod.herokuapp.com'
             target='_blank'
             rel='noopener noreferrer'
           >
-            <button>See the Demo</button>
+            <img src={easyMarket} alt='eCommerce' />
           </a>
-          <a
-            href='https://github.com/ebayasgalan/easy-market'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <button>See the Code</button>
-          </a>
+        </animated.div>
+        <div className='description'>
+          <h3>Easy Market</h3>
+          <p className='summary'>
+            Ecommerce application that allows a user to post or view items for
+            sale after signing in.
+          </p>
+          <p className='builtWith'>
+            Built with: Javascript | Next.js | Apollo | Graphql-Yoga | Prisma |
+            Stripe API | Cloudinary API
+          </p>
+          <div className='buttons'>
+            <a
+              href='https://easy-market-next-prod.herokuapp.com'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <button>See the Demo</button>
+            </a>
+            <a
+              href='https://github.com/ebayasgalan/easy-market'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <button>See the Code</button>
+            </a>
+          </div>
         </div>
       </div>
-    </div>
-  </StyledComponent>
-);
+    </StyledComponent>
+  );
+};
 
 export default Projects;
