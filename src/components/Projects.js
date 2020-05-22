@@ -93,7 +93,7 @@ const StyledComponent = styled.div`
 const calc = (x, y) => [
   -(y - window.innerHeight / 2) / 20,
   (x - window.innerWidth / 2) / 20,
-  1.1
+  1.1,
 ];
 const trans = (x, y, s) =>
   `perspective(900px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`;
@@ -101,11 +101,11 @@ const trans = (x, y, s) =>
 const Projects = () => {
   const [card, setCard] = useSpring(() => ({
     xys: [0, 0, 1],
-    config: { mass: 2, tension: 300, friction: 70 }
+    config: { mass: 2, tension: 300, friction: 70 },
   }));
   const [card2, setCard2] = useSpring(() => ({
     xys: [0, 0, 1],
-    config: { mass: 2, tension: 300, friction: 70 }
+    config: { mass: 2, tension: 300, friction: 70 },
   }));
   return (
     <StyledComponent>
@@ -170,7 +170,7 @@ const Projects = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <img src={easyMarket} alt='eCommerce' />
+            <img src={comingSoon} alt='eCommerce' />
           </a>
         </animated.div>
         <div className='description'>
