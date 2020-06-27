@@ -170,7 +170,7 @@ const Projects = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <img src={comingSoon} alt='eCommerce' />
+            <img src={easyMarket} alt='eCommerce' />
           </a>
         </animated.div>
         <div className='description'>
