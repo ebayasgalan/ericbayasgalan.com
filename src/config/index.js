@@ -15,26 +15,18 @@ module.exports = {
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/ebayasgalan'
+      url: 'https://github.com/ebayasgalan',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/enkhtaivan-bayasgalan-849824149/'
+      url: 'https://www.linkedin.com/in/enkhtaivan-bayasgalan-849824149/',
     },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/ebayasgalan'
-    },
-    {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/eb_zone/'
-    }
   ],
 
   navLinks: [
     {
       name: 'About',
-      url: 'about'
+      url: 'about',
     },
     // {
     //   name: 'Experience',
@@ -42,12 +34,12 @@ module.exports = {
     // },
     {
       name: 'Projects',
-      url: 'projects'
+      url: 'projects',
     },
     {
       name: 'Contact',
-      url: 'contact'
-    }
+      url: 'contact',
+    },
   ],
 
   navHeight: 100,
@@ -68,6 +60,6 @@ module.exports = {
     reset: false,
     useDelay: 'always',
     viewFactor: 0.25,
-    viewOffset: { top: 0, right: 0, bottom: 0, left: 0 }
-  })
+    viewOffset: { top: 0, right: 0, bottom: 0, left: 0 },
+  }),
 };
