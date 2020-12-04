@@ -98,11 +98,11 @@ const About = () => {
             and hardwork. I'm always up for learning new things.
           </p>
           <br />
-          <p>
+          {/* <p>
             I have over two years of experience in building exceptional websites
             and applications. Here are a few technologies I've been working
             with:
-          </p>
+          </p> */}
           <div className='skills'>
             <img src={webTechs} alt='' />
           </div>
