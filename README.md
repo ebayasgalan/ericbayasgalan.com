@@ -2,4 +2,4 @@
  
 ---
 
-[check it out](https://www.ericbayasgalan.com)
+
