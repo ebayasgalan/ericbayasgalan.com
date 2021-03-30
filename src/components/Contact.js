@@ -97,8 +97,8 @@ const Contact = () => (
                 feel free to contact me via email
               </span>
             </h4>
-            <a href='mailto:eric.bayasgalan@protonmail.com'>
-              eric.bayasgalan@protonmail.com
+            <a href='mailto:eric.bayasgalan@gmail.com'>
+              eric.bayasgalan@gmail.com
             </a>
           </div>
           <div className='card_items'>
