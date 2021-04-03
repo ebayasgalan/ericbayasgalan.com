@@ -102,7 +102,7 @@ const Home = () => {
             <p className='subtitle'>I build things for the web.</p>
             <br />
             <p className='description'>
-              I am a software engineer based in San Francisco, CA. 
+              I am a software engineer based in Chicago, IL. 
             </p>
           </div>
         </div>

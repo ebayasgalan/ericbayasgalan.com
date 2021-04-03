@@ -92,7 +92,7 @@ const About = () => {
         </div>
         <div className='description'>
           <p>
-            Hello! I'm Eric, a software engineer residing in San Francisco, CA.
+            Hello! I'm Eric, a software engineer residing in Chicago, IL.
             I enjoy building user interfaces with efficient and
             modern backends. I believe anything is possible through commitment
             and hardwork. I'm always up for learning new things.
