@@ -101,9 +101,6 @@ const Home = () => {
             <h1 className='name'>Eric Bayasgalan.</h1>
             <p className='subtitle'>I build things for the web.</p>
             <br />
-            <p className='description'>
-              I am a software engineer based in Chicago, IL. 
-            </p>
           </div>
         </div>
         <img src={homePage} alt='desk' />

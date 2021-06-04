@@ -1,12 +1,15 @@
 var plugins = [{
+      name: 'gatsby-plugin-react-helmet',
       plugin: require('/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
+      name: 'gatsby-plugin-styled-components',
       plugin: require('/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
-      options: {"plugins":[]},
+      options: {"plugins":[],"displayName":true,"fileName":true,"minify":true,"namespace":"","transpileTemplateLiterals":true,"topLevelImportPaths":[],"pure":false},
     },{
+      name: 'gatsby-plugin-manifest',
       plugin: require('/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui"},
+      options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"public/icons/icon-144x144.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"6aa69fa27c3ba0f4546169dc6e244df4"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
@@ -34,11 +37,21 @@ module.exports = (api, args, defaultReturn, argTransform) => {
     if (!plugin.plugin[api]) {
       return undefined
     }
-    const result = plugin.plugin[api](args, plugin.options)
-    if (result && argTransform) {
-      args = argTransform({ args, result })
+    try {
+      const result = plugin.plugin[api](args, plugin.options)
+      if (result && argTransform) {
+        args = argTransform({ args, result })
+      }
+      return result
+    } catch (e) {
+      if (plugin.name !== `default-site-plugin`) {
+        // default-site-plugin is user code and will print proper stack trace,
+        // so no point in annotating error message pointing out which plugin is root of the problem
+        e.message += ` (from plugin: ${plugin.name})`
+      }
+
+      throw e
     }
-    return result
   })
 
   // Filter out undefined results.

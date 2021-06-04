@@ -68,6 +68,7 @@ const StyledAbout = styled.section`
         height: 380px;
         /* margin-top: 4rem; */
         object-fit: cover;
+        backdrop-filter: 2px;
       }
     }
     .description {
@@ -93,7 +94,7 @@ const About = () => {
         <div className='description'>
           <p>
             Hello! I'm Eric, a software engineer residing in Chicago, IL.
-            I enjoy building user interfaces with efficient and
+            I enjoy building excellent user interfaces with efficient and
             modern backends. I believe anything is possible through commitment
             and hardwork. I'm always up for learning new things.
           </p>

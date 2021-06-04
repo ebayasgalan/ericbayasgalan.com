@@ -1,22 +1,31 @@
 import React from 'react';
 import styled from 'styled-components';
 import { useSpring, animated } from 'react-spring';
+import localReviewPic from '../../public/icons/App.png';
+import CovidTrackerPic from '../../public/icons/homePage.png';
+import newRelicPic from '../../public/icons/new_relic.png';
 import oceanBeach from '../images/hotel.png';
 import easyMarket from '../images/eCommerce.png';
 import comingSoon from '../images/comingSoon.jpg';
 
 const StyledComponent = styled.div`
   background: linear-gradient(#becfdc, #545c6b);
-  .showcase {
-    display: grid;
-    grid-template-columns: 1fr;
+  .items {
+    display: flex;
+    justify-content: center;
     text-align: center;
   }
+  .item {
+    /* border: black solid 1px; */
+    flex-basis: 400px;
+    height: 500px;
+    margin-right: 20px;
+  }
   img {
-    border-radius: 1rem;
-    margin-top: 1rem;
-    height: auto;
-    width: 200px;
+    /* border-radius: 1rem;
+    margin-top: 1rem; */
+    object-fit: cover;
+    height: 200px;
     padding: 0.5rem;
     :hover {
       cursor: pointer;
@@ -109,97 +118,37 @@ const Projects = () => {
   }));
   return (
     <StyledComponent>
-      <div className='projects' />
-      <h2>Some things I've built</h2>
-      <div className='showcase'>
-        {/* Hotel application */}
-
-        <animated.div
-          onMouseMove={({ clientX: x, clientY: y }) =>
-            setCard({ xys: calc(x, y) })
-          }
-          onMouseLeave={() => setCard({ xys: [0, 0, 1] })}
-          style={{ transform: card.xys.interpolate(trans) }}
-        >
-          <a
-            href='https://hotel-next-prod.herokuapp.com/'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <img src={oceanBeach} alt='hotel' />
-          </a>
-        </animated.div>
-        <div className='description'>
-          <h3>Ocean Beach Hotel</h3>
-          <p className='summary'>
-            Hotel application that allows a user to make reservations after
-            signing in.
-          </p>
-          <p className='builtWith'>
-            Built with: Javascript | Next.js | Graphql-Yoga | Prisma | Apollo
-          </p>
-          <div className='buttons'>
-            <a
-              href='https://hotel-next-prod.herokuapp.com/'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              <button>See the Demo</button>
-            </a>
-            <a
-              href='https://github.com/ebayasgalan/Ocean-Beach-Hotel'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              <button>See the Code</button>
-            </a>
-          </div>
+      <h2>Projects</h2>
+      <div className='items'>
+      <div className='item'>Local Reviews
+        <img src={localReviewPic} alt="reviews picture" />
+        <div className="description">
+          The local reviews section for the property page on a real estate website. It was built by React, styled-components, and Mongodb. This app includes list of reviews, dynamic rating, pop-up modal, and responsive design. 
         </div>
-
-        {/* Ecommerce application */}
-
-        <animated.div
-          onMouseMove={({ clientX: x, clientY: y }) =>
-            setCard2({ xys: calc(x, y) })
-          }
-          onMouseLeave={() => setCard2({ xys: [0, 0, 1] })}
-          style={{ transform: card2.xys.interpolate(trans) }}
-        >
-          <a
-            href='https://easy-market-next-prod.herokuapp.com'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <img src={easyMarket} alt='eCommerce' />
-          </a>
-        </animated.div>
-        <div className='description'>
-          <h3>Easy Market</h3>
-          <p className='summary'>
-            Ecommerce application that allows a user to post or view items for
-            sale after signing in.
-          </p>
-          <p className='builtWith'>
-            Built with: Javascript | Next.js | Apollo | Graphql-Yoga | Prisma |
-            Stripe API | Cloudinary API
-          </p>
-          <div className='buttons'>
-            <a
-              href='https://easy-market-next-prod.herokuapp.com'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              <button>See the Demo</button>
-            </a>
-            <a
-              href='https://github.com/ebayasgalan/easy-market'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              <button>See the Code</button>
-            </a>
-          </div>
+        <div className="buttons">
+          {/* <button>Github</button>
+          <button>Video</button> */}
         </div>
+      </div>
+      <div className='item'>Covid Tracker
+        <img src={CovidTrackerPic} alt="covid picture" />
+        <div className="description">
+          Covid19 tracker that displays current impact on a selected country. This app was built as a challenge to have a minimum viable product in less than 2 days. It utilizes MERN stack. 
+        </div>
+        <div className="buttons">
+          {/* <button >Github</button>
+          <button>Video</button> */}
+        </div>
+      </div>
+      <div className='item'>System Design
+        <img src={newRelicPic} alt="new relic picture" />
+        <div className="description">
+          Inherited backend legacy code and optimized it for high amount of traffic. 
+        </div>
+        <div className="buttons">
+          {/* <button >Github</button> */}
+        </div>
+      </div>
       </div>
     </StyledComponent>
   );
