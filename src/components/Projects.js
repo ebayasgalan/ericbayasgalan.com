@@ -18,7 +18,7 @@ const StyledComponent = styled.div`
   .item {
     /* border: black solid 1px; */
     flex-basis: 400px;
-    height: 500px;
+    height: auto;
     margin-right: 20px;
   }
   img {
@@ -126,8 +126,20 @@ const Projects = () => {
           The local reviews section for the property page on a real estate website. It was built by React, styled-components, and Mongodb. This app includes list of reviews, dynamic rating, pop-up modal, and responsive design. 
         </div>
         <div className="buttons">
-          {/* <button>Github</button>
-          <button>Video</button> */}
+          <a
+            href='https://youtu.be/EOjXjPxMcig'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <button>See the Demo</button>
+          </a>
+          <a
+            href='https://github.com/Archon-Design/Local-Review'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <button>See the Code</button>
+          </a>
         </div>
       </div>
       <div className='item'>Covid Tracker
@@ -136,8 +148,20 @@ const Projects = () => {
           Covid19 tracker that displays current impact on a selected country. This app was built as a challenge to have a minimum viable product in less than 2 days. It utilizes MERN stack. 
         </div>
         <div className="buttons">
-          {/* <button >Github</button>
-          <button>Video</button> */}
+          <a
+            href='https://youtu.be/8roFU4GEeg4'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <button>See the Demo</button>
+          </a>
+          <a
+            href='https://github.com/ebayasgalan/Covid19'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <button>See the Code</button>
+          </a>
         </div>
       </div>
       <div className='item'>System Design
@@ -146,7 +170,13 @@ const Projects = () => {
           Inherited backend legacy code and optimized it for high amount of traffic. 
         </div>
         <div className="buttons">
-          {/* <button >Github</button> */}
+          <a
+            href='https://github.com/3ephemeris/similar-products'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <button>See the Code</button>
+          </a>
         </div>
       </div>
       </div>
