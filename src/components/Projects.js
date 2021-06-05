@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import { useSpring, animated } from 'react-spring';
-import localReviewPic from '../../public/icons/App.png';
-import CovidTrackerPic from '../../public/icons/homePage.png';
-import newRelicPic from '../../public/icons/new_relic.png';
+import localReviewPic from '../images/App.png';
+import CovidTrackerPic from '../images/covidTracker.png';
+import newRelicPic from '../images/new_relic.png';
 import oceanBeach from '../images/hotel.png';
 import easyMarket from '../images/eCommerce.png';
 import comingSoon from '../images/comingSoon.jpg';
