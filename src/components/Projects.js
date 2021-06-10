@@ -17,8 +17,9 @@ const StyledComponent = styled.div`
   }
   .item {
     /* border: black solid 1px; */
+    position: relative;
     flex-basis: 400px;
-    height: auto;
+    height: 600px;
     margin-right: 20px;
   }
   img {
@@ -32,6 +33,8 @@ const StyledComponent = styled.div`
     }
   }
   .buttons {
+    position: absolute;
+    bottom: 1px;
     text-align: center;
     padding: 1rem;
   }

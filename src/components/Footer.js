@@ -54,7 +54,7 @@ const FooterWrapper = styled.footer`
 const Footer = () => (
   <FooterWrapper>
     {/* <SocialLinks> */}
-    <p>Designed and built by Eric Bayasgalan</p>
+    {/* <p>Designed and built by Eric Bayasgalan</p> */}
     {/* </SocialLinks> */}
   </FooterWrapper>
 );
