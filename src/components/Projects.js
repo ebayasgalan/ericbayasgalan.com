@@ -170,7 +170,8 @@ const Projects = () => {
       <div className='item'>System Design
         <img src={newRelicPic} alt="new relic picture" />
         <div className="description">
-          Inherited backend legacy code and optimized it for high amount of traffic. 
+          Inherited backend REST API of ecommerce website and optimized for high amounts of traffic. It was built by Nodejs, Postgresql, Nginx, Docker, and deployed on AWS EC2 instances.  
+          It supports 0 - 10,000rps under 40ms with a 0% error rate. 
         </div>
         <div className="buttons">
           <a
