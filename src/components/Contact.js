@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import deskTop from '../images/contactPage.jpg';
+import myPic from '../images/proPic.jpeg';
 
 const StyledComponent = styled.div`
   .contact {
@@ -14,8 +15,17 @@ const StyledComponent = styled.div`
       }
     }
   }
+
+  .info img {
+    position: absolute;
+    top: 16%;
+    left: 45%;
+    border-radius: 80%;
+    height: 260px;
+    width: 260px;
+  }
+
   img {
-    display: block;
     width: 100%;
     object-fit: cover;
   }
@@ -90,30 +100,10 @@ const Contact = () => (
     <div className='contact'>
       <div className='info'>
         <p className='header'>Get In Touch</p>
-        <div className='cards'>
-          <div className='card_items'>
-            <h4>
-              <span role='img' aria-label='envelope'>
-                feel free to contact me via email
-              </span>
-            </h4>
-            <a href='mailto:eric.bayasgalan@gmail.com'>
-              eric.bayasgalan@gmail.com
-            </a>
-          </div>
-          <div className='card_items'>
-            {/* <h4>
-              Phone{' '}
-              <span role='img' aria-label='phone'>
-                📱
-              </span>
-            </h4>
-            <p>(510)932-9916</p> */}
-          </div>
-        </div>
+        <img src={myPic} alt='profile picture' />
       </div>
+      <img src={deskTop} alt='workSpace' />
     </div>
-    <img src={deskTop} alt='workSpace' />
   </StyledComponent>
 );
 

@@ -4,9 +4,6 @@ import { useSpring, animated } from 'react-spring';
 import localReviewPic from '../images/App.png';
 import CovidTrackerPic from '../images/covidTracker.png';
 import newRelicPic from '../images/new_relic.png';
-import oceanBeach from '../images/hotel.png';
-import easyMarket from '../images/eCommerce.png';
-import comingSoon from '../images/comingSoon.jpg';
 
 const StyledComponent = styled.div`
   background: linear-gradient(#becfdc, #545c6b);

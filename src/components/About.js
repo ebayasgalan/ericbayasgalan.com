@@ -1,20 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
-import proPic from '../images/proPic.jpeg';
 import webTechs from '../images/webTechs.svg';
 
 const StyledAbout = styled.section`
   .about {
     background: linear-gradient(#1d222b, #becfdc);
     color: #000;
-  }
-  .picture {
-    text-align: center;
-    padding-top: 2rem;
-    img {
-      border-radius: 10%;
-      height: 260px;
-    }
   }
   .skills {
     img {
@@ -25,7 +16,7 @@ const StyledAbout = styled.section`
   .description {
     /* padding: 0.5rem; */
     line-height: 1.5rem;
-    font-size: 20px;
+    font-size: 40px;
   }
   h2 {
     text-align: center;
@@ -63,16 +54,8 @@ const StyledAbout = styled.section`
       padding: 6rem;
       align-content: space-around;
     }
-    .picture {
-      img {
-        height: 380px;
-        /* margin-top: 4rem; */
-        object-fit: cover;
-        backdrop-filter: 2px;
-      }
-    }
     .description {
-      font-size: 24px;
+      font-size: 36px;
       margin-left: 5rem;
     }
     .skills {
@@ -88,9 +71,6 @@ const About = () => {
   return (
     <StyledAbout>
       <div className='about'>
-        <div className='picture'>
-          <img src={proPic} alt='atLibrary' />
-        </div>
         <div className='description'>
           <p>
             Hello! I'm Eric, a software engineer residing in Chicago, IL.
