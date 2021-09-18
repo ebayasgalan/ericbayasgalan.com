@@ -1,61 +1,32 @@
 import React from 'react';
 import styled from 'styled-components';
-import { useSpring, animated } from 'react-spring';
-import localReviewPic from '../images/App.png';
-import CovidTrackerPic from '../images/covidTracker.png';
-import newRelicPic from '../images/new_relic.png';
+import { StaticImage } from 'gatsby-plugin-image';
 
 const StyledComponent = styled.div`
-  background: linear-gradient(#becfdc, #545c6b);
-  .items {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-  }
-  .item {
-    /* border: black solid 1px; */
-    position: relative;
-    flex-basis: 400px;
-    height: 600px;
-    margin-right: 20px;
-  }
-  img {
-    /* border-radius: 1rem;
-    margin-top: 1rem; */
-    object-fit: cover;
-    height: 200px;
-    padding: 0.5rem;
-    :hover {
-      cursor: pointer;
-    }
-  }
-  .buttons {
-    position: absolute;
-    bottom: 1px;
-    text-align: center;
-    padding: 1rem;
-  }
-  button {
-    background: #becfdc;
-    border-radius: 0.6rem;
-    width: 6rem;
-    height: 2.5rem;
-    margin-right: 20px;
-    :hover {
-      cursor: pointer;
-      color: white;
-    }
-  }
+  background: #252733;
+  color: white;
   h2 {
     text-align: center;
-    font-size: 34px;
+    padding: 30px;
   }
-  .description {
-    font-size: 16px;
-    padding: 1rem;
+  .items {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
   }
-  .builtWith {
-    margin-top: 1rem;
+
+  .item img {
+    border-radius: 30px;
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    padding: 20px;
+    :hover {
+      cursor: pointer;
+    }
+  }
+  .description, .buttons, .title{
+    display: none;
   }
 
   /* for medium size screens */
@@ -80,6 +51,7 @@ const StyledComponent = styled.div`
   /* for large size screens */
 
   @media (min-width: 976px) {
+    height: 100vh;
     .showcase {
       grid-template-columns: 1fr 1fr;
     }
@@ -92,6 +64,7 @@ const StyledComponent = styled.div`
     }
     .description {
       font-size: 24px;
+      overflow-y: hidden;
       h3 {
         padding-top: 2rem;
       }
@@ -99,29 +72,13 @@ const StyledComponent = styled.div`
   }
 `;
 
-const calc = (x, y) => [
-  -(y - window.innerHeight / 2) / 20,
-  (x - window.innerWidth / 2) / 20,
-  1.1,
-];
-const trans = (x, y, s) =>
-  `perspective(900px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`;
-
 const Projects = () => {
-  const [card, setCard] = useSpring(() => ({
-    xys: [0, 0, 1],
-    config: { mass: 2, tension: 300, friction: 70 },
-  }));
-  const [card2, setCard2] = useSpring(() => ({
-    xys: [0, 0, 1],
-    config: { mass: 2, tension: 300, friction: 70 },
-  }));
   return (
-    <StyledComponent>
-      <h2>Projects</h2>
+    <StyledComponent id="projects">
+      <h2 className="projects">Projects</h2>
       <div className='items'>
-      <div className='item'>Local Reviews
-        <img src={localReviewPic} alt="reviews picture" />
+      <div className='item'><span className="title">Local Reviews</span>
+        <a href="https://youtu.be/EOjXjPxMcig" target='_blank' rel='noopener noreferrer'><StaticImage src='../images/localReview.png' alt="reviews picture" /></a>
         <div className="description">
           The local reviews section for the property page on a real estate website. It was built by React, styled-components, and Mongodb. This app includes list of reviews, dynamic rating, pop-up modal, and responsive design. 
         </div>
@@ -142,8 +99,8 @@ const Projects = () => {
           </a>
         </div>
       </div>
-      <div className='item'>Covid Tracker
-        <img src={CovidTrackerPic} alt="covid picture" />
+      <div className='item'><span className="title">Covid Tracker</span>
+        <a href="https://youtu.be/8roFU4GEeg4" target='_blank' rel='noopener noreferrer'><StaticImage src='../images/covidTracker.png' alt="covid picture" /></a>
         <div className="description">
           Covid19 tracker that displays current impact on a selected country. This app was built as a challenge to have a minimum viable product in less than 2 days. It utilizes MERN stack. 
         </div>
@@ -164,8 +121,8 @@ const Projects = () => {
           </a>
         </div>
       </div>
-      <div className='item'>System Design
-        <img src={newRelicPic} alt="new relic picture" />
+      <div className='item'><span className="title">System Design</span>
+        <StaticImage src='../images/new_relic.png' alt="new relic picture" />
         <div className="description">
           Inherited backend REST API of ecommerce website and optimized for high amounts of traffic. It was built by Nodejs, Postgresql, Nginx, Docker, and deployed on AWS EC2 instances.  
           It supports 0 - 10,000rps under 40ms with a 0% error rate. 

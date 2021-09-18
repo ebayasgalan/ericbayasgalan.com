@@ -22,26 +22,32 @@
           }
         },
         {
-          "name": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "name": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/gatsby-plugin-image/dist/babel-plugin-parse-static-images.js",
+          "options": {
+            "cacheDir": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/.cache/caches/gatsby-plugin-image"
+          }
+        },
+        {
+          "name": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/gatsby-plugin-typescript/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
         {
-          "name": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "name": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/gatsby-plugin-typescript/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
           "options": {}
         },
         {
-          "name": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "name": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/gatsby-plugin-typescript/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
         }
       ],
       "presets": [
         {
-          "name": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/@babel/preset-typescript/lib/index.js",
+          "name": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/gatsby-plugin-typescript/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
             "plugins": [],
-            "allExtensions": false,
             "isTSX": false,
-            "jsxPragma": "React"
+            "jsxPragma": "React",
+            "allExtensions": false
           }
         }
       ],
@@ -57,15 +63,21 @@
           "options": {}
         },
         {
-          "name": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "name": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/gatsby-plugin-image/dist/babel-plugin-parse-static-images.js",
+          "options": {
+            "cacheDir": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/.cache/caches/gatsby-plugin-image"
+          }
+        },
+        {
+          "name": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/gatsby-plugin-typescript/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
         {
-          "name": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "name": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/gatsby-plugin-typescript/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
           "options": {}
         },
         {
-          "name": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "name": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/gatsby-plugin-typescript/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
         },
         {
@@ -86,12 +98,12 @@
       ],
       "presets": [
         {
-          "name": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/@babel/preset-typescript/lib/index.js",
+          "name": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/gatsby-plugin-typescript/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
             "plugins": [],
-            "allExtensions": false,
             "isTSX": false,
-            "jsxPragma": "React"
+            "jsxPragma": "React",
+            "allExtensions": false
           }
         }
       ],
@@ -107,15 +119,21 @@
           "options": {}
         },
         {
-          "name": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "name": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/gatsby-plugin-image/dist/babel-plugin-parse-static-images.js",
+          "options": {
+            "cacheDir": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/.cache/caches/gatsby-plugin-image"
+          }
+        },
+        {
+          "name": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/gatsby-plugin-typescript/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
         {
-          "name": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "name": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/gatsby-plugin-typescript/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
           "options": {}
         },
         {
-          "name": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "name": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/gatsby-plugin-typescript/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
         },
         {
@@ -136,12 +154,12 @@
       ],
       "presets": [
         {
-          "name": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/@babel/preset-typescript/lib/index.js",
+          "name": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/gatsby-plugin-typescript/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
             "plugins": [],
-            "allExtensions": false,
             "isTSX": false,
-            "jsxPragma": "React"
+            "jsxPragma": "React",
+            "allExtensions": false
           }
         }
       ],
@@ -157,15 +175,21 @@
           "options": {}
         },
         {
-          "name": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "name": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/gatsby-plugin-image/dist/babel-plugin-parse-static-images.js",
+          "options": {
+            "cacheDir": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/.cache/caches/gatsby-plugin-image"
+          }
+        },
+        {
+          "name": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/gatsby-plugin-typescript/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
         {
-          "name": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "name": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/gatsby-plugin-typescript/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
           "options": {}
         },
         {
-          "name": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "name": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/gatsby-plugin-typescript/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
         },
         {
@@ -186,12 +210,12 @@
       ],
       "presets": [
         {
-          "name": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/@babel/preset-typescript/lib/index.js",
+          "name": "/Users/Taivnaa/Desktop/github/ericbayasgalan.com/node_modules/gatsby-plugin-typescript/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
             "plugins": [],
-            "allExtensions": false,
             "isTSX": false,
-            "jsxPragma": "React"
+            "jsxPragma": "React",
+            "allExtensions": false
           }
         }
       ],

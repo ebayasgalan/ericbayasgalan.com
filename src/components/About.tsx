@@ -1,24 +1,20 @@
 import React from 'react';
 import styled from 'styled-components';
-import webTechs from '../images/webTechs.svg';
+import { StaticImage } from 'gatsby-plugin-image';
 
 const StyledAbout = styled.section`
-  .about {
-    background: linear-gradient(#1d222b, #becfdc);
-    color: #000;
-  }
-  .skills {
-    img {
-      height: 160px;
-      width: 100%;
-    }
+  min-height: 100vh;
+  background: #323746;
+  color: white;
+  font-size: 20px;
+  padding: 30px;
+  .skills img {
+    padding: 20px;
+    /* background: rgba(254,194,91,.1); */
+    background: white;
+    border-radius: 20px;
   }
   .description {
-    /* padding: 0.5rem; */
-    line-height: 1.5rem;
-    font-size: 40px;
-  }
-  h2 {
     text-align: center;
   }
 
@@ -59,24 +55,24 @@ const StyledAbout = styled.section`
       margin-left: 5rem;
     }
     .skills {
-      img {
-        padding-top: 1rem;
-        height: 200px;
-      }
+      text-align: center;
+      object-fit: cover;
     }
   }
 `;
 
 const About = () => {
   return (
-    <StyledAbout>
-      <div className='about'>
-        <div className='description'>
+    <StyledAbout 
+    >
+      <div id="about">
+        <div className='description'
+          data-sal="slide-left"
+          data-sal-duration="1000" 
+        >
           <p>
-            Hello! I'm Eric, a software engineer residing in Chicago, IL.
-            I enjoy building excellent user interfaces with efficient and
-            modern backends. I believe anything is possible through commitment
-            and hardwork. I'm always up for learning new things.
+            Hello! I'm Eric, a passionate software engineer residing in Chicago, IL.
+            I enjoy building excellent user interfaces with efficient and modern technologies.     
           </p>
           <br />
           <p>
@@ -85,7 +81,7 @@ const About = () => {
             with:
           </p>
           <div className='skills'>
-            <img src={webTechs} alt='' />
+            <StaticImage src="../images/webTechs.svg" height={200} alt='techs' />
           </div>
         </div>
       </div>

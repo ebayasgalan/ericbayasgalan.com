@@ -11,6 +11,7 @@ import IconLocation from './location';
 import IconStar from './star';
 import IconFork from './fork';
 import IconZap from './zap';
+import Email from './email';
 import FormattedIcon from './formattedIcon';
 
 export {
@@ -28,4 +29,5 @@ export {
   IconFork,
   IconZap,
   FormattedIcon,
+  Email
 };

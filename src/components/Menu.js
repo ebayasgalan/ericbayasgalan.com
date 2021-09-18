@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
-import { navLinks } from '../config';
 import styled from 'styled-components';
 
 const StyledContainer = styled.div`
@@ -101,12 +100,12 @@ const Menu = ({ menuOpen, toggleMenu }) => {
       <Sidebar>
         <NavLinks>
           <NavList>
-            {navLinks &&
+            {/* {navLinks &&
               navLinks.map(({ url, name }, i) => (
                 <NavListItem key={i}>
                   <NavLink to={url}>{name}</NavLink>
                 </NavListItem>
-              ))}
+              ))} */}
           </NavList>
         </NavLinks>
       </Sidebar>

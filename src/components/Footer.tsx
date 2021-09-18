@@ -5,7 +5,6 @@ const FooterWrapper = styled.footer`
   position: relative;
   text-align: center;
   background-color: black;
-  height: 3.3rem;
   padding-top: 0.4rem;
   p {
     color: white;
@@ -56,6 +55,7 @@ const Footer = () => (
     {/* <SocialLinks> */}
     {/* <p>Designed and built by Eric Bayasgalan</p> */}
     {/* </SocialLinks> */}
+    <h1>@2021. All Rights Reserved.</h1>
   </FooterWrapper>
 );
 
