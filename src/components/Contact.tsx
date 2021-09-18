@@ -3,22 +3,21 @@ import styled from 'styled-components';
 import { StaticImage } from 'gatsby-plugin-image';
 import {IconGitHub, IconLinkedin, Email} from '../icons';
 
-// orange: #fec25b 
-// dark: #252733 
-// light dark: #323746 
-
 const StyledComponent = styled.div`
   background: #323746 ;
   height: 400px;
   color: white;
-  h1 {
-    text-align: center;
-    padding: 30px;
-  }
+  display: grid;
+  place-items: center;
+  overflow-y: hidden;
   .contact {
     display: flex;
     align-items: center;
     flex-direction: column;
+    h1 {
+      font-size: 30px;
+      padding: 30px;
+    }
     .social_links {
       display: flex;
       width: auto;
@@ -33,21 +32,41 @@ const StyledComponent = styled.div`
 
   /* for medium size screens */
 
-  @media (min-width: 478px) {
-    /* .header {
-      padding-top: 1rem;
-      font-size: 40px;
-      left: 46%;
-    } */
+  @media screen and (min-width: 478px) {
+    .contact {
+      img {
+      height: 260px;
+      width: 260px;
+      }
+      svg {
+        width: 40px;
+        height: 40px;
+      }
+      h1 {
+      font-size: 34px;
+      padding: 32px;
+    }
+    }
   }
 
   /* for large size screens */
 
   @media (min-width: 976px) {
     height: 100vh;
-    /* .header {
-      font-size: 50px;
-    } */
+    .contact {
+      img {
+      height: 300px;
+      width: 300px;
+      }
+      svg {
+        width: 50px;
+        height: 50px;
+      }
+      h1 {
+        font-size: 46px;
+        padding: 40px;
+      }
+    }
   }
 `;
 
@@ -61,18 +80,12 @@ const StyledLink = styled.a`
     width: 30px;
     height: 30px;
   }
-  @media screen and (min-width: 478px) {
-    svg {
-      width: 42px;
-      height: 42px;
-    }
-  }
 `;
 
 const Contact = () => (
   <StyledComponent id="contact">
-    <h1>Get in Touch</h1>
     <div className='contact'>
+    <h1>Get in Touch</h1>
         <StaticImage src="../images/proPic.jpeg" alt='profile picture'/>
         <div className="social_links">
             <StyledLink

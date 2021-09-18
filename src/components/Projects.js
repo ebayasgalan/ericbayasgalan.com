@@ -5,6 +5,9 @@ import { StaticImage } from 'gatsby-plugin-image';
 const StyledComponent = styled.div`
   background: #252733;
   color: white;
+  height: 100vh;
+  display: grid;
+  place-items: center;
   h2 {
     text-align: center;
     padding: 30px;
@@ -32,19 +35,35 @@ const StyledComponent = styled.div`
   /* for medium size screens */
 
   @media (min-width: 478px) {
-    h1 {
-      font-size: 40px;
+    .description, .buttons, .title{
+      display: block;
     }
-    img {
-      width: 360px;
-    }
-    .description {
+    .title {
       font-size: 22px;
     }
-    button {
-      width: 9rem;
-      height: 3.5rem;
-      font-size: 20px;
+    h2 {
+      font-size: 36px;
+      /* padding: 10px; */
+    }
+    .items {
+      flex-direction: row;
+    }
+    .description {
+      font-size: 18px;
+    }
+    .buttons button {
+      width: 90px;
+      height: 30px;
+      border-radius: 10px;
+      padding: 5px;
+      margin: 5px;
+      font-size: 18px;
+      overflow-y: hidden;
+      :hover {
+        cursor: pointer;
+        background: #000;
+        color: white;
+      }
     }
   }
 
@@ -52,22 +71,24 @@ const StyledComponent = styled.div`
 
   @media (min-width: 976px) {
     height: 100vh;
-    .showcase {
-      grid-template-columns: 1fr 1fr;
-    }
     h2 {
       font-size: 50px;
-      padding-top: 2rem;
     }
-    img {
-      width: 380px;
+    .title {
+      font-size: 30px;
+    }
+    .items img {
+      object-fit: cover;
+      height: 260px;
+      width: 320px;
     }
     .description {
       font-size: 24px;
       overflow-y: hidden;
-      h3 {
-        padding-top: 2rem;
-      }
+      padding: 20px;
+    }
+    .buttons button {
+      height: 44px;
     }
   }
 `;
@@ -75,7 +96,7 @@ const StyledComponent = styled.div`
 const Projects = () => {
   return (
     <StyledComponent id="projects">
-      <h2 className="projects">Projects</h2>
+      <h2>Projects</h2>
       <div className='items'>
       <div className='item'><span className="title">Local Reviews</span>
         <a href="https://youtu.be/EOjXjPxMcig" target='_blank' rel='noopener noreferrer'><StaticImage src='../images/localReview.png' alt="reviews picture" /></a>
@@ -88,14 +109,14 @@ const Projects = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <button>See the Demo</button>
+            <button>Demo</button>
           </a>
           <a
             href='https://github.com/Archon-Design/Local-Review'
             target='_blank'
             rel='noopener noreferrer'
           >
-            <button>See the Code</button>
+            <button>&lt;Code /&gt;</button>
           </a>
         </div>
       </div>
@@ -110,14 +131,14 @@ const Projects = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <button>See the Demo</button>
+            <button>Demo</button>
           </a>
           <a
             href='https://github.com/ebayasgalan/Covid19'
             target='_blank'
             rel='noopener noreferrer'
           >
-            <button>See the Code</button>
+            <button>&lt;Code /&gt;</button>
           </a>
         </div>
       </div>
@@ -133,7 +154,7 @@ const Projects = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <button>See the Code</button>
+            <button>&lt;Code /&gt;</button>
           </a>
         </div>
       </div>

@@ -3,60 +3,44 @@ import styled from 'styled-components';
 import { StaticImage } from 'gatsby-plugin-image';
 
 const StyledAbout = styled.section`
-  min-height: 100vh;
+  height: 100vh;
+  display: grid;
+  place-items: center;
   background: #323746;
   color: white;
-  font-size: 20px;
-  padding: 30px;
-  .skills img {
-    padding: 20px;
-    /* background: rgba(254,194,91,.1); */
-    background: white;
-    border-radius: 20px;
-  }
+  font-size: 18px;
+  padding: 20px;
   .description {
     text-align: center;
+    img {
+      height: 120px;
+      padding: 10px;
+      background: white;
+      border-radius: 20px;
+    }
   }
 
   /* for medium size screens */
 
   @media (min-width: 478px) {
-    .picture {
-      img {
-        height: 360px;
-      }
-    }
     .description {
-      /* padding: 3rem; */
-      font-size: 24px;
-      line-height: 2.5rem;
-    }
-    .skills {
+      font-size: 28px;
       img {
-        margin-top: 3rem;
-        height: 160px;
+        height: 200px;
+        margin-top: 20px;
       }
-    }
-    h2 {
-      font-size: 30px;
     }
   }
 
   /* for large size screens */
 
   @media (min-width: 976px) {
-    .about {
-      display: flex;
-      padding: 6rem;
-      align-content: space-around;
-    }
     .description {
       font-size: 36px;
-      margin-left: 5rem;
-    }
-    .skills {
-      text-align: center;
-      object-fit: cover;
+      img {
+        height: 240px;
+        margin-top: 10px;
+      }
     }
   }
 `;
@@ -71,18 +55,15 @@ const About = () => {
           data-sal-duration="1000" 
         >
           <p>
-            Hello! I'm Eric, a passionate software engineer residing in Chicago, IL.
-            I enjoy building excellent user interfaces with efficient and modern technologies.     
+            Hello! I love working with software technologies and contributing to open source projects. I enjoy building excellent user interfaces which focuses on user experience. 
+            I've built multiple full stack applications working with remote scrum team using various tech stacks. 
           </p>
           <br />
           <p>
-            I have over two years of experience in building websites
-            and applications. Here are a few technologies I've been working
+            I have over three years of experience in building web applications. Here are the technologies I've been working
             with:
           </p>
-          <div className='skills'>
-            <StaticImage src="../images/webTechs.svg" height={200} alt='techs' />
-          </div>
+          <StaticImage src="../images/webTechs.svg" alt='techs' />
         </div>
       </div>
     </StyledAbout>

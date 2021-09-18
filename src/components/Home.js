@@ -9,6 +9,9 @@ const StyledIntro = styled.section`
     top: 38%;
     right: 40%;
     color: white;
+    h1 {
+      overflow-y: hidden;
+    }
     line-height: 30px;
     font-size: 18px;
   }
@@ -21,21 +24,25 @@ const StyledIntro = styled.section`
       top: 38%;
       right: 40%;
       color: white;
-      line-height: 60px;
-      font-size: 36px;
+      line-height: 50px;
+      font-size: 30px;
     }
   }
 
   /* for large size screens */
 
   @media (min-width: 976px) {
+    img {
+      height: 100%;
+    }
     .text-box {
       position: absolute;
-      top: 36%;
-      right: 50%;
+      top: 38%;
+      right: 56%;
       color: white;
-      line-height: 90px;
-      font-size: 50px;
+      line-height: 60px;
+      font-size: 40px;
+      overflow-y: hidden;
     }
   }
 `;

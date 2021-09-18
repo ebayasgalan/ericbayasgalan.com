@@ -8,7 +8,7 @@ const StyledNav = styled.nav`
     height: 60px;
     width: 100%;
     line-height: 60px;
-    background: rgba(254,194,91,.8);
+    background: rgba(0,0,0,.5);
     text-transform: uppercase;
     transition: top 0.3s;
     z-index: 10;
