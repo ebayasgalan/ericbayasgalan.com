@@ -8,9 +8,10 @@ const StyledComponent = styled.div`
   height: 100vh;
   display: grid;
   place-items: center;
+  overflow-y: hidden;
   h2 {
     text-align: center;
-    padding: 30px;
+    padding: 10px;
   }
   .items {
     display: flex;
@@ -20,10 +21,10 @@ const StyledComponent = styled.div`
 
   .item img {
     border-radius: 30px;
-    height: 200px;
-    width: 300px;
+    height: 90px;
+    width: 240px;
     object-fit: cover;
-    padding: 20px;
+    padding: 3px;
     :hover {
       cursor: pointer;
     }
@@ -43,10 +44,13 @@ const StyledComponent = styled.div`
     }
     h2 {
       font-size: 36px;
-      /* padding: 10px; */
     }
     .items {
       flex-direction: row;
+    }
+    .items img {
+      height: 260px;
+      width: 320px;
     }
     .description {
       font-size: 18px;
@@ -72,15 +76,10 @@ const StyledComponent = styled.div`
   @media (min-width: 976px) {
     height: 100vh;
     h2 {
-      font-size: 50px;
+      font-size: 38px;
     }
     .title {
-      font-size: 30px;
-    }
-    .items img {
-      object-fit: cover;
-      height: 260px;
-      width: 320px;
+      font-size: 26px;
     }
     .description {
       font-size: 24px;

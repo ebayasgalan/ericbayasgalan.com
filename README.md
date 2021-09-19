@@ -1,14 +1,15 @@
-# My portfolio website
+# My website
 
 ## About 
 ---
-This website contains information about me and my completed projects. It was built by Gatsby, React, and Styled Components. 
+Hello 👋 this is my portfolio website. It was built by Gatsby, React, Styled Components, and Netlify.
+You can check out the projects I've done and feel free to contact me. 
 
 ## Deployment
 ---
-You can visit this site at ericbayasgalan.com. It is deployed on Netlify which automates continuous deployment from Git. 
+This site is live at ericbayasgalan.com. It is deployed on Netlify which automates CI/CD from Git. 
 
-## Setup and Installation
+## Setup and Running the website
 ---
 * Fork this repo and clone it to your local machine
 * Run npm install to install necessary dependencies
@@ -19,6 +20,5 @@ You can visit this site at ericbayasgalan.com. It is deployed on Netlify which a
 ---
 * Gatsby / React
 * CSS Flexbox and Grid
-* Node/Express
-* React Springs
+* styled-components
 

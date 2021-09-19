@@ -12,7 +12,7 @@ const IndexPage = () => (
     <About />
     <Projects />
     <Contact />
-    {/* <Footer /> */}
+    <Footer />
   </Layout>
 );
 

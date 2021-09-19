@@ -9,12 +9,12 @@ const StyledAbout = styled.section`
   background: #323746;
   color: white;
   font-size: 18px;
-  padding: 20px;
+  padding: 10px;
   .description {
     text-align: center;
     img {
-      height: 120px;
-      padding: 10px;
+      height: 90px;
+      padding: 5px;
       background: white;
       border-radius: 20px;
     }
@@ -36,7 +36,7 @@ const StyledAbout = styled.section`
 
   @media (min-width: 976px) {
     .description {
-      font-size: 36px;
+      font-size: 30px;
       img {
         height: 240px;
         margin-top: 10px;
@@ -47,9 +47,9 @@ const StyledAbout = styled.section`
 
 const About = () => {
   return (
-    <StyledAbout 
+    <StyledAbout id="about"
     >
-      <div id="about">
+      <div>
         <div className='description'
           data-sal="slide-left"
           data-sal-duration="1000" 
