@@ -11,7 +11,6 @@ const StyledComponent = styled.div`
   overflow-y: hidden;
   h2 {
     text-align: center;
-    padding: 10px;
   }
   .items {
     display: flex;
@@ -21,9 +20,8 @@ const StyledComponent = styled.div`
 
   .item img {
     border-radius: 30px;
-    height: 90px;
+    height: 100px;
     width: 240px;
-    object-fit: cover;
     padding: 3px;
     :hover {
       cursor: pointer;
@@ -44,12 +42,13 @@ const StyledComponent = styled.div`
     }
     h2 {
       font-size: 36px;
+      padding: 5px;
     }
     .items {
       flex-direction: row;
     }
     .items img {
-      height: 260px;
+      height: 200px;
       width: 320px;
     }
     .description {

@@ -9,7 +9,6 @@ const StyledAbout = styled.section`
   background: #323746;
   color: white;
   font-size: 18px;
-  padding: 10px;
   .description {
     text-align: center;
     img {

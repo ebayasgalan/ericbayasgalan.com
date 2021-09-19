@@ -5,23 +5,24 @@ import {IconGitHub, IconLinkedin, Email} from '../icons';
 
 const StyledComponent = styled.div`
   background: #323746 ;
-  height: 400px;
+  height: 100vh;
   color: white;
   display: grid;
   place-items: center;
   overflow-y: hidden;
+  padding-top: 30px;
   .contact {
     display: flex;
     align-items: center;
     flex-direction: column;
     h1 {
       font-size: 30px;
-      padding: 30px;
     }
     .social_links {
       display: flex;
       width: auto;
       height: auto;
+      padding-bottom: 10px;
     }
     img {
       border-radius: 50%;

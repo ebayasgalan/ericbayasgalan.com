@@ -4,10 +4,11 @@ import { StaticImage } from 'gatsby-plugin-image';
 
 const StyledIntro = styled.section`
   position: relative;
-  img {
-    height: 100vh;
-  }
+  height: 100vh;
+  display: grid;
+  grid-area: 1/1;
   .text-box {
+    grid-area: 1/1;
     position: absolute;
     top: 38%;
     right: 40%;
@@ -47,7 +48,7 @@ const StyledIntro = styled.section`
 const Home = () => {
   return (
     <StyledIntro>
-      <StaticImage src='../images/homePage.jpg' layout="fullWidth" alt='landing page photo' />
+      <StaticImage src='../images/homePage_original.jpg' alt='landing page photo' />
         <div className='text-box'>
             <p>Hi, my name is </p>
             <h1>Eric Bayasgalan.</h1>
