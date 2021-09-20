@@ -8,7 +8,6 @@ const StyledComponent = styled.div`
   height: 100vh;
   display: grid;
   place-items: center;
-  overflow-y: hidden;
   h2 {
     text-align: center;
   }
@@ -20,7 +19,7 @@ const StyledComponent = styled.div`
 
   .item img {
     border-radius: 30px;
-    height: 100px;
+    height: 120px;
     width: 240px;
     padding: 3px;
     :hover {
@@ -34,7 +33,7 @@ const StyledComponent = styled.div`
   /* for medium size screens */
 
   @media (min-width: 478px) {
-    .description, .buttons, .title{
+    .buttons, .title{
       display: block;
     }
     .title {
@@ -74,6 +73,9 @@ const StyledComponent = styled.div`
 
   @media (min-width: 976px) {
     height: 100vh;
+    .description {
+      display: block;
+    }
     h2 {
       font-size: 38px;
     }
