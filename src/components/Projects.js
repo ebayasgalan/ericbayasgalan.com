@@ -17,6 +17,10 @@ const StyledComponent = styled.div`
     text-align: center;
   }
 
+  .item {
+    flex: 1;
+  }
+
   .item img {
     border-radius: 30px;
     height: 120px;
@@ -120,12 +124,15 @@ const Projects = () => {
           </a>
         </div>
       </div>
-      <div className='item'><span className="title">Covid Tracker</span>
-        <a href="https://youtu.be/8roFU4GEeg4" target='_blank' rel='noopener noreferrer'><StaticImage src='../images/covidTracker.png' alt="covid picture" /></a>
-        <div className="description">
+      <div className='item'><span className="title">Update is in progress</span>
+        <a href="https://youtu.be/8roFU4GEeg4" target='_blank' rel='noopener noreferrer'><StaticImage src='../images/comingSoon.jpg' alt="covid picture" /></a>
+        {/* <div className="description">
           Covid19 tracker that displays current impact on a selected country. This app was built as a challenge to have a minimum viable product in less than 2 days. It utilizes MERN stack. 
+        </div> */}
+        <div className="description">
+          Currently working on this project
         </div>
-        <div className="buttons">
+        {/* <div className="buttons">
           <a
             href='https://youtu.be/8roFU4GEeg4'
             target='_blank'
@@ -140,7 +147,7 @@ const Projects = () => {
           >
             <button>&lt;Code /&gt;</button>
           </a>
-        </div>
+        </div> */}
       </div>
       <div className='item'><span className="title">System Design</span>
         <StaticImage src='../images/new_relic.png' alt="new relic picture" />
