@@ -1,10 +1,21 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Turn as Hamburger } from 'hamburger-react'
 
 const StyledNav = styled.nav`
+  display: flex;
+  justify-content: flex-end;
+  z-index: 5;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  .hamburger-react {
+    display: none;
+  }
+
   .navbar {
-    position: fixed;
-    top: 0;
+    display: none;
     height: 60px;
     width: 100%;
     line-height: 60px;
@@ -23,9 +34,20 @@ const StyledNav = styled.nav`
       background-color: #ddd;
       color: black;
     }
+    @media (min-width: 768px) {
+      position: fixed;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .hamburger-react {
+      display: none;
+    }
+    .navbar {
+      display: block;
+    }
   }
 `;
-
 
 const Navigation = () => {
   //hide or show navigation when scrolling 
@@ -48,6 +70,7 @@ const Navigation = () => {
   }
   return (
     <StyledNav>
+      <Hamburger />
       <div className="navbar">
         <a href="#contact">Contact</a>
         <a href="#projects">Projects</a>
@@ -56,7 +79,5 @@ const Navigation = () => {
     </StyledNav>
   )
 }
-
-
 
 export default Navigation;

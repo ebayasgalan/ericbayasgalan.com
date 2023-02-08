@@ -2,23 +2,22 @@ import React from 'react';
 import styled from 'styled-components';
 
 const FooterWrapper = styled.footer`
-  height: 40px;
-  text-align: center;
+  height: 50px;
   background-color: black;
   color: white;
-  font-size: 5px;
-  line-height: 40px;
+  font-size: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-  /* for medium size screens and up*/
-
-  @media (min-width: 478px) {
+  @media (min-width: 768px) {
     font-size: 8px;
   }
 `;
 
 const Footer = () => (
   <FooterWrapper>
-    <h1>©2021. All Rights Reserved.</h1>
+    <h1>©2023. All Rights Reserved.</h1>
   </FooterWrapper>
 );
 

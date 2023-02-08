@@ -4,7 +4,8 @@ import { StaticImage } from 'gatsby-plugin-image';
 
 const StyledIntro = styled.section`
   position: relative;
-  height: 100vh;
+  height: 600px;
+  z-index: 2;
   display: grid;
   grid-area: 1/1;
   .text-box {
@@ -17,26 +18,23 @@ const StyledIntro = styled.section`
     font-size: 18px;
   }
 
-  /* for medium size screens */
-
-  @media (min-width: 678px) {
+  @media (min-width: 768px) {
+    height: 700px;
     .text-box {
       position: absolute;
-      top: 38%;
-      right: 40%;
+      top: 42%;
+      right: 50%;
       color: white;
       line-height: 50px;
       font-size: 30px;
     }
   }
 
-  /* for large size screens */
-
-  @media (min-width: 976px) {
+  @media (min-width: 1024px) {
     .text-box {
       position: absolute;
-      top: 38%;
-      right: 56%;
+      top: 40%;
+      right: 48%;
       color: white;
       line-height: 60px;
       font-size: 40px;

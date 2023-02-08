@@ -5,7 +5,7 @@ import {IconGitHub, IconLinkedin, Email} from '../icons';
 
 const StyledComponent = styled.div`
   background: #323746 ;
-  height: 100vh;
+  height: 600px;
   color: white;
   display: grid;
   place-items: center;
@@ -17,6 +17,7 @@ const StyledComponent = styled.div`
     flex-direction: column;
     h1 {
       font-size: 30px;
+      margin-bottom: 50px;
     }
     .social_links {
       display: flex;
@@ -31,9 +32,7 @@ const StyledComponent = styled.div`
     }
   }
 
-  /* for medium size screens */
-
-  @media screen and (min-width: 478px) {
+  @media screen and (min-width: 768px) {
     .contact {
       img {
       height: 260px;
@@ -44,15 +43,14 @@ const StyledComponent = styled.div`
         height: 40px;
       }
       h1 {
-      font-size: 34px;
-      padding: 32px;
+        font-size: 34px;
+        padding: 32px;
+        margin-bottom: 20px;
     }
     }
   }
 
-  /* for large size screens */
-
-  @media (min-width: 976px) {
+  @media (min-width: 1024px) {
     height: 100vh;
     .contact {
       img {
@@ -101,13 +99,13 @@ const Contact = () => (
               href='https://www.linkedin.com/in/eric-bayasgalan-849824149/'
               target='_blank'
               rel='nofollow noopener noreferrer'
-              aria-label='github icon'
+              aria-label='linkedin icon'
             >
               <IconLinkedin />
             </StyledLink>
             <StyledLink
               href='mailto:eric.bayasgalan@gmail.com'
-              aria-label='mail icon'
+              aria-label='email icon'
             >
               <Email />
             </StyledLink>

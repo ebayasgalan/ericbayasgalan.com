@@ -5,16 +5,20 @@ import { StaticImage } from 'gatsby-plugin-image';
 const StyledComponent = styled.div`
   background: #252733;
   color: white;
-  height: 100vh;
-  display: grid;
-  place-items: center;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   h2 {
     text-align: center;
+    margin-bottom: 50px;
   }
   .items {
     display: flex;
-    flex-direction: column;
     text-align: center;
+    flex-direction: column;
+    gap: 20px;
   }
 
   .item {
@@ -23,8 +27,8 @@ const StyledComponent = styled.div`
 
   .item img {
     border-radius: 30px;
-    height: 120px;
-    width: 240px;
+    height: 140px;
+    width: 300px;
     padding: 3px;
     :hover {
       cursor: pointer;
@@ -34,10 +38,9 @@ const StyledComponent = styled.div`
     display: none;
   }
 
-  /* for medium size screens */
-
-  @media (min-width: 478px) {
-    .buttons, .title{
+  @media (min-width: 768px) {
+    height: 900px;
+    .title{
       display: block;
     }
     .title {
@@ -47,9 +50,6 @@ const StyledComponent = styled.div`
       font-size: 36px;
       padding: 5px;
     }
-    .items {
-      flex-direction: row;
-    }
     .items img {
       height: 200px;
       width: 320px;
@@ -58,13 +58,14 @@ const StyledComponent = styled.div`
       font-size: 18px;
     }
     .buttons button {
-      width: 90px;
+      width: 110px;
       height: 30px;
       border-radius: 10px;
       padding: 5px;
       margin: 5px;
       font-size: 18px;
       overflow-y: hidden;
+      opacity: .8;
       :hover {
         cursor: pointer;
         background: #000;
@@ -73,12 +74,17 @@ const StyledComponent = styled.div`
     }
   }
 
-  /* for large size screens */
-
-  @media (min-width: 976px) {
-    height: 100vh;
+  @media (min-width: 1024px) {
+    height: 800px;
+    .buttons {
+      display: block;
+    }
     .description {
       display: block;
+    }
+    .items {
+      flex-direction: row;
+      gap: 0;
     }
     h2 {
       font-size: 38px;
@@ -125,14 +131,14 @@ const Projects = () => {
         </div>
       </div>
       <div className='item'><span className="title">Update is in progress</span>
-        <a href="https://youtu.be/8roFU4GEeg4" target='_blank' rel='noopener noreferrer'><StaticImage src='../images/comingSoon.jpg' alt="covid picture" /></a>
-        {/* <div className="description">
-          Covid19 tracker that displays current impact on a selected country. This app was built as a challenge to have a minimum viable product in less than 2 days. It utilizes MERN stack. 
-        </div> */}
+        <a href="https://youtu.be/8roFU4GEeg4" target='_blank' rel='noopener noreferrer'><StaticImage src='../images/covidTracker.png' alt="covid picture" /></a>
         <div className="description">
-          Currently working on this project
+          Covid19 tracker that displays current impact on a selected country. This app was built as a challenge to have a minimum viable product in less than 2 days. It utilizes MERN stack. 
         </div>
-        {/* <div className="buttons">
+        {/* <div className="description">
+          Currently working on this project
+        </div> */}
+        <div className="buttons">
           <a
             href='https://youtu.be/8roFU4GEeg4'
             target='_blank'
@@ -147,7 +153,7 @@ const Projects = () => {
           >
             <button>&lt;Code /&gt;</button>
           </a>
-        </div> */}
+        </div>
       </div>
       <div className='item'><span className="title">System Design</span>
         <StaticImage src='../images/new_relic.png' alt="new relic picture" />

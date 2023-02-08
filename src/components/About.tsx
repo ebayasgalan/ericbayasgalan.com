@@ -3,42 +3,44 @@ import styled from 'styled-components';
 import { StaticImage } from 'gatsby-plugin-image';
 
 const StyledAbout = styled.section`
-  height: 100vh;
-  display: grid;
-  place-items: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: #323746;
   color: white;
   font-size: 18px;
   .description {
+    width: 85%;
+    margin: auto;
     text-align: center;
     img {
-      height: 90px;
+      margin-top: 60px;
+      height: 120px;
+      width: 300px;
       padding: 5px;
       background: white;
-      border-radius: 20px;
+      border-radius: 10px;
     }
   }
 
-  /* for medium size screens */
-
-  @media (min-width: 478px) {
+  @media (min-width: 768px) {
+    height: 745px;
     .description {
       font-size: 28px;
       img {
-        height: 200px;
-        margin-top: 20px;
+        height: 220px;
+        width: 600px;
       }
     }
   }
 
-  /* for large size screens */
-
-  @media (min-width: 976px) {
+  @media (min-width: 1024px) {
     .description {
       font-size: 30px;
       img {
         height: 240px;
-        margin-top: 10px;
+        margin-top: 15%;
       }
     }
   }
@@ -54,12 +56,12 @@ const About = () => {
           data-sal-duration="1000" 
         >
           <p>
-            Hello! I love working with software technologies and contributing to open source projects. I enjoy building excellent user interfaces which focuses on user experience. 
-            I've built multiple full stack applications working with remote scrum team using various tech stacks. 
+            I love working with software technologies and deliver top-notch user experience that focuses on performance.
+            I also enjoy collaborating with others as well as contributing to open source projects. 
           </p>
           <br />
           <p>
-            I have over three years of experience in building web applications. Here are the technologies I've been working
+            I have over two years of professional experience. Here are the technologies I've been working
             with:
           </p>
           <StaticImage src="../images/webTechs.svg" alt='techs' />

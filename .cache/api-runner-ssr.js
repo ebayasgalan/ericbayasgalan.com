@@ -1,14 +1,14 @@
 var plugins = [{
       name: 'gatsby-plugin-react-helmet',
-      plugin: require('/Users/minion/Desktop/github-projects/ericbayasgalan.com/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/enkhtaivan/Documents/github_repos/ericbayasgalan.com/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
       name: 'gatsby-plugin-styled-components',
-      plugin: require('/Users/minion/Desktop/github-projects/ericbayasgalan.com/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      plugin: require('/Users/enkhtaivan/Documents/github_repos/ericbayasgalan.com/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[],"displayName":true,"fileName":true,"minify":true,"namespace":"","transpileTemplateLiterals":true,"topLevelImportPaths":[],"pure":false,"disableVendorPrefixes":false},
     },{
       name: 'gatsby-plugin-image',
-      plugin: require('/Users/minion/Desktop/github-projects/ericbayasgalan.com/node_modules/gatsby-plugin-image/gatsby-ssr'),
+      plugin: require('/Users/enkhtaivan/Documents/github_repos/ericbayasgalan.com/node_modules/gatsby-plugin-image/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 /* global plugins */
