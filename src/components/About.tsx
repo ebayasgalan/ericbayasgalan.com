@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { StaticImage } from 'gatsby-plugin-image';
 
 const StyledAbout = styled.section`
-  height: 500px;
+  height: 650px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,7 +15,7 @@ const StyledAbout = styled.section`
     margin: auto;
     text-align: center;
     img {
-      margin-top: 60px;
+      margin-top: 100px;
       height: 120px;
       width: 300px;
       padding: 5px;
@@ -31,6 +31,7 @@ const StyledAbout = styled.section`
       img {
         height: 220px;
         width: 600px;
+        margin-top: 60px;
       }
     }
   }

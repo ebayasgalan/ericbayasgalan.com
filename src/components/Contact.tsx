@@ -5,7 +5,7 @@ import {IconGitHub, IconLinkedin, Email} from '../icons';
 
 const StyledComponent = styled.div`
   background: #323746 ;
-  height: 600px;
+  height: 650px;
   color: white;
   display: grid;
   place-items: center;

@@ -4,7 +4,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 
 const StyledIntro = styled.section`
   position: relative;
-  height: 600px;
+  height: 750px;
   z-index: 2;
   display: grid;
   grid-area: 1/1;
@@ -19,7 +19,6 @@ const StyledIntro = styled.section`
   }
 
   @media (min-width: 768px) {
-    height: 700px;
     .text-box {
       position: absolute;
       top: 42%;

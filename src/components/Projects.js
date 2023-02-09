@@ -5,7 +5,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 const StyledComponent = styled.div`
   background: #252733;
   color: white;
-  height: 600px;
+  height: 700px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -130,7 +130,7 @@ const Projects = () => {
           </a>
         </div>
       </div>
-      <div className='item'><span className="title">Update is in progress</span>
+      <div className='item'><span className="title">Covid Tracker</span>
         <a href="https://youtu.be/8roFU4GEeg4" target='_blank' rel='noopener noreferrer'><StaticImage src='../images/covidTracker.png' alt="covid picture" /></a>
         <div className="description">
           Covid19 tracker that displays current impact on a selected country. This app was built as a challenge to have a minimum viable product in less than 2 days. It utilizes MERN stack. 
