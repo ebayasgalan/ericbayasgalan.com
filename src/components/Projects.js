@@ -1,8 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
-import { StaticImage } from 'gatsby-plugin-image';
+import covidTracker from '../images/covidTracker.png';
+import localReview from '../images/localReview.png';
+import newRelic from '../images/new_relic.png';
 
-const StyledComponent = styled.div`
+const StyledComponent = styled.section`
   background: #252733;
   color: white;
   height: 700px;
@@ -19,58 +21,57 @@ const StyledComponent = styled.div`
     text-align: center;
     flex-direction: column;
     gap: 20px;
-  }
-
-  .item {
-    flex: 1;
-  }
-
-  .item img {
-    border-radius: 30px;
-    height: 140px;
-    width: 300px;
-    padding: 3px;
-    :hover {
-      cursor: pointer;
+    .item {
+      flex: 1;
+      img {
+        object-fit: cover;
+        border-radius: 30px;
+        height: 140px;
+        width: 300px;
+        padding: 3px;
+        :hover {
+          cursor: pointer;
+        }
+      }
     }
   }
-  .description, .buttons, .title{
+
+  .buttons button {
+    width: 110px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 18px;
+    overflow-y: hidden;
+    opacity: .8;
+    :hover {
+      cursor: pointer;
+      background: #000;
+      color: white;
+    }
+  }
+
+  .description, .buttons, .title {
     display: none;
   }
 
   @media (min-width: 768px) {
     height: 900px;
-    .title{
-      display: block;
-    }
     .title {
-      font-size: 22px;
+      display: block;
+      font-size: 24px;
     }
     h2 {
       font-size: 36px;
       padding: 5px;
     }
-    .items img {
+    .items .item img {
       height: 200px;
-      width: 320px;
+      width: 450px;
     }
     .description {
       font-size: 18px;
-    }
-    .buttons button {
-      width: 110px;
-      height: 30px;
-      border-radius: 10px;
-      padding: 5px;
-      margin: 5px;
-      font-size: 18px;
-      overflow-y: hidden;
-      opacity: .8;
-      :hover {
-        cursor: pointer;
-        background: #000;
-        color: white;
-      }
     }
   }
 
@@ -78,27 +79,28 @@ const StyledComponent = styled.div`
     height: 800px;
     .buttons {
       display: block;
+      button {
+        height: 44px;
+      }
     }
-    .description {
-      display: block;
-    }
+
     .items {
       flex-direction: row;
       gap: 0;
+      .item img {
+        width: 320px;
+      }
     }
     h2 {
       font-size: 38px;
     }
     .title {
-      font-size: 26px;
+      font-size: 28px;
     }
     .description {
       font-size: 24px;
-      overflow-y: hidden;
       padding: 20px;
-    }
-    .buttons button {
-      height: 44px;
+      display: block;
     }
   }
 `;
@@ -108,69 +110,69 @@ const Projects = () => {
     <StyledComponent id="projects">
       <h2>Projects</h2>
       <div className='items'>
-      <div className='item'><span className="title">Local Reviews</span>
-        <a href="https://youtu.be/EOjXjPxMcig" target='_blank' rel='noopener noreferrer'><StaticImage src='../images/localReview.png' alt="reviews picture" /></a>
-        <div className="description">
-          The local reviews section for the property page on a real estate website. It was built by React, styled-components, and Mongodb. This app includes list of reviews, dynamic rating, pop-up modal, and responsive design. 
+        <div className='item'><span className="title">Local Reviews</span>
+          <a href="https://youtu.be/EOjXjPxMcig" target='_blank' rel='noopener noreferrer'><img src={localReview} alt="reviews picture" /></a>
+          <div className="description">
+            The local reviews section for the property page on a real estate website. It was built by React, styled-components, and Mongodb. This app includes list of reviews, dynamic rating, pop-up modal, and responsive design. 
+          </div>
+          <div className="buttons">
+            <a
+              href='https://youtu.be/EOjXjPxMcig'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <button>Demo</button>
+            </a>
+            <a
+              href='https://github.com/Archon-Design/Local-Review'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <button>&lt;Code /&gt;</button>
+            </a>
+          </div>
         </div>
-        <div className="buttons">
-          <a
-            href='https://youtu.be/EOjXjPxMcig'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <button>Demo</button>
-          </a>
-          <a
-            href='https://github.com/Archon-Design/Local-Review'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <button>&lt;Code /&gt;</button>
-          </a>
+        <div className='item'><span className="title">Covid Tracker</span>
+          <a href="https://youtu.be/8roFU4GEeg4" target='_blank' rel='noopener noreferrer'><img src={covidTracker} alt="world picture" /></a>
+          <div className="description">
+            Covid19 tracker that displays current impact on a selected country. This app was built as a challenge to have a minimum viable product in less than 2 days. It utilizes MERN stack. 
+          </div>
+          {/* <div className="description">
+            Currently working on this project
+          </div> */}
+          <div className="buttons">
+            <a
+              href='https://youtu.be/8roFU4GEeg4'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <button>Demo</button>
+            </a>
+            <a
+              href='https://github.com/ebayasgalan/Covid19'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <button>&lt;Code /&gt;</button>
+            </a>
+          </div>
         </div>
-      </div>
-      <div className='item'><span className="title">Covid Tracker</span>
-        <a href="https://youtu.be/8roFU4GEeg4" target='_blank' rel='noopener noreferrer'><StaticImage src='../images/covidTracker.png' alt="covid picture" /></a>
-        <div className="description">
-          Covid19 tracker that displays current impact on a selected country. This app was built as a challenge to have a minimum viable product in less than 2 days. It utilizes MERN stack. 
+        <div className='item'><span className="title">System Design</span>
+          <img src={newRelic} alt="new relic picture" />
+          <div className="description">
+            Inherited backend REST API of ecommerce website and optimized for high amounts of traffic. It was built by Nodejs, Postgresql, Nginx, Docker, and deployed on AWS EC2 instances.  
+            It supports 0 - 10,000rps under 40ms with a 0% error rate. 
+          </div>
+          <div className="buttons">
+            <a
+              href='https://github.com/3ephemeris/similar-products'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <button>&lt;Code /&gt;</button>
+            </a>
+          </div>
         </div>
-        {/* <div className="description">
-          Currently working on this project
-        </div> */}
-        <div className="buttons">
-          <a
-            href='https://youtu.be/8roFU4GEeg4'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <button>Demo</button>
-          </a>
-          <a
-            href='https://github.com/ebayasgalan/Covid19'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <button>&lt;Code /&gt;</button>
-          </a>
-        </div>
-      </div>
-      <div className='item'><span className="title">System Design</span>
-        <StaticImage src='../images/new_relic.png' alt="new relic picture" />
-        <div className="description">
-          Inherited backend REST API of ecommerce website and optimized for high amounts of traffic. It was built by Nodejs, Postgresql, Nginx, Docker, and deployed on AWS EC2 instances.  
-          It supports 0 - 10,000rps under 40ms with a 0% error rate. 
-        </div>
-        <div className="buttons">
-          <a
-            href='https://github.com/3ephemeris/similar-products'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <button>&lt;Code /&gt;</button>
-          </a>
-        </div>
-      </div>
       </div>
     </StyledComponent>
   );

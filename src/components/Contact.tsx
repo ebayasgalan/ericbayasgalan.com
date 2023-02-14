@@ -1,15 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
-import { StaticImage } from 'gatsby-plugin-image';
-import {IconGitHub, IconLinkedin, Email} from '../icons';
+import proPic from '../images/proPic.jpeg';
 
-const StyledComponent = styled.div`
-  background: #323746 ;
+import {IconGitHub, Email, IconLinkedin} from '../icons';
+
+const StyledComponent = styled.section`
+  background: #323746;
   height: 650px;
   color: white;
-  display: grid;
-  place-items: center;
-  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding-top: 30px;
   .contact {
     display: flex;
@@ -33,6 +34,7 @@ const StyledComponent = styled.div`
   }
 
   @media screen and (min-width: 768px) {
+    height: 750px;
     .contact {
       img {
       height: 260px;
@@ -51,7 +53,6 @@ const StyledComponent = styled.div`
   }
 
   @media (min-width: 1024px) {
-    height: 100vh;
     .contact {
       img {
       height: 300px;
@@ -85,13 +86,13 @@ const Contact = () => (
   <StyledComponent id="contact">
     <div className='contact'>
     <h1>Get in Touch</h1>
-        <StaticImage src="../images/proPic.jpeg" alt='profile picture'/>
+        <img src={proPic} alt='profile picture'/>
         <div className="social_links">
+          
             <StyledLink
               href='https://github.com/ebayasgalan'
               target='_blank'
               rel='nofollow noopener noreferrer'
-              aria-label='github icon'
             >
               <IconGitHub />
             </StyledLink>

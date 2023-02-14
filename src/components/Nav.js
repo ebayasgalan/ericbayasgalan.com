@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Turn as Hamburger } from 'hamburger-react'
 
 const StyledNav = styled.nav`
   display: flex;
@@ -70,7 +69,6 @@ const Navigation = () => {
   }
   return (
     <StyledNav>
-      <Hamburger />
       <div className="navbar">
         <a href="#contact">Contact</a>
         <a href="#projects">Projects</a>

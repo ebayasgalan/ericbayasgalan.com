@@ -1,21 +1,25 @@
 import React from 'react';
 import styled from 'styled-components';
-import { StaticImage } from 'gatsby-plugin-image';
+import homePagePic from '../images/homePage.png';
 
 const StyledIntro = styled.section`
   position: relative;
   height: 750px;
-  z-index: 2;
-  display: grid;
-  grid-area: 1/1;
+  img {
+    object-fit: cover;
+    height: 101%;
+    width: 100%;
+  }
   .text-box {
-    grid-area: 1/1;
     position: absolute;
     top: 38%;
-    right: 40%;
+    right: 35%;
     color: white;
-    line-height: 30px;
-    font-size: 18px;
+    line-height: 40px;
+    font-size: 20px;
+    .name {
+      font-size: 30px;
+    }
   }
 
   @media (min-width: 768px) {
@@ -25,7 +29,10 @@ const StyledIntro = styled.section`
       right: 50%;
       color: white;
       line-height: 50px;
-      font-size: 30px;
+      font-size: 28px;
+      .name {
+        font-size: 36px;
+      }
     }
   }
 
@@ -33,11 +40,13 @@ const StyledIntro = styled.section`
     .text-box {
       position: absolute;
       top: 40%;
-      right: 48%;
+      left: 10%;
       color: white;
       line-height: 60px;
-      font-size: 40px;
-      overflow-y: hidden;
+      font-size: 36px;
+      .name {
+        font-size: 46px;
+      }
     }
   }
 `;
@@ -45,10 +54,10 @@ const StyledIntro = styled.section`
 const Home = () => {
   return (
     <StyledIntro>
-      <StaticImage src='../images/homePage_original.jpg' alt='landing page photo' />
+      <img src={homePagePic} alt='landing page photo' />
         <div className='text-box'>
             <p>Hi, my name is </p>
-            <h1>Eric Bayasgalan.</h1>
+            <p className='name'>Eric Bayasgalan.</p>
             <p>I build things for the web.</p>
         </div>
     </StyledIntro>
