@@ -25,6 +25,7 @@
     "url": "https://github.com/ebayasgalan/ericbayasgalan.com"
   },
   "devDependencies": {
+    "@types/react-helmet": "^6.1.6",
     "gatsby-plugin-netlify": "^5.1.0"
   }
 }

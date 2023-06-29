@@ -64,7 +64,7 @@ const About = () => {
             I have over two years of professional experience. Here are the technologies I've been working
             with:
           </p>
-          <img src={webStack} alt='techs' />
+          <img src={webStack} alt='list of modern technologies' />
         </div>
       </div>
     </StyledAbout>

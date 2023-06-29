@@ -8,7 +8,6 @@ const StyledLayout = styled.div`
   position: relative;
 `;
 
-
 const Layout = ({ children }: any) => {
   return (
     <StyledLayout>

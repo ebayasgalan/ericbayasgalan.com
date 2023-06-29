@@ -97,7 +97,7 @@ const Contact = () => (
               <IconGitHub />
             </StyledLink>
             <StyledLink
-              href='https://www.linkedin.com/in/eric-bayasgalan-849824149/'
+              href='https://www.linkedin.com/in/enkhtaivan-bayasgalan-849824149/'
               target='_blank'
               rel='nofollow noopener noreferrer'
               aria-label='linkedin icon'
