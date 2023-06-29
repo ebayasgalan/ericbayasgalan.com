@@ -111,7 +111,7 @@ const Projects = () => {
       <h2>Projects</h2>
       <div className='items'>
         <div className='item'><span className="title">Local Reviews</span>
-          <a href="https://youtu.be/EOjXjPxMcig" target='_blank' rel='noopener noreferrer'><img src={localReview} alt="reviews picture" /></a>
+          <a href="https://youtu.be/EOjXjPxMcig" target='_blank' rel='noopener noreferrer'><img src={localReview} alt="reviews of people who have visited the property" /></a>
           <div className="description">
             The local reviews section for the property page on a real estate website. It was built by React, styled-components, and Mongodb. This app includes list of reviews, dynamic rating, pop-up modal, and responsive design. 
           </div>
@@ -133,7 +133,7 @@ const Projects = () => {
           </div>
         </div>
         <div className='item'><span className="title">Ecommerce</span>
-          <a href="https://easy-market-iota.vercel.app" target='_blank' rel='noopener noreferrer'><img src={eCommerce} alt="Landing page of ecommerce web app" /></a>
+          <a href="https://easy-market-iota.vercel.app" target='_blank' rel='noopener noreferrer'><img src={eCommerce} alt="List of items for sale" /></a>
           <div className="description">
             Full stack ecommerce web app that's focused on user experience and optimized for performance. It's built with Nextjs-13.4, Typescript, Tailwind, Sass, Nodejs, Prisma, Postgresql, Stripe, Next-Auth, and AWS-S3. 
             It allows the user to post an item for sale or place an order and view it. 
@@ -159,7 +159,7 @@ const Projects = () => {
           </div>
         </div>
         <div className='item'><span className="title">System Design</span>
-          <img src={newRelic} alt="new relic picture" />
+          <img src={newRelic} alt="new relic performance metrics" />
           <div className="description">
             Inherited backend REST API of ecommerce website and optimized for high amounts of traffic. It was built by Nodejs, Postgresql, Nginx, Docker, and deployed on AWS EC2 instances.  
             It supports 0 - 10,000rps under 40ms with a 0% error rate. 

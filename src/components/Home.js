@@ -54,7 +54,7 @@ const StyledIntro = styled.section`
 const Home = () => {
   return (
     <StyledIntro>
-      <img src={homePagePic} alt='landing page photo' />
+      <img src={homePagePic} alt='Office desk with items on top' />
         <div className='text-box'>
             <p>Hi, my name is </p>
             <p className='name'>Eric Bayasgalan.</p>
