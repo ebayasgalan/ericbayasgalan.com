@@ -23,5 +23,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/ebayasgalan/ericbayasgalan.com"
+  },
+  "devDependencies": {
+    "gatsby-plugin-netlify": "^5.1.0"
   }
 }
