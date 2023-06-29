@@ -135,8 +135,8 @@ const Projects = () => {
         <div className='item'><span className="title">Ecommerce</span>
           <a href="https://easy-market-iota.vercel.app" target='_blank' rel='noopener noreferrer'><img src={eCommerce} alt="List of items for sale" /></a>
           <div className="description">
-            Full stack ecommerce web app that's focused on user experience and optimized for performance. It's built with Nextjs-13.4, Typescript, Tailwind, Sass, Nodejs, Prisma, Postgresql, Stripe, Next-Auth, and AWS-S3. 
-            It allows the user to post an item for sale or place an order and view it. 
+            Full stack ecommerce web app. It's built with Nextjs-13.4, Typescript, Tailwind, Sass, Nodejs, Prisma, Postgresql, Stripe, Next-Auth, and AWS-S3. 
+            Once logged in, the user can post an item for sale or place an order and view it. Also possible to edit, update, or delete an item.  
           </div>
           {/* <div className="description">
             Currently working on this project
