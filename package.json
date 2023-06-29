@@ -1,7 +1,7 @@
 {
   "name": "portfolio-site",
   "description": "Personal Website",
-  "version": "1.0.0",
+  "version": "1.6.0",
   "author": "Enkhtaivan Bayasgalan <eric.bayasgalan@gmail.com>",
   "dependencies": {
     "gatsby": "^5.6.0",

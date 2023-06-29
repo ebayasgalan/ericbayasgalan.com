@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import covidTracker from '../images/covidTracker.png';
+import eCommerce from '../images/eCommerce.png';
 import localReview from '../images/localReview.png';
 import newRelic from '../images/new_relic.png';
 
@@ -132,24 +132,25 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div className='item'><span className="title">Covid Tracker</span>
-          <a href="https://youtu.be/8roFU4GEeg4" target='_blank' rel='noopener noreferrer'><img src={covidTracker} alt="world picture" /></a>
+        <div className='item'><span className="title">Ecommerce</span>
+          <a href="https://easy-market-iota.vercel.app" target='_blank' rel='noopener noreferrer'><img src={eCommerce} alt="Landing page of ecommerce web app" /></a>
           <div className="description">
-            Covid19 tracker that displays current impact on a selected country. This app was built as a challenge to have a minimum viable product in less than 2 days. It utilizes MERN stack. 
+            Full stack ecommerce web app that's focused on user experience and optimized for performance. It's built with Nextjs-13.4, Typescript, Tailwind, Sass, Nodejs, Prisma, Postgresql, Stripe, Next-Auth, and AWS-S3. 
+            It allows the user to post an item for sale or place an order and view it. 
           </div>
           {/* <div className="description">
             Currently working on this project
           </div> */}
           <div className="buttons">
             <a
-              href='https://youtu.be/8roFU4GEeg4'
+              href='https://easy-market-iota.vercel.app'
               target='_blank'
               rel='noopener noreferrer'
             >
               <button>Demo</button>
             </a>
             <a
-              href='https://github.com/ebayasgalan/Covid19'
+              href='https://github.com/ebayasgalan/easy-market'
               target='_blank'
               rel='noopener noreferrer'
             >

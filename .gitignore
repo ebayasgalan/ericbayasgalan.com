@@ -15,7 +15,7 @@ pids
 build/Release
 
 # Build directory
-node_modules
+/node_modules
 .gatsby-context.js
 .sass-cache/
 /public

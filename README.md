@@ -2,8 +2,7 @@
 
 ## About 
 ---
-Hello 👋 this is my portfolio website. It was built by Gatsby, React, Styled Components, and Netlify.
-You can check out the projects I've done and feel free to contact me. 
+Hello 👋 this is my portfolio website. It was built with Gatsby, React, Styled Components, and Netlify.
 
 ## Deployment
 ---
