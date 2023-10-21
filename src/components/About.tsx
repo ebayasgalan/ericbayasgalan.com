@@ -56,12 +56,12 @@ const About = () => {
           data-sal-duration="1000" 
         >
           <p>
-            I love working with software technologies and deliver top-notch user experience that focuses on performance.
+            Hello, I love working with software technologies and deliver top-notch user experience that focuses on performance.
             I also enjoy collaborating with others as well as contributing to open source projects. 
           </p>
           <br />
           <p>
-            I have over two years of professional experience. Here are the technologies I've been working
+            I have over three years of experience. Here are the technologies I've been working
             with:
           </p>
           <img src={webStack} alt='list of modern technologies' />
