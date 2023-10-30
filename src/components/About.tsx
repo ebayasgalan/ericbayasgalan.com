@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import webStack from '../images/webTechs.svg';
+import webStack from '../images/techs.svg';
 
 const StyledAbout = styled.section`
   height: 650px;
