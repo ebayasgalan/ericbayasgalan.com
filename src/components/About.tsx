@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import webStack from '../images/techs.svg';
+import { StaticImage } from "gatsby-plugin-image";
 
 const StyledAbout = styled.section`
   height: 650px;
@@ -64,6 +65,7 @@ const About = () => {
             I have over three years of experience. Here are the technologies I've been working
             with:
           </p>
+          {/* <StaticImage src='../images/techs.svg' alt='list of modern technologies' /> */}
           <img src={webStack} alt='list of modern technologies' />
         </div>
       </div>

@@ -12,7 +12,10 @@ const Layout = ({ children }: any) => {
   return (
     <StyledLayout>
       <Helmet>
-        <meta charSet="utf-8" />
+        <meta charSet="utf-8" lang='en'/>
+        <meta
+          name="description"
+          content="This is a personal website" />
         <title>Portfolio Site</title>
       </Helmet>
       <Navigation />

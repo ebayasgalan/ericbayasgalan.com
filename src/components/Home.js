@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+// import { StaticImage } from "gatsby-plugin-image";
 import homePagePic from '../images/homePage.png';
 
 const StyledIntro = styled.section`
@@ -56,9 +57,9 @@ const Home = () => {
     <StyledIntro>
       <img src={homePagePic} alt='Office desk with items on top' />
         <div className='text-box'>
-            <p>Hi, my name is </p>
-            <p className='name'>Eric Bayasgalan.</p>
-            <p>I build things for the web.</p>
+          <p>Hi, my name is </p>
+          <p className='name'>Eric Bayasgalan.</p>
+          <p>I build things for the web.</p>
         </div>
     </StyledIntro>
   );
