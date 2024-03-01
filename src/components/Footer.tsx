@@ -17,7 +17,7 @@ const FooterWrapper = styled.footer`
 
 const Footer = () => (
   <FooterWrapper>
-    <h1>©2023. All Rights Reserved.</h1>
+    <h1>©2024. All Rights Reserved.</h1>
   </FooterWrapper>
 );
 
