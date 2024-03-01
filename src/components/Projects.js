@@ -14,7 +14,7 @@ const StyledComponent = styled.section`
   justify-content: center;
   h2 {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
   .items {
     display: flex;
@@ -26,9 +26,9 @@ const StyledComponent = styled.section`
       img {
         object-fit: cover;
         border-radius: 30px;
-        height: 140px;
+        height: 200px;
         width: 300px;
-        padding: 3px;
+        padding: 5px;
         :hover {
           cursor: pointer;
         }
@@ -57,7 +57,7 @@ const StyledComponent = styled.section`
   }
 
   @media (min-width: 768px) {
-    height: 900px;
+    height: 950px;
     .title {
       display: block;
       font-size: 24px;
@@ -67,7 +67,7 @@ const StyledComponent = styled.section`
       padding: 5px;
     }
     .items .item img {
-      height: 200px;
+      height: 250px;
       width: 450px;
     }
     .description {

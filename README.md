@@ -2,7 +2,7 @@
 
 Hello 👋 this is my portfolio website. It was built with Gatsby, React, Styled Components, and Netlify.
 
-This site is published on https://www.ericbayasgalan.com using Netlify which automates CI/CD  
+This site is published on https://www.ericbayasgalan.com 
 
 ## Setup and Running the website
 ---
