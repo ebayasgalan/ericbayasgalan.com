@@ -1,6 +1,6 @@
 # My website
 
-Hello 👋 this is my portfolio website. It was built with Gatsby, React, Styled Components, and Netlify.
+Hello 👋 this is my portfolio website. It was built with Nextjs, React, Styled Components, and deployed on Netlify.
 
 This site is published on https://www.ericbayasgalan.com 
 
@@ -13,6 +13,6 @@ This site is published on https://www.ericbayasgalan.com
 
 ## Tools & Technologies
 ---
-* Gatsby / React
+* Nextjs / React
 * CSS Flexbox and Grid
 * styled-components

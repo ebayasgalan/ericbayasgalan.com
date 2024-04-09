@@ -1,24 +1,37 @@
-# Logs
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
 logs
 *.log
-.DS_Store
 
-# Runtime data
-pids
-*.pid
-*.seed
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# node-waf configuration
-.lock-wscript
+# local env files
+.env*.local
 
-# Compiled binary addons (http://nodejs.org/api/addons.html)
-build/Release
+# vercel
+.vercel
 
-# Build directory
-/node_modules
-.gatsby-context.js
-.sass-cache/
-/public
-.cache/
-.vscode/
-
+# typescript
+*.tsbuildinfo
+next-env.d.ts
