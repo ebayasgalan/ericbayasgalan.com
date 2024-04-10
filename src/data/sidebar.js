@@ -3,7 +3,7 @@ module.exports = [
   { icon: "human", itemName: "About", itemRoute: "#about", activeClass: "" },
   {
     icon: "portfolio",
-    itemName: "Projects",
+    itemName: "Portfolio",
     itemRoute: "#portfolio",
     activeClass: "",
   },

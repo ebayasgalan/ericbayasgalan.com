@@ -85,7 +85,7 @@ const homePage = () => {
       <div className="portfolio-section" id="portfolio">
         <div className="container">
           <div className="titles">
-            <h3>Projects</h3>
+            <h3>Portfolio</h3>
           </div>
           <Portfolio />
         </div>
