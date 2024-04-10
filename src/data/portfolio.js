@@ -21,7 +21,7 @@ module.exports = [
   {
     id: 2,
     tooltipId: "ecommerce",
-    portfolioImage: "/img/portfolio/eCommerce.png",
+    portfolioImage: "/img/portfolio/easyMarket.png",
     portfolioLink: "https://easy-market-iota.vercel.app",
     githubLink: 'https://github.com/ebayasgalan/easy-market',
     title: "Easy Market",
@@ -39,7 +39,7 @@ module.exports = [
   {
     id: 3,
     tooltipId: "system-design",
-    portfolioImage: "/img/portfolio/new_relic.png",
+    portfolioImage: "/img/portfolio/newRelic.png",
     githubLink: "https://github.com/3ephemeris/similar-products",
     title: "System Design",
     meta: "distributed systems architecture",

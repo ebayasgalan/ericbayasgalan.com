@@ -5,8 +5,6 @@ import Slider from "react-slick";
 import portfolioData from "../../data/portfolio";
 import Image from "next/image";
 
-// Modal.setAppElement("#__next");
-
 const Portfolio = () => {
   var settings = {
     dots: false,
