@@ -2,7 +2,6 @@ import { useState } from "react";
 import Modal from "react-modal";
 import ReactTooltip from "react-tooltip";
 import Slider from "react-slick";
-import Social from "../Social";
 import portfolioData from "../../data/portfolio";
 import Image from "next/image";
 
@@ -97,7 +96,7 @@ const Portfolio = () => {
         overlayClassName="custom-overlay"
         closeTimeoutMS={500}
       >
-        <div className="edina_tm_modalbox">
+        <div className="modal-box">
           <button className="close-modal" onClick={() => setIsOpen(false)}>
             <Image
               width={45}
@@ -127,38 +126,54 @@ const Portfolio = () => {
                 </div>
                 <div className="right-content">
                   <ul className="list">
-                    <li>
-                      <h5>Client</h5>
-                      <span>{singleData?.clientName}</span>
-                    </li>
+                    { singleData?.clientName ?
+                      <li>
+                        <h5>Client</h5>
+                        <span>{singleData?.clientName}</span>
+                      </li> : null
+                    }
                     {/* End list */}
                     <li>
                       <h5>Category</h5>
                       <span>{singleData?.category}</span>
                     </li>
                     {/* End list */}
-                    <li>
-                      <h5>Data</h5>
-                      <span>{singleData?.date}</span>
-                    </li>
+                    { singleData?.date ?
+                      <li>
+                        <h5>Date</h5>
+                        <span>{singleData?.date}</span>
+                      </li> : null
+                    }
                     {/* End list */}
-                    <li>
-                      <h5>Link</h5>
-                      <span>
-                        <a
-                          href={singleData?.portfolioLink}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          {singleData?.portfolioLink}
-                        </a>
-                      </span>
-                    </li>
+                    { singleData?.portfolioLink ?
+                      <li>
+                        <h5>Link</h5>
+                        <span>
+                          <a
+                            href={singleData?.portfolioLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            {singleData?.portfolioLink}
+                          </a>
+                        </span>
+                      </li> : null
+                    }
                     {/* End list */}
-                    <li className="news_share d-blok">
-                      <h5>Share</h5>
-                      <Social />
-                    </li>
+                    { singleData?.githubLink ?
+                      <li>
+                        <h5>Codebase</h5>
+                        <span>
+                          <a
+                            href={singleData?.githubLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            {singleData?.githubLink}
+                          </a>
+                        </span>
+                      </li> : null
+                    }
                     {/* End list */}
                   </ul>
                 </div>

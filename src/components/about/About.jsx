@@ -31,15 +31,15 @@ const About = () => {
                 Hi, I'm <span>Eric Bayasgalan</span>
               </h3>
               <p>
-                I am a Web Developer with over 5 years of
-                experience. I'm from Chicago, IL. I design and create website or webapps
+                I am a web developer with over 5 years of
+                experience. I currently reside in Chicago, IL. I design and create websites
                 for people around the world. 
               </p>
             </div>
             <div className="my_skills">
               <h3 className="title">What is my skill level?</h3>
               <p className="desc">
-                I'm always open to learn and experiment new technologies or concepts. 
+                I specialize in building reliable and performant software that provides exceptional user experience. 
                 Here are some of the techs that I've worked with.
               </p>
               <div className="wrapper">
@@ -47,7 +47,7 @@ const About = () => {
                   <Skills />
                 </div>
               </div>
-              <div className="edina_tm_button">
+              <div className="cta-button">
                 <button
                   type="submit"
                   className="color"
@@ -60,7 +60,7 @@ const About = () => {
           </div>
           {/* End leftpart */}
 
-          <div className="rightpart">
+          {/* <div className="rightpart">
             <div className="image">
               <Image
                 width='445'
@@ -91,7 +91,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* End righttpart */}
         </div>
       </div>
@@ -105,7 +105,7 @@ const About = () => {
         overlayClassName="custom-overlay "
         closeTimeoutMS={500}
       >
-        <div className="edina_tm_modalbox">
+        <div className="modal-box">
           <button className="close-modal" onClick={toggleModalOne}>
             <Image
               width={45}

@@ -1,14 +1,18 @@
 'use client';
 
 import React, { useEffect, useState } from "react";
+import { ToastContainer } from "react-toastify";
+import Seo from "../components/Seo";
+import ScrollToTop from "../components/ScrollToTop";
 import { FaMoon, FaSun } from "react-icons/fa";
 import HeaderHorizontal from "../components/header/HeaderHorizontal";
 import Hero from "../components/hero/Hero";
 import About from "../components/about/About";
 import Portfolio from "../components/portfolio/Portfolio";
-import Contact from "../components/Contact";
+// import Contact from "../components/Contact";
 import Address from "../components/Address";
-import Map from "../components/Map";
+import Footer from "../components/footer/Footer";
+// import Map from "../components/Map";
 import HeaderMobile from "../components/header/HeaderMobile";
 import "../styles/index.scss";
 
@@ -34,7 +38,12 @@ const homePage = () => {
   };
 
   return (
-    <div className={`home-light ${isDark ? "theme-dark" : ""}`}>
+    <div className={`home-light ${isDark ? "theme-dark" : ""} page-wrapper`}>
+      <Seo
+        font={
+          "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        }
+      />
       {/* Start Dark & Light Mode Swicher  */}
       <label
         className={`theme-switcher-label horizontal d-flex  ${
@@ -73,35 +82,30 @@ const homePage = () => {
       <About />
       {/* End Hero */}
 
-      <div className="edina_tm_portfolio" id="portfolio">
+      <div className="portfolio-section" id="portfolio">
         <div className="container">
-          <div className="edina_tm_title">
-            <h3>Portfolio</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              ipsum sit nibh amet egestas tellus.
-            </p>
+          <div className="titles">
+            <h3>Projects</h3>
           </div>
-          {/* End edian_tm_title */}
           <Portfolio />
         </div>
       </div>
       {/* End Portfolio */}
 
-      <div className="edina_tm_contact" id="contact">
+      <div className="contact-section" id="contact">
         <div className="container">
-          <div className="edina_tm_title">
+          <div className="titles">
             <h3>Contact</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              ipsum sit nibh amet egestas tellus.
+              I'm open to discuss product
+              <span> design work or partnerships.</span>
             </p>
           </div>
           <div className="extra_info">
             <Address />
           </div>
           {/* End Address Info */}
-          <div className="mainpart">
+          {/* <div className="mainpart">
             <div
               className="left"
               data-aos="fade-right"
@@ -115,11 +119,11 @@ const homePage = () => {
                   <span> design work or partnerships.</span>
                 </p>
               </div>
-              {/* End title */}
+
               <div className="fields">
                 <Contact />
               </div>
-              {/* End Contact Form */}
+
             </div>
             <div
               className="right"
@@ -129,11 +133,15 @@ const homePage = () => {
             >
               <Map />
             </div>
-            {/* End Map */}
-          </div>
+
+          </div> */}
         </div>
       </div>
       {/* /CONTACT */}
+      <Footer />
+      <ToastContainer />
+      {/* <!-- Scroll To Top --> */}
+      <ScrollToTop />
     </div>
   );
 };

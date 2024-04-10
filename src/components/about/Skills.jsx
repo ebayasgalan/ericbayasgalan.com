@@ -22,6 +22,14 @@ const skillsContent = [
     skillPercent: "95",
   },
   {
+    name: "AWS",
+    skillPercent: "95",
+  },
+  {
+    name: "Docker",
+    skillPercent: "95",
+  },
+  {
     name: "Figma",
     skillPercent: "95",
   },

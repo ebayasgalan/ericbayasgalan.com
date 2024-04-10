@@ -1,23 +1,29 @@
 module.exports = [
   {
-    year: "2018 - Present",
-    position: " Web Developer",
-    compnayName: "Envato",
-    details: `Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore
-            adipisicing elit`,
+    year: "2023 - Present",
+    position: "Web Developer",
+    compnayName: "Freelancer",
+    details: [`・work on exciting projects for people around the world.`],
   },
   {
-    year: "2013 - 2018",
-    position: "UI/UX Designer",
-    compnayName: "Themeforest",
-    details: `Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol
-            elit, tempor incididunt`,
+    year: "March 2021 - April 2023",
+    position: "Frontend Engineer",
+    compnayName: "Dentsu marketing agency",
+    details: [
+      '・Built mid to large scale websites in agile methodologies.',
+      '・Provided estimates and collaborated with a cross-functional team to deliver high-quality outcomes.',
+      '・Implemented tests and responsive design.',
+      '・Optimized websites for accessibility and performance.',
+    ]
   },
   {
-    year: "2005 - 2013",
-    position: "Consultant",
-    compnayName: "Videohive",
-    details: `Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur
-            elit, sed do eiusmod tempor duntt`,
+    year: "Jan 2020 - August 2020",
+    position: "Code Coach",
+    compnayName: "The Coder School",
+    details: [
+      '・Mentored students to follow best practices of programming.',
+      '・Created interactive games and animations.',
+      '・Provided constructive feedback and progress report.',
+    ]
   },
 ];

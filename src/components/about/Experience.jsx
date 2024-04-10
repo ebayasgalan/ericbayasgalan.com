@@ -18,9 +18,9 @@ const Experience = () => {
           <span className="time open-sans-font text-uppercase">{val.year}</span>
           <h5 className="poppins-font text-uppercase">
             {val.position}
-            <span className="place open-sans-font">{val.compnayName}</span>
+            {val?.compnayName ? <span className="place open-sans-font">{val.compnayName}</span> : null}
           </h5>
-          <p className="open-sans-font">{val.details}</p>
+          {val.details.map(detail => <p>{detail}</p>)}
         </li>
       ))}
     </ul>

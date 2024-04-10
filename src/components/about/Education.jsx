@@ -14,7 +14,7 @@ const Education = () => {
               alt="icon"
             />
           </div>
-          <span className="time open-sans-font text-uppercase">{val.year}</span>
+          {val.year ? <span className="time open-sans-font text-uppercase">{val.year}</span> : null}
           <h5 className="poppins-font text-uppercase">
             {val.degree}
             <span className="place open-sans-font">{val.institute}</span>

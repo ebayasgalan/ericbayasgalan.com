@@ -43,7 +43,7 @@ const HeaderHorizontal = () => {
       {/* End Mobile Header */}
 
       <div
-        className={click ? "edina_tm_sidebar  menu-open" : "edina_tm_sidebar"}
+        className={click ? "sidebar-section  menu-open" : "sidebar-section"}
       >
         <div className="sidebar_inner">
           <div className="logo">

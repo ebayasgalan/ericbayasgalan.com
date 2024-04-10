@@ -71,12 +71,12 @@ const Contact = () => {
         </div>
         {/* End .third */}
 
-        <div className="edina_tm_button">
+        <div className="cta-button">
           <button type="submit" className="color">
             Submit
           </button>
         </div>
-        {/* End tokyo_tm_button */}
+        {/* End cta button */}
       </form>
       {/* End contact */}
     </>

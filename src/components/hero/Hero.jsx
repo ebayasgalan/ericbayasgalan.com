@@ -5,8 +5,7 @@ import Image from "next/image";
 
 const heroContent = {
   name: "Eric Bayasgalan",
-  description: `I'm a Full Stack Developer based In Chicago IL, with over 5 years of
-  professional experience.`,
+  description: `I'm a full stack developer based in Chicago IL, with over 5 years of experience.`,
 };
 
 const Hero = () => {
@@ -67,7 +66,7 @@ const Hero = () => {
             <Social />
           </div>
           <div
-            className="edina_tm_button"
+            className="cta-button"
             data-aos="fade-up"
             data-aos-duration="1200"
             data-aos-delay="500"
