@@ -12,7 +12,7 @@ const About = () => {
 
   return (
     //    ABOUT
-    <div className="edina_tm_about" id="about">
+    <div className="about-section" id="about">
       <div className="container">
         <div className="about_title">
           <h3>About Me</h3>
@@ -25,21 +25,13 @@ const About = () => {
             data-aos-delay="100"
           >
             <div className="info">
-              <h3>
-                Hi, I'm <span>Eric Bayasgalan</span>
-              </h3>
               <p>
-                I am a web developer with over 5 years of
-                experience. I currently reside in Chicago, IL. I design and create websites
-                for people around the world. 
+                Passionate web developer with over 5 years of experience. 
+                I specialize in building reliable and performant software that provides exceptional user experience. 
+                Here are some of the technologies that I've worked with:
               </p>
             </div>
             <div className="my_skills">
-              <h3 className="title">What is my skill level?</h3>
-              <p className="desc">
-                I specialize in building reliable and performant software that provides exceptional user experience. 
-                Here are some of the techs that I've worked with.
-              </p>
               <div className="wrapper">
                 <div className="dodo_progress">
                   <Skills />

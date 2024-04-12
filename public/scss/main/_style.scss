@@ -754,7 +754,7 @@ body.dark .loader_line:after {
 /*	05) ABOUT
 /*---------------------------------------------------*/
 
-.edina_tm_about {
+.about-section {
   width: 100%;
   height: auto;
   clear: both;
@@ -766,11 +766,11 @@ body.dark .loader_line:after {
     padding-top: 90px;
   }
 }
-.edina_tm_about .about_title {
+.about-section .about_title {
   width: 100%;
   float: left;
 }
-.edina_tm_about .about_title h3 {
+.about-section .about_title h3 {
   font-size: 45px;
   font-weight: 700;
   line-height: 1;
@@ -779,7 +779,7 @@ body.dark .loader_line:after {
   color: #666;
   font-weight: 500;
 }
-.edina_tm_about .color {
+.about-section .color {
   border-radius: 6px;
   padding: 13px 30px;
   background: #fff;
@@ -797,42 +797,42 @@ body.dark .loader_line:after {
     color: #fff;
   }
 }
-.edina_tm_about .content {
+.about-section .content {
   width: 100%;
   height: auto;
   clear: both;
   display: flex;
   padding-top: 60px;
 }
-.edina_tm_about .leftpart {
+.about-section .leftpart {
   width: 50%;
 }
-.edina_tm_about .leftpart .info {
+.about-section .leftpart .info {
   width: 100%;
   float: left;
   margin-bottom: 55px;
 }
-.edina_tm_about .leftpart .info h3 {
+.about-section .leftpart .info h3 {
   font-size: 22px;
   font-weight: 400;
   margin-bottom: 15px;
 }
-.edina_tm_about .leftpart .info h3 span {
+.about-section .leftpart .info h3 span {
   font-weight: 600;
 }
-.edina_tm_about .leftpart .info p {
+.about-section .leftpart .info p {
   max-width: 90%;
 }
-.edina_tm_about .my_skills {
+.about-section .my_skills {
   width: 100%;
   float: left;
 }
-.edina_tm_about .my_skills .title {
+.about-section .my_skills .title {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 15px;
 }
-.edina_tm_about .dodo_progress {
+.about-section .dodo_progress {
   width: 100%;
   display: flex;
   padding-top: 40px;
@@ -843,10 +843,10 @@ body.dark .loader_line:after {
     margin: 0;
   }
 }
-.edina_tm_about .desc {
+.about-section .desc {
   max-width: 90%;
 }
-.edina_tm_about .wrapper .progress_inner {
+.about-section .wrapper .progress_inner {
   width: 50%;
   padding: 0 20px;
   @media screen and (max-width: 575px) {
@@ -854,7 +854,7 @@ body.dark .loader_line:after {
     padding: 0;
   }
 }
-.edina_tm_about .wrapper .right {
+.about-section .wrapper .right {
   width: 50%;
   padding-left: 20px;
 }
@@ -924,19 +924,19 @@ body.dark .loader_line:after {
   }
 }
 
-.edina_tm_about .rightpart {
+.about-section .rightpart {
   width: 50%;
   padding-left: 200px;
 }
-.edina_tm_about .rightpart .image {
+.about-section .rightpart .image {
   position: relative;
 }
-.edina_tm_about .rightpart .image img {
+.about-section .rightpart .image img {
   position: relative;
   min-width: 100%;
   opacity: 0;
 }
-.edina_tm_about .rightpart .image .main {
+.about-section .rightpart .image .main {
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -947,7 +947,7 @@ body.dark .loader_line:after {
   background-size: cover;
   border-radius: 10px;
 }
-.edina_tm_about .experience {
+.about-section .experience {
   position: absolute;
   bottom: -50px;
   left: -50px;
@@ -957,7 +957,7 @@ body.dark .loader_line:after {
   border-radius: 100%;
   background-color: #34495e;
 }
-.edina_tm_about .experience .info {
+.about-section .experience .info {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -966,12 +966,12 @@ body.dark .loader_line:after {
   transform: translate(-50%, -50%);
   padding: 10px;
 }
-.edina_tm_about .experience .info h3 {
+.about-section .experience .info h3 {
   font-size: 45px;
   font-weight: 700;
   color: #fff;
 }
-.edina_tm_about .experience .info span {
+.about-section .experience .info span {
   font-size: 22px;
   font-weight: 500;
   color: #fff;
@@ -1944,17 +1944,17 @@ body.modal {
     height: 250px;
   }
 
-  .edina_tm_about .rightpart {
+  .about-section .rightpart {
     padding-left: 120px;
   }
-  .edina_tm_about .experience {
+  .about-section .experience {
     width: 250px;
     height: 250px;
   }
-  .edina_tm_about .experience .info h3 {
+  .about-section .experience .info h3 {
     font-size: 35px;
   }
-  .edina_tm_about .experience .info span {
+  .about-section .experience .info span {
     font-size: 19px;
   }
   .contact-section .mainpart .left .title p {
@@ -1983,27 +1983,27 @@ body.modal {
   body .edina_tm_mainpart {
     padding-left: 0px;
   }
-  .edina_tm_about .content {
+  .about-section .content {
     flex-direction: column;
     align-items: baseline;
   }
-  .edina_tm_about .leftpart .info p {
+  .about-section .leftpart .info p {
     max-width: 100%;
   }
-  .edina_tm_about .desc {
+  .about-section .desc {
     max-width: 100%;
   }
-  .edina_tm_about .leftpart {
+  .about-section .leftpart {
     width: 100%;
     margin-bottom: 0;
     order: 2;
   }
-  .edina_tm_about .rightpart {
+  .about-section .rightpart {
     width: 100%;
     padding-left: 0px;
     margin-bottom: 80px;
   }
-  .edina_tm_about .experience {
+  .about-section .experience {
     left: 50px;
   }
   .contact-section .mainpart {
@@ -2054,7 +2054,7 @@ body.modal {
   }
 }
 @media (max-width: 767px) {
-  .edina_tm_about .wrapper {
+  .about-section .wrapper {
     flex-direction: column;
     align-items: baseline;
   }
@@ -2062,27 +2062,27 @@ body.modal {
     margin: 0px;
   }
 
-  .edina_tm_about .wrapper .left {
+  .about-section .wrapper .left {
     width: 100%;
     padding: 0px;
     margin-bottom: 30px;
   }
-  .edina_tm_about .wrapper .right {
+  .about-section .wrapper .right {
     width: 100%;
     padding: 0px;
   }
-  .edina_tm_about .experience {
+  .about-section .experience {
     width: 150px;
     height: 150px;
     left: 15px;
   }
-  .edina_tm_about .experience .info {
+  .about-section .experience .info {
     line-height: 1.2;
     h3 {
       font-size: 22px;
     }
   }
-  .edina_tm_about .experience .info span {
+  .about-section .experience .info span {
     font-size: 13px;
   }
   .main-hero .name {
@@ -2092,7 +2092,7 @@ body.modal {
     width: 200px;
     height: 200px;
   }
-  .edina_tm_about .about_title h3 {
+  .about-section .about_title h3 {
     font-size: 35px;
   }
   .titles h3 {
