@@ -7,17 +7,17 @@ const HeaderMobile = () => {
       <div className="logo">
         <Link href="/">
           <Image
-            width={92}
-            height={37}
+            width={45}
+            height={35}
             className="logo_light"
-            src={`/img/logo/eb_logo.png`}
+            src={`/img/logo/logo_light.png`}
             alt="brand"
           />
           <Image
-            width={92}
-            height={37}
+            width={45}
+            height={35}
             className="logo_dark"
-            src={'/img/logo/eb_logo.png'}
+            src={'/img/logo/logo_dark.png'}
             alt="brand"
           />
         </Link>

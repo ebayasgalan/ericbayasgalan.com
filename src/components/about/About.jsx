@@ -26,7 +26,7 @@ const About = () => {
           >
             <div className="info">
               <p>
-                Passionate web developer with over 5 years of experience. 
+                Hello, I&apos;m a seasoned web developer. 
                 I specialize in building reliable and performant software that provides exceptional user experience. 
                 Here are some of the technologies that I've worked with:
               </p>

@@ -17,14 +17,14 @@ const Hero = () => {
           <Image src={`/img/hero/proPic.jpeg`} alt="brand" width='300' height="300"/>
         </div>
         <div className="extra">
-          <h5
+          {/* <h5
             data-aos="fade-up"
             data-aos-duration="1200"
             data-aos-delay="100"
             className="hello"
           >
             Hello, I&apos;m {heroContent.name}
-          </h5>
+          </h5> */}
           <h1
             className="name"
             data-aos="fade-up"

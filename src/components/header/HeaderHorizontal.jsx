@@ -49,17 +49,17 @@ const HeaderHorizontal = () => {
           <div className="logo">
             <Link href="/">
               <Image
-                width={92}
-                height={37}
+                width={45}
+                height={35}
                 className="logo_light"
-                src={`/img/logo/eb_logo.png`}
+                src={`/img/logo/logo_light.png`}
                 alt="brand"
               />
               <Image
-                width={92}
-                height={37}
+                width={45}
+                height={35}
                 className="logo_dark"
-                src={`/img/logo/eb_logo.png`}
+                src={`/img/logo/logo_dark.png`}
                 alt="brand"
               />
             </Link>
@@ -106,14 +106,14 @@ const HeaderHorizontal = () => {
 
           <div className="author">
             <div className="inner">
-              <div className="image">
+              {/* <div className="image">
                 <div
                   className="main"
                   style={{
                     backgroundImage: "url(img/hero/proPic.jpeg)",
                   }}
                 ></div>
-              </div>
+              </div> */}
               <div className="short">
                 <h3>{sidebarFooterContent.name}</h3>
                 <a href={sidebarFooterContent.emailRef}>
