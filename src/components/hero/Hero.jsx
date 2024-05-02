@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const heroContent = {
   name: "Eric Bayasgalan",
-  description: `I'm a full stack developer based in Chicago IL, with over 5 years of experience.`,
+  description: `Full Stack Developer based in Chicago IL`,
 };
 
 const Hero = () => {

@@ -759,10 +759,9 @@ body.dark .loader_line:after {
   height: auto;
   clear: both;
   float: left;
-  padding-bottom: 170px;
+  padding-bottom: 90px;
   padding-top: 120px;
   @media screen and (max-width: 991px) {
-    padding-bottom: 140px;
     padding-top: 90px;
   }
 }
@@ -804,13 +803,18 @@ body.dark .loader_line:after {
   display: flex;
   padding-top: 60px;
 }
-.about-section .leftpart {
-  width: 50%;
-}
+// .about-section .leftpart {
+//   width: 50%;
+// }
 .about-section .leftpart .info {
   width: 100%;
   float: left;
-  margin-bottom: 55px;
+  @media screen and (min-width: 1023px) {
+    width: 90%;
+  }
+  @media screen and (min-width: 767px) {
+    margin-bottom: 55px;
+  }
 }
 .about-section .leftpart .info h3 {
   font-size: 22px;
@@ -821,7 +825,7 @@ body.dark .loader_line:after {
   font-weight: 600;
 }
 .about-section .leftpart .info p {
-  max-width: 90%;
+  max-width: 80%;
 }
 .about-section .my_skills {
   width: 100%;
@@ -835,7 +839,6 @@ body.dark .loader_line:after {
 .about-section .dodo_progress {
   width: 100%;
   display: flex;
-  padding-top: 40px;
   flex-wrap: wrap;
   margin: 0 -20px 10px;
 
@@ -1348,12 +1351,12 @@ body.dark .loader_line:after {
   height: auto;
   clear: both;
   float: left;
-  padding: 120px 0px 120px 0px;
+  padding: 10px 0 120px 0;
   @media screen and (max-width: 991px) {
-    padding: 90px 0px 80px 0px;
+    padding-bottom: 80px;
   }
   @media screen and (max-width: 575px) {
-    padding: 90px 0px 100px 0px;
+    padding-bottom: 100px;
   }
   .my_carousel ul li .image {
     height: auto;
@@ -1943,7 +1946,10 @@ body.modal {
     width: 250px;
     height: 250px;
   }
-
+  .about-section .content {
+    flex-direction: column;
+    align-items: baseline;
+  }
   .about-section .rightpart {
     padding-left: 120px;
   }

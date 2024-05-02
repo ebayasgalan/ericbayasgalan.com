@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Skills from "./Skills";
+// import Skills from "./Skills";
 import Modal from "react-modal";
 import ModalContent from "./modal/ModalContent";
 import Image from "next/image";
@@ -26,15 +26,19 @@ const About = () => {
           >
             <div className="info">
               <p>
-                Hello, I&apos;m a seasoned web developer. 
-                I specialize in building reliable and performant software that provides exceptional user experience. 
-                Here are some of the technologies that I've worked with:
+                Hello, I love collaborating, problem solving, and building. Over the years, 
+                I've gained valuable experience working on various websites 
+                as a developer for a marketing agency. 
+                I specialize in building reliable and performant software 
+                that delivers exceptional user experience. 
+                Technologies that I've worked with:
               </p>
             </div>
             <div className="my_skills">
               <div className="wrapper">
                 <div className="dodo_progress">
-                  <Skills />
+                  <Image src={`/img/extra/techs.svg`} alt="list of techs" width={900} height={200} />
+                  {/* <Skills /> */}
                 </div>
               </div>
               <div className="cta-button">

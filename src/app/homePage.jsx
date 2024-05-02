@@ -96,10 +96,6 @@ const homePage = () => {
         <div className="container">
           <div className="titles">
             <h3>Contact</h3>
-            <p>
-              I'm open to discuss product
-              <span> design work or partnerships.</span>
-            </p>
           </div>
           <div className="extra_info">
             <Address />
