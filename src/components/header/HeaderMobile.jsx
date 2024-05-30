@@ -22,7 +22,6 @@ const HeaderMobile = () => {
           />
         </Link>
       </div>
-      {/* End .logo */}
     </>
   );
 };
