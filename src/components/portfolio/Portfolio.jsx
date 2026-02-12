@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Modal from "react-modal";
-import ReactTooltip from "react-tooltip";
+// import ReactTooltip from "react-tooltip";
 import Slider from "react-slick";
 import portfolioData from "../../data/portfolio";
 import Image from "next/image";
@@ -64,7 +64,7 @@ const Portfolio = () => {
                       alt="portfolio"
                     />
 
-                    <ReactTooltip
+                    {/* <ReactTooltip
                       id={item.tooltipId}
                       place="bottom"
                       type="light"
@@ -75,7 +75,7 @@ const Portfolio = () => {
                         <h5>{item.title}</h5>
                         <span>{item.meta}</span>
                       </div>
-                    </ReactTooltip>
+                    </ReactTooltip> */}
                   </div>
                 </div>
               </div>
@@ -93,6 +93,7 @@ const Portfolio = () => {
         className="custom-modal"
         overlayClassName="custom-overlay"
         closeTimeoutMS={500}
+        ariaHideApp={false}
       >
         <div className="modal-box">
           <button className="close-modal" onClick={() => setIsOpen(false)}>

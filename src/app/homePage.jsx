@@ -73,7 +73,7 @@ const homePage = () => {
       </header>
       {/* End mobile-header */}
 
-      <HeaderHorizontal />
+      {/* <HeaderHorizontal /> */}
       {/* End Header */}
 
       <Hero />

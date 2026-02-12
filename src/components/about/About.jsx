@@ -98,6 +98,7 @@ const About = () => {
         className="custom-modal about-popup-wrapper"
         overlayClassName="custom-overlay "
         closeTimeoutMS={500}
+        ariaHideApp={false}
       >
         <div className="modal-box">
           <button className="close-modal" onClick={toggleModalOne}>
