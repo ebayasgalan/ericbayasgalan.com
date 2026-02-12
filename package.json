@@ -18,7 +18,7 @@
     "@emailjs/browser": "^3.9.1",
     "aos": "^2.3.4",
     "eslint": "8.29.0",
-    "eslint-config-next": "^14.1.0",
+    "eslint-config-next": "^16.1.6",
     "next": "^16.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
